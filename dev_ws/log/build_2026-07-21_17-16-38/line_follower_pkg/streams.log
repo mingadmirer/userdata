@@ -1,0 +1,19 @@
+[5.653s] Invoking command in '/userdata/dev_ws/build/line_follower_pkg': PYTHONPATH=/userdata/dev_ws/build/line_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/dev_ws/build/line_follower_pkg/build --no-deps symlink_data --force
+[7.604s] running develop
+[8.788s] running egg_info
+[8.789s] writing line_follower_pkg.egg-info/PKG-INFO
+[8.791s] writing dependency_links to line_follower_pkg.egg-info/dependency_links.txt
+[8.792s] writing entry points to line_follower_pkg.egg-info/entry_points.txt
+[8.793s] writing requirements to line_follower_pkg.egg-info/requires.txt
+[8.794s] writing top-level names to line_follower_pkg.egg-info/top_level.txt
+[8.804s] reading manifest file 'line_follower_pkg.egg-info/SOURCES.txt'
+[8.809s] writing manifest file 'line_follower_pkg.egg-info/SOURCES.txt'
+[8.818s] running build_ext
+[8.819s] Creating /userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages/line-follower-pkg.egg-link (link to .)
+[8.823s] Installing line_follower script to /userdata/dev_ws/install/line_follower_pkg/lib/line_follower_pkg
+[8.825s] 
+[8.825s] Installed /userdata/dev_ws/build/line_follower_pkg
+[8.826s] running symlink_data
+[8.827s] symbolically linking /userdata/dev_ws/build/line_follower_pkg/resource/line_follower_pkg -> /userdata/dev_ws/install/line_follower_pkg/share/ament_index/resource_index/packages
+[8.828s] symbolically linking /userdata/dev_ws/build/line_follower_pkg/package.xml -> /userdata/dev_ws/install/line_follower_pkg/share/line_follower_pkg
+[9.079s] Invoked command in '/userdata/dev_ws/build/line_follower_pkg' returned '0': PYTHONPATH=/userdata/dev_ws/build/line_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/dev_ws/build/line_follower_pkg/build --no-deps symlink_data --force

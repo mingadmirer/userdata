@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//opt/tros/humble/share/websocket/launch/**)",
+      "Read(//opt/tros/**)",
+      "Bash(cp /userdata/yolov5s_v2.0_config/converted_model.bin /opt/hobot/model/x5/custom/yolov5s_4class.bin)",
+      "Read(//opt/hobot/model/x5/**)",
+      "Bash(mkdir -p /opt/hobot/model/x5/custom)"
+    ]
+  }
+}

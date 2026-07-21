@@ -1,0 +1,5 @@
+/userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/launch/usb_camera_yolo.launch.py
+/userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80/coco.list
+/userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80/model.json
+/userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4/custom_4class.list
+/userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4/model.json

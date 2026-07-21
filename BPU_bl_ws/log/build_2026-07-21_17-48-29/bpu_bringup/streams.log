@@ -1,0 +1,56 @@
+[0.084s] Invoking command in '/userdata/BPU_bl_ws/build/bpu_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/BPU_bl_ws/src/bpu_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/BPU_bl_ws/install/bpu_bringup
+[1.710s] -- The C compiler identification is GNU 11.2.0
+[3.514s] -- The CXX compiler identification is GNU 11.2.0
+[3.553s] -- Detecting C compiler ABI info
+[3.971s] -- Detecting C compiler ABI info - done
+[4.026s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.033s] -- Detecting C compile features
+[4.036s] -- Detecting C compile features - done
+[4.054s] -- Detecting CXX compiler ABI info
+[4.488s] -- Detecting CXX compiler ABI info - done
+[4.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.555s] -- Detecting CXX compile features
+[4.557s] -- Detecting CXX compile features - done
+[4.570s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.673s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.120s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.295s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.873s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.880s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.884s] -- Added test 'lint_cmake' to check CMake code style
+[6.887s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.893s] -- Added test 'xmllint' to check XML markup files
+[6.902s] -- Configuring done
+[6.917s] -- Generating done
+[6.926s] -- Build files have been written to: /userdata/BPU_bl_ws/build/bpu_bringup
+[6.950s] Invoked command in '/userdata/BPU_bl_ws/build/bpu_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/BPU_bl_ws/src/bpu_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/BPU_bl_ws/install/bpu_bringup
+[6.959s] Invoking command in '/userdata/BPU_bl_ws/build/bpu_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/BPU_bl_ws/build/bpu_bringup -- -j8 -l8
+[7.124s] Invoked command in '/userdata/BPU_bl_ws/build/bpu_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/BPU_bl_ws/build/bpu_bringup -- -j8 -l8
+[7.171s] Invoking command in '/userdata/BPU_bl_ws/build/bpu_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/BPU_bl_ws/build/bpu_bringup
+[7.205s] -- Install configuration: ""
+[7.207s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/launch
+[7.208s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/launch/usb_camera_yolo.launch.py
+[7.208s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config
+[7.209s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80
+[7.210s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80/coco.list
+[7.211s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80/model.json
+[7.212s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4
+[7.213s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4/custom_4class.list
+[7.213s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4/model.json
+[7.214s] -- Execute custom install script
+[7.214s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/ament_index/resource_index/package_run_dependencies/bpu_bringup
+[7.252s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/ament_index/resource_index/parent_prefix_path/bpu_bringup
+[7.291s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/ament_prefix_path.sh
+[7.330s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/ament_prefix_path.dsv
+[7.369s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/path.sh
+[7.411s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/path.dsv
+[7.450s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.bash
+[7.491s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.sh
+[7.531s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.zsh
+[7.571s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.dsv
+[7.613s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/package.dsv
+[7.655s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/ament_index/resource_index/packages/bpu_bringup
+[7.697s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/cmake/bpu_bringupConfig.cmake
+[7.738s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/cmake/bpu_bringupConfig-version.cmake
+[7.779s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/package.xml
+[7.828s] Invoked command in '/userdata/BPU_bl_ws/build/bpu_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/BPU_bl_ws/build/bpu_bringup

@@ -1,0 +1,9 @@
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/uninstall.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/bpu_bringup_uninstall.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/test.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/edit_cache.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/rebuild_cache.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/list_install_components.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/install.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/install/local.dir
+/userdata/BPU_bl_ws/build/bpu_bringup/CMakeFiles/install/strip.dir
