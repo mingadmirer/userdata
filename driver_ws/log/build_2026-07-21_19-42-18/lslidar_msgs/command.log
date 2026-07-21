@@ -1,0 +1,1 @@
+Invoking command in '/userdata/driver_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/driver_ws/src/lslidar_msgs -DSTREAM_SDK_TYPE=AURORA930 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/driver_ws/install/lslidar_msgs

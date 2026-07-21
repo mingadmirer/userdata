@@ -1,0 +1,42 @@
+[0.069s] Invoking command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/deptrum-ros-driver-aurora930 -- -j8 -l8
+[0.345s] [ 22%] Built target sub_node
+[0.367s] [ 33%] Linking CXX executable aurora930_node
+[0.399s] [ 55%] Built target sub_node_ci
+[6.479s] [100%] Built target aurora930_node
+[6.531s] Invoked command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/deptrum-ros-driver-aurora930 -- -j8 -l8
+[6.538s] Invoking command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/deptrum-ros-driver-aurora930
+[6.572s] -- Install configuration: ""
+[6.574s] -- Execute custom install script
+[6.575s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/library_path.sh
+[6.617s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/library_path.dsv
+[6.658s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/aurora930_node
+[6.699s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/sub_node
+[6.741s] -- Up-to-date symlink: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/aurora930_node
+[6.741s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/sub_node_ci
+[6.780s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/99-deptrum-libusb.rules
+[6.819s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/libdeptrum_stream_aurora900.so.1.1.22
+[6.857s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/doc/usage_aurora930.md
+[6.895s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/doc/RELEASE_AURORA930.md
+[6.935s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/rviz/aurora930-ros2.rviz
+[6.976s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/package_run_dependencies/deptrum-ros-driver-aurora930
+[7.014s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/parent_prefix_path/deptrum-ros-driver-aurora930
+[7.052s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/ament_prefix_path.sh
+[7.091s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/ament_prefix_path.dsv
+[7.128s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/path.sh
+[7.167s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/path.dsv
+[7.204s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.bash
+[7.242s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.sh
+[7.281s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.zsh
+[7.319s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.dsv
+[7.357s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.dsv
+[7.397s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/packages/deptrum-ros-driver-aurora930
+[7.434s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/ament_cmake_export_libraries-extras.cmake
+[7.474s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/deptrum-ros-driver-aurora930Config.cmake
+[7.514s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/deptrum-ros-driver-aurora930Config-version.cmake
+[7.555s] -- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.xml
+[7.595s] -- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch
+[7.596s] -- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/aurora930_multi_launch.py
+[7.597s] -- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/sub_node_ci_aurora930_launch.py
+[7.598s] -- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/viewer930_launch.py
+[7.599s] -- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/aurora930_launch.py
+[7.611s] Invoked command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/deptrum-ros-driver-aurora930

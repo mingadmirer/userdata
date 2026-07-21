@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000505] (deptrum-ros-driver-aurora930) JobQueued: {'identifier': 'deptrum-ros-driver-aurora930', 'dependencies': OrderedDict()}
+[0.001279] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.002698] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/userdata/driver_ws/install/lslidar_msgs')])}
+[0.003596] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.049457] (deptrum-ros-driver-aurora930) JobStarted: {'identifier': 'deptrum-ros-driver-aurora930'}
+[0.086707] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.089580] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/userdata/driver_ws/src/lslidar_msgs', '-DSTREAM_SDK_TYPE=AURORA930', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/userdata/driver_ws/install/lslidar_msgs'], 'cwd': '/userdata/driver_ws/build/lslidar_msgs', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/lslidar_msgs'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.101593] (-) TimerEvent: {}
+[0.102034] (deptrum-ros-driver-aurora930) JobProgress: {'identifier': 'deptrum-ros-driver-aurora930', 'progress': 'cmake'}
+[0.104929] (deptrum-ros-driver-aurora930) Command: {'cmd': ['/usr/bin/cmake', '/userdata/driver_ws/src/deptrum-ros-driver', '-DSTREAM_SDK_TYPE=AURORA930', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/userdata/driver_ws/install/deptrum-ros-driver-aurora930'], 'cwd': '/userdata/driver_ws/build/deptrum-ros-driver-aurora930', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/deptrum-ros-driver-aurora930'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.201829] (-) TimerEvent: {}
+[0.294413] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.295606] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.302075] (-) TimerEvent: {}
+[0.402645] (-) TimerEvent: {}
+[0.503169] (-) TimerEvent: {}
+[0.603713] (-) TimerEvent: {}
+[0.704275] (-) TimerEvent: {}
+[0.804822] (-) TimerEvent: {}
+[0.905351] (-) TimerEvent: {}
+[1.005876] (-) TimerEvent: {}
+[1.106390] (-) TimerEvent: {}
+[1.206928] (-) TimerEvent: {}
+[1.261926] (lslidar_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.262812] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.307150] (-) TimerEvent: {}
+[1.378046] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.379408] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.405241] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.407267] (-) TimerEvent: {}
+[1.451237] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.507562] (-) TimerEvent: {}
+[1.608181] (-) TimerEvent: {}
+[1.625215] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.640128] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.678003] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.708409] (-) TimerEvent: {}
+[1.756461] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.758462] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.808624] (-) TimerEvent: {}
+[1.831783] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.908859] (-) TimerEvent: {}
+[1.946488] (lslidar_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.009069] (-) TimerEvent: {}
+[2.090990] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.109230] (-) TimerEvent: {}
+[2.110107] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.209548] (-) TimerEvent: {}
+[2.310075] (-) TimerEvent: {}
+[2.410625] (-) TimerEvent: {}
+[2.511153] (-) TimerEvent: {}
+[2.611658] (-) TimerEvent: {}
+[2.693471] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.711807] (-) TimerEvent: {}
+[2.812300] (-) TimerEvent: {}
+[2.912826] (-) TimerEvent: {}
+[3.013331] (-) TimerEvent: {}
+[3.069502] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- STREAM_SDK_TYPE: AURORA930\n'}
+[3.070301] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- SYSTEM_PLATFORM: linux-aarch64\n'}
+[3.072942] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- deptrum-stream-aurora900-linux-aarch64-v1.1.22-18.04 exist\xef\xbc\x81\n'}
+[3.084302] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.113477] (-) TimerEvent: {}
+[3.213954] (-) TimerEvent: {}
+[3.316408] (-) TimerEvent: {}
+[3.346345] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.416718] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.417583] (-) TimerEvent: {}
+[3.453162] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.517839] (-) TimerEvent: {}
+[3.618395] (-) TimerEvent: {}
+[3.718967] (-) TimerEvent: {}
+[3.819551] (-) TimerEvent: {}
+[3.920098] (-) TimerEvent: {}
+[4.020666] (-) TimerEvent: {}
+[4.109084] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.120798] (-) TimerEvent: {}
+[4.135596] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.148254] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.158578] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[4.168017] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- GLog library status:\n'}
+[4.169488] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     include path: /userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/include\n'}
+[4.170185] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     library path: /userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/lib-static\n'}
+[4.170786] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     libraries: glog\n'}
+[4.171346] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- GFlags library status:\n'}
+[4.171878] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     include path: /userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/include\n'}
+[4.173079] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     library path: /userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/lib-static\n'}
+[4.173908] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     libraries: gflags\n'}
+[4.174652] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.220969] (-) TimerEvent: {}
+[4.321456] (-) TimerEvent: {}
+[4.421958] (-) TimerEvent: {}
+[4.503280] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.522151] (-) TimerEvent: {}
+[4.622692] (-) TimerEvent: {}
+[4.723294] (-) TimerEvent: {}
+[4.823908] (-) TimerEvent: {}
+[4.923002] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.923986] (-) TimerEvent: {}
+[5.012745] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.015185] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /userdata/driver_ws/src/deptrum-ros-driver/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/deptrum-stream-aurora900-linux-aarch64-v1.1.22-18.04/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/include\n'}
+[5.015825] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.024253] (-) TimerEvent: {}
+[5.105195] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.106093] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.119007] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.124395] (-) TimerEvent: {}
+[5.143558] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.156895] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.224648] (-) TimerEvent: {}
+[5.246645] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.247568] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.259953] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.276440] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.324897] (-) TimerEvent: {}
+[5.425501] (-) TimerEvent: {}
+[5.467544] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Generating done\n'}
+[5.520529] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Build files have been written to: /userdata/driver_ws/build/deptrum-ros-driver-aurora930\n'}
+[5.525666] (-) TimerEvent: {}
+[5.600018] (deptrum-ros-driver-aurora930) CommandEnded: {'returncode': 0}
+[5.603671] (deptrum-ros-driver-aurora930) JobProgress: {'identifier': 'deptrum-ros-driver-aurora930', 'progress': 'build'}
+[5.608241] (deptrum-ros-driver-aurora930) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/driver_ws/build/deptrum-ros-driver-aurora930', '--', '-j8', '-l8'], 'cwd': '/userdata/driver_ws/build/deptrum-ros-driver-aurora930', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/deptrum-ros-driver-aurora930'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[5.625906] (-) TimerEvent: {}
+[5.726509] (-) TimerEvent: {}
+[5.827214] (-) TimerEvent: {}
+[5.831667] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.837967] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target sub_node\n'}
+[5.838813] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target sub_node_ci\n'}
+[5.884968] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target aurora930_node\n'}
+[5.927426] (-) TimerEvent: {}
+[5.947529] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 44%] Built target sub_node\n'}
+[5.951214] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 44%] Built target sub_node_ci\n'}
+[5.974600] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 55%] Linking CXX executable aurora930_node\n'}
+[6.027659] (-) TimerEvent: {}
+[6.128233] (-) TimerEvent: {}
+[6.175737] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'/usr/bin/ld: cannot find -ldeptrum_stream_aurora900: No such file or directory\n'}
+[6.228476] (-) TimerEvent: {}
+[6.329093] (-) TimerEvent: {}
+[6.429664] (-) TimerEvent: {}
+[6.530234] (-) TimerEvent: {}
+[6.630838] (-) TimerEvent: {}
+[6.731455] (-) TimerEvent: {}
+[6.832050] (-) TimerEvent: {}
+[6.932571] (-) TimerEvent: {}
+[7.033183] (-) TimerEvent: {}
+[7.133848] (-) TimerEvent: {}
+[7.234515] (-) TimerEvent: {}
+[7.335174] (-) TimerEvent: {}
+[7.435800] (-) TimerEvent: {}
+[7.536437] (-) TimerEvent: {}
+[7.637123] (-) TimerEvent: {}
+[7.710072] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.737390] (-) TimerEvent: {}
+[7.838099] (-) TimerEvent: {}
+[7.888313] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.891311] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.898141] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aurora930_node.dir/build.make:260: aurora930_node] Error 1\n'}
+[7.900095] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/aurora930_node.dir/all] Error 2\n'}
+[7.900960] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.908425] (deptrum-ros-driver-aurora930) CommandEnded: {'returncode': 2}
+[7.938835] (-) TimerEvent: {}
+[7.966568] (deptrum-ros-driver-aurora930) JobEnded: {'identifier': 'deptrum-ros-driver-aurora930', 'rc': 2}
+[8.039079] (-) TimerEvent: {}
+[8.042706] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.043675] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.044361] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.139320] (-) TimerEvent: {}
+[8.239927] (-) TimerEvent: {}
+[8.340538] (-) TimerEvent: {}
+[8.441090] (-) TimerEvent: {}
+[8.541612] (-) TimerEvent: {}
+[8.642149] (-) TimerEvent: {}
+[8.697848] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.742373] (-) TimerEvent: {}
+[8.842943] (-) TimerEvent: {}
+[8.943542] (-) TimerEvent: {}
+[9.004729] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[9.043768] (-) TimerEvent: {}
+[9.082873] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /userdata/driver_ws/build/lslidar_msgs\n'}
+[9.115390] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 'SIGINT'}
+[9.127552] (lslidar_driver) JobSkipped: {'identifier': 'lslidar_driver'}
+[9.127850] (-) EventReactorShutdown: {}

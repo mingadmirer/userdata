@@ -1,0 +1,38 @@
+[ 22%] Built target sub_node
+[ 33%] Linking CXX executable aurora930_node
+[ 55%] Built target sub_node_ci
+[100%] Built target aurora930_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/library_path.sh
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/library_path.dsv
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/aurora930_node
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/sub_node
+-- Up-to-date symlink: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/aurora930_node
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/sub_node_ci
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/99-deptrum-libusb.rules
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/libdeptrum_stream_aurora900.so.1.1.22
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/doc/usage_aurora930.md
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/doc/RELEASE_AURORA930.md
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/rviz/aurora930-ros2.rviz
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/package_run_dependencies/deptrum-ros-driver-aurora930
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/parent_prefix_path/deptrum-ros-driver-aurora930
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/path.sh
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/path.dsv
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.bash
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.sh
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.zsh
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.dsv
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.dsv
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/packages/deptrum-ros-driver-aurora930
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/deptrum-ros-driver-aurora930Config.cmake
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/deptrum-ros-driver-aurora930Config-version.cmake
+-- Symlinking: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.xml
+-- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch
+-- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/aurora930_multi_launch.py
+-- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/sub_node_ci_aurora930_launch.py
+-- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/viewer930_launch.py
+-- Installing: /userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/aurora930_launch.py

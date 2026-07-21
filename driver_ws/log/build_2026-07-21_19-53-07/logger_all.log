@@ -1,0 +1,279 @@
+[0.752s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DSTREAM_SDK_TYPE=AURORA930']
+[0.753s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DSTREAM_SDK_TYPE=AURORA930'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff91b94d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff91b94850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff91b94850>>)
+[2.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.045s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/userdata/driver_ws'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['colcon_pkg']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'colcon_pkg'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['colcon_meta']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'colcon_meta'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'ros'
+[2.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deptrum-ros-driver' with type 'ros.ament_cmake' and name 'deptrum-ros-driver-aurora930'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ignore'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ignore_ament_install'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['colcon_pkg']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'colcon_pkg'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['colcon_meta']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'colcon_meta'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extensions ['ros']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_driver) by extension 'ros'
+[2.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ignore'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ignore_ament_install'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['colcon_pkg']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'colcon_pkg'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['colcon_meta']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'colcon_meta'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extensions ['ros']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/lslidar_msgs) by extension 'ros'
+[2.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[2.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.438s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /userdata/dev_ws/install
+[2.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 49 installed packages in /opt/tros/humble
+[2.452s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/humble
+[2.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.805s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.805s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_target' from command line to 'None'
+[2.805s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_clean_cache' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_clean_first' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_force_configure' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'ament_cmake_args' from command line to 'None'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'catkin_cmake_args' from command line to 'None'
+[2.807s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.807s] DEBUG:colcon.colcon_core.verb:Building package 'deptrum-ros-driver-aurora930' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/driver_ws/build/deptrum-ros-driver-aurora930', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/driver_ws/install/deptrum-ros-driver-aurora930', 'merge_install': False, 'path': '/userdata/driver_ws/src/deptrum-ros-driver', 'symlink_install': True, 'test_result_base': None}
+[2.810s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.810s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[2.810s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.811s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.811s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.811s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.811s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.811s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.812s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.812s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/driver_ws/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/driver_ws/install/lslidar_msgs', 'merge_install': False, 'path': '/userdata/driver_ws/src/lslidar_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.815s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.816s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.816s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.816s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.816s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.816s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.817s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/driver_ws/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/driver_ws/install/lslidar_driver', 'merge_install': False, 'path': '/userdata/driver_ws/src/lslidar_driver', 'symlink_install': True, 'test_result_base': None}
+[2.818s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.825s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/driver_ws/src/lslidar_msgs' with build type 'ament_cmake'
+[2.826s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/driver_ws/src/lslidar_msgs'
+[2.839s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/driver_ws/src/deptrum-ros-driver' with build type 'ament_cmake'
+[2.870s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/driver_ws/src/deptrum-ros-driver'
+[2.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/driver_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_msgs -- -j8 -l8
+[2.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/deptrum-ros-driver-aurora930 -- -j8 -l8
+[3.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/deptrum-ros-driver-aurora930 -- -j8 -l8
+[3.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/deptrum-ros-driver-aurora930
+[3.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deptrum-ros-driver-aurora930)
+[3.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/driver_ws/build/deptrum-ros-driver-aurora930' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/deptrum-ros-driver-aurora930
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930' for CMake module files
+[3.749s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930' for CMake config files
+[3.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('deptrum-ros-driver-aurora930', 'cmake_prefix_path')
+[3.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.ps1'
+[3.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.dsv'
+[3.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.sh'
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib'
+[3.769s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/bin'
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/pkgconfig/deptrum-ros-driver-aurora930.pc'
+[3.771s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/python3.10/site-packages'
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/bin'
+[3.775s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.ps1'
+[3.780s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.dsv'
+[3.784s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.sh'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.bash'
+[3.795s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.zsh'
+[3.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/colcon-core/packages/deptrum-ros-driver-aurora930)
+[3.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deptrum-ros-driver-aurora930)
+[3.808s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930' for CMake module files
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930' for CMake config files
+[3.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('deptrum-ros-driver-aurora930', 'cmake_prefix_path')
+[3.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.ps1'
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.dsv'
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.sh'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/bin'
+[3.828s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/pkgconfig/deptrum-ros-driver-aurora930.pc'
+[3.829s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/lib/python3.10/site-packages'
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/bin'
+[3.833s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.ps1'
+[3.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.dsv'
+[3.842s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.sh'
+[3.845s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.bash'
+[3.849s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.zsh'
+[3.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/driver_ws/install/deptrum-ros-driver-aurora930/share/colcon-core/packages/deptrum-ros-driver-aurora930)
+[5.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/driver_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_msgs -- -j8 -l8
+[5.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/driver_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_msgs
+[6.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs' for CMake module files
+[6.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/driver_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_msgs
+[6.040s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs' for CMake config files
+[6.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[6.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[6.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[6.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[6.062s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/lib'
+[6.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[6.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[6.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[6.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[6.075s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/bin'
+[6.075s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[6.077s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/lib/python3.10/site-packages'
+[6.078s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/bin'
+[6.081s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[6.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[6.088s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[6.091s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[6.094s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[6.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/driver_ws/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[6.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[6.103s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs' for CMake module files
+[6.108s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs' for CMake config files
+[6.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[6.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[6.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[6.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[6.123s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/lib'
+[6.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[6.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[6.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[6.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[6.133s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/bin'
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[6.135s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/lib/python3.10/site-packages'
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_msgs/bin'
+[6.139s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[6.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[6.147s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[6.151s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[6.154s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[6.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/driver_ws/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[6.160s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/driver_ws/src/lslidar_driver' with build type 'ament_cmake'
+[6.161s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/driver_ws/src/lslidar_driver'
+[6.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/driver_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_driver -- -j8 -l8
+[6.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/driver_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_driver -- -j8 -l8
+[6.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/driver_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_driver
+[7.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[7.043s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver' for CMake module files
+[7.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/driver_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_driver
+[7.050s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver' for CMake config files
+[7.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[7.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[7.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[7.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[7.064s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/lib'
+[7.065s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/bin'
+[7.065s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[7.067s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/lib/python3.10/site-packages'
+[7.068s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/bin'
+[7.070s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[7.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[7.076s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.sh'
+[7.079s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.bash'
+[7.082s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[7.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/driver_ws/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[7.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[7.091s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver' for CMake module files
+[7.096s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver' for CMake config files
+[7.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[7.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[7.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[7.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[7.110s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/lib'
+[7.110s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/bin'
+[7.111s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[7.112s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/lib/python3.10/site-packages'
+[7.114s] Level 1:colcon.colcon_core.environment:checking '/userdata/driver_ws/install/lslidar_driver/bin'
+[7.115s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[7.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[7.122s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.sh'
+[7.126s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.bash'
+[7.129s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[7.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/driver_ws/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[7.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.135s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.136s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.168s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.195s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[32.196s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/driver_ws/install/local_setup.ps1'
+[32.205s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/driver_ws/install/_local_setup_util_ps1.py'
+[32.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/driver_ws/install/setup.ps1'
+[32.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/driver_ws/install/local_setup.sh'
+[32.228s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/driver_ws/install/_local_setup_util_sh.py'
+[32.232s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/driver_ws/install/setup.sh'
+[32.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/driver_ws/install/local_setup.bash'
+[32.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/driver_ws/install/setup.bash'
+[32.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/driver_ws/install/local_setup.zsh'
+[32.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/driver_ws/install/setup.zsh'

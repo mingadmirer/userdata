@@ -1,0 +1,343 @@
+[0.102s] Invoking command in '/userdata/driver_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_msgs -- -j8 -l8
+[0.398s] [  0%] Built target lslidar_msgs__cpp
+[0.404s] [  1%] Built target lslidar_msgs__rs
+[0.422s] [ 13%] Built target lslidar_msgs__rosidl_generator_c
+[0.456s] [ 13%] Built target ament_cmake_python_symlink_lslidar_msgs
+[0.639s] [ 36%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[0.642s] [ 36%] Built target lslidar_msgs__rosidl_typesupport_c
+[0.662s] [ 48%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.671s] [ 59%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[0.711s] [ 71%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[0.717s] [ 82%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[0.814s] [ 82%] Built target lslidar_msgs
+[1.029s] [ 83%] Built target lslidar_msgs__py
+[1.084s] [ 94%] Built target lslidar_msgs__rosidl_generator_py
+[1.194s] [ 98%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[1.195s] [ 98%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.208s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[2.298s] running egg_info
+[2.303s] writing lslidar_msgs.egg-info/PKG-INFO
+[2.304s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[2.305s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[2.325s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.331s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.547s] [100%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[2.607s] Invoked command in '/userdata/driver_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_msgs -- -j8 -l8
+[2.616s] Invoking command in '/userdata/driver_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_msgs
+[2.655s] -- Install configuration: ""
+[2.659s] -- Execute custom install script
+[2.660s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[2.665s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__functions.h
+[2.667s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__struct.h
+[2.668s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__type_support.h
+[2.669s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[2.670s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[2.671s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[2.672s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_information.h
+[2.673s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[2.674s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.675s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/angle_distortion_correction.h
+[2.676s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__functions.h
+[2.677s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__struct.h
+[2.678s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__type_support.h
+[2.679s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__functions.h
+[2.680s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__struct.h
+[2.681s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__type_support.h
+[2.682s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__functions.h
+[2.683s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__struct.h
+[2.684s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__type_support.h
+[2.685s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__functions.h
+[2.686s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__struct.h
+[2.688s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__type_support.h
+[2.689s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__functions.h
+[2.690s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.h
+[2.692s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__type_support.h
+[2.693s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__functions.h
+[2.693s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.h
+[2.694s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__type_support.h
+[2.694s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__functions.h
+[2.695s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__struct.h
+[2.695s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__type_support.h
+[2.696s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__functions.h
+[2.696s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__struct.h
+[2.698s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__type_support.h
+[2.699s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__functions.h
+[2.701s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__struct.h
+[2.702s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__type_support.h
+[2.703s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__functions.h
+[2.705s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__struct.h
+[2.705s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__type_support.h
+[2.706s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__functions.h
+[2.706s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__struct.h
+[2.708s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__type_support.h
+[2.709s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/frame_rate.h
+[2.711s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/invalid_data.h
+[2.712s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/ip_and_port.h
+[2.714s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.h
+[2.715s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.h
+[2.716s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/power_control.h
+[2.717s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/rfd_removal.h
+[2.717s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/standby_mode.h
+[2.718s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/tail_removal.h
+[2.718s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_mode.h
+[2.719s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[2.719s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[2.721s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[2.723s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.724s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_fastrtps_c.h
+[2.725s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_fastrtps_c.h
+[2.726s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_fastrtps_c.h
+[2.727s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_fastrtps_c.h
+[2.728s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+[2.729s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_c.h
+[2.730s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_fastrtps_c.h
+[2.731s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_fastrtps_c.h
+[2.732s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_fastrtps_c.h
+[2.733s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_fastrtps_c.h
+[2.734s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_fastrtps_c.h
+[2.735s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_introspection_c.h
+[2.736s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[2.737s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.738s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_introspection_c.h
+[2.739s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_introspection_c.h
+[2.740s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_introspection_c.h
+[2.742s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_introspection_c.h
+[2.743s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_c.h
+[2.744s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_c.h
+[2.745s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_introspection_c.h
+[2.746s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_introspection_c.h
+[2.747s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_introspection_c.h
+[2.747s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_introspection_c.h
+[2.748s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_introspection_c.h
+[2.748s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__builder.hpp
+[2.749s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__struct.hpp
+[2.749s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__traits.hpp
+[2.749s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[2.750s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[2.750s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[2.752s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_information.hpp
+[2.753s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[2.754s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/angle_distortion_correction.hpp
+[2.755s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__builder.hpp
+[2.755s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__struct.hpp
+[2.756s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__traits.hpp
+[2.758s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__builder.hpp
+[2.758s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__struct.hpp
+[2.759s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__traits.hpp
+[2.759s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__builder.hpp
+[2.760s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__struct.hpp
+[2.761s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__traits.hpp
+[2.762s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__builder.hpp
+[2.763s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__struct.hpp
+[2.764s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__traits.hpp
+[2.765s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__builder.hpp
+[2.766s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.hpp
+[2.767s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__traits.hpp
+[2.767s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__builder.hpp
+[2.768s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.hpp
+[2.769s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__traits.hpp
+[2.769s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__builder.hpp
+[2.770s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__struct.hpp
+[2.771s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__traits.hpp
+[2.772s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__builder.hpp
+[2.772s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__struct.hpp
+[2.773s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__traits.hpp
+[2.773s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__builder.hpp
+[2.774s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__struct.hpp
+[2.774s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__traits.hpp
+[2.775s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__builder.hpp
+[2.775s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__struct.hpp
+[2.776s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__traits.hpp
+[2.777s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__builder.hpp
+[2.778s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__struct.hpp
+[2.779s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__traits.hpp
+[2.780s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/frame_rate.hpp
+[2.781s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/invalid_data.hpp
+[2.782s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/ip_and_port.hpp
+[2.783s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.hpp
+[2.785s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.hpp
+[2.786s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/power_control.hpp
+[2.787s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/rfd_removal.hpp
+[2.788s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/standby_mode.hpp
+[2.789s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/tail_removal.hpp
+[2.791s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_mode.hpp
+[2.792s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_fastrtps_cpp.hpp
+[2.793s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[2.794s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.795s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_fastrtps_cpp.hpp
+[2.796s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_fastrtps_cpp.hpp
+[2.796s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.797s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_fastrtps_cpp.hpp
+[2.798s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.798s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[2.799s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.800s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_fastrtps_cpp.hpp
+[2.800s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.801s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_fastrtps_cpp.hpp
+[2.802s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.803s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_introspection_cpp.hpp
+[2.805s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[2.807s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_introspection_cpp.hpp
+[2.809s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_introspection_cpp.hpp
+[2.811s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_introspection_cpp.hpp
+[2.813s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_introspection_cpp.hpp
+[2.815s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+[2.816s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_cpp.hpp
+[2.817s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_introspection_cpp.hpp
+[2.819s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_introspection_cpp.hpp
+[2.820s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_introspection_cpp.hpp
+[2.821s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_introspection_cpp.hpp
+[2.822s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_introspection_cpp.hpp
+[2.823s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[2.824s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[2.825s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/PKG-INFO
+[2.826s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/SOURCES.txt
+[2.826s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/dependency_links.txt
+[2.827s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/top_level.txt
+[2.828s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[2.829s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[2.830s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.831s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.832s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[2.833s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.834s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.834s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.835s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[2.836s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information.py
+[2.837s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information_s.c
+[2.837s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[2.838s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[2.839s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/__init__.py
+[2.840s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction.py
+[2.842s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction_s.c
+[2.843s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate.py
+[2.844s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate_s.c
+[2.846s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data.py
+[2.847s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data_s.c
+[2.848s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port.py
+[2.849s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port_s.c
+[2.850s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control.py
+[2.851s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control_s.c
+[2.852s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed.py
+[2.853s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed_s.c
+[2.853s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control.py
+[2.854s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control_s.c
+[2.855s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal.py
+[2.856s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal_s.c
+[2.856s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode.py
+[2.857s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode_s.c
+[2.857s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal.py
+[2.858s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal_s.c
+[2.858s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode.py
+[2.859s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode_s.c
+[2.860s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.860s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.861s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.862s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/rust_packages/lslidar_msgs
+[2.862s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/Cargo.toml
+[2.863s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/build.rs
+[2.863s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/lib.rs
+[2.864s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg.rs
+[2.865s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg/rmw.rs
+[2.865s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/srv.rs
+[2.866s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/srv/rmw.rs
+[2.866s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarInformation.idl
+[2.867s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[2.867s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection.idl
+[2.868s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate.idl
+[2.868s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData.idl
+[2.869s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort.idl
+[2.869s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.idl
+[2.870s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.idl
+[2.870s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl.idl
+[2.871s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval.idl
+[2.871s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode.idl
+[2.871s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval.idl
+[2.872s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode.idl
+[2.872s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarInformation.msg
+[2.873s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[2.873s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection.srv
+[2.874s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection_Request.msg
+[2.874s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection_Response.msg
+[2.875s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate.srv
+[2.875s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate_Request.msg
+[2.876s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate_Response.msg
+[2.876s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData.srv
+[2.877s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData_Request.msg
+[2.877s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData_Response.msg
+[2.877s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort.srv
+[2.878s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort_Request.msg
+[2.878s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort_Response.msg
+[2.879s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.srv
+[2.880s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Request.msg
+[2.880s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Response.msg
+[2.881s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.srv
+[2.881s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Request.msg
+[2.882s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Response.msg
+[2.882s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl.srv
+[2.883s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl_Request.msg
+[2.883s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl_Response.msg
+[2.884s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval.srv
+[2.884s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval_Request.msg
+[2.885s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval_Response.msg
+[2.885s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode.srv
+[2.886s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode_Request.msg
+[2.886s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode_Response.msg
+[2.886s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval.srv
+[2.887s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval_Request.msg
+[2.887s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval_Response.msg
+[2.888s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode.srv
+[2.888s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode_Request.msg
+[2.889s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode_Response.msg
+[2.889s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[2.890s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[2.890s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[2.891s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[2.891s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[2.891s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[2.892s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[2.892s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[2.893s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[2.893s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[2.894s] -- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[2.895s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[2.896s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[2.897s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.897s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.898s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.899s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.900s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.901s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.902s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[2.903s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[2.903s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[2.904s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[2.906s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[2.907s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[2.908s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[2.910s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.911s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[2.912s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[3.126s] Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[3.127s] Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[3.128s] Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv'...
+[3.170s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[3.172s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[3.173s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.174s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.175s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.177s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.177s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.179s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[3.180s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.182s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[3.183s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.186s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.188s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.189s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.190s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[3.192s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.193s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[3.194s] -- Up-to-date: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.208s] Invoked command in '/userdata/driver_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_msgs

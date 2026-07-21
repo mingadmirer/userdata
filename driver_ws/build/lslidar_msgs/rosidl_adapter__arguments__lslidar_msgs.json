@@ -1,0 +1,18 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/userdata/driver_ws/src/lslidar_msgs:msg/LslidarInformation.msg",
+    "/userdata/driver_ws/src/lslidar_msgs:msg/LslidarPacket.msg",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/AngleDistortionCorrection.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/FrameRate.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/InvalidData.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/IpAndPort.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/MotorControl.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/MotorSpeed.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/PowerControl.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/RfdRemoval.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/StandbyMode.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/TailRemoval.srv",
+    "/userdata/driver_ws/src/lslidar_msgs:srv/TimeMode.srv"
+  ]
+}

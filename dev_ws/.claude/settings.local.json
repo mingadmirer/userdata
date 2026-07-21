@@ -5,7 +5,14 @@
       "Read(//opt/tros/**)",
       "Bash(cp /userdata/yolov5s_v2.0_config/converted_model.bin /opt/hobot/model/x5/custom/yolov5s_4class.bin)",
       "Read(//opt/hobot/model/x5/**)",
-      "Bash(mkdir -p /opt/hobot/model/x5/custom)"
+      "Bash(mkdir -p /opt/hobot/model/x5/custom)",
+      "Bash(mv /userdata/deptrum-ros-driver-aurora930-aarch64-0.2.11-source/deptrum-ros-driver-aurora930-0.2.11 /userdata/driver_ws/src/deptrum-ros-driver)",
+      "Bash(mv /userdata/lslidar_driver/lslidar_driver /userdata/driver_ws/src/lslidar_driver)",
+      "Bash(mv /userdata/lslidar_msgs/lslidar_msgs /userdata/driver_ws/src/lslidar_msgs)",
+      "Bash(mv /userdata/wheeltec_udev.sh /userdata/driver_ws/)",
+      "Bash(bash /userdata/driver_ws/wheeltec_udev.sh)",
+      "Read(//dev/**)",
+      "Bash(ln -s libdeptrum_stream_aurora900.so.1.1.22 /userdata/driver_ws/src/deptrum-ros-driver/ext/deptrum-stream-aurora900-linux-aarch64-v1.1.22-18.04/lib/libdeptrum_stream_aurora900.so)"
     ]
   }
 }

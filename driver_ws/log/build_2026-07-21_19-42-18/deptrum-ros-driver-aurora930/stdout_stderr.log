@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- STREAM_SDK_TYPE: AURORA930
+-- SYSTEM_PLATFORM: linux-aarch64
+-- deptrum-stream-aurora900-linux-aarch64-v1.1.22-18.04 exist！
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- GLog library status:
+--     include path: /userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/include
+--     library path: /userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/lib-static
+--     libraries: glog
+-- GFlags library status:
+--     include path: /userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/include
+--     library path: /userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/lib-static
+--     libraries: gflags
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /userdata/driver_ws/src/deptrum-ros-driver/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/deptrum-stream-aurora900-linux-aarch64-v1.1.22-18.04/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /userdata/driver_ws/build/deptrum-ros-driver-aurora930
+Consolidate compiler generated dependencies of target sub_node
+Consolidate compiler generated dependencies of target sub_node_ci
+Consolidate compiler generated dependencies of target aurora930_node
+[ 44%] Built target sub_node
+[ 44%] Built target sub_node_ci
+[ 55%] Linking CXX executable aurora930_node
+/usr/bin/ld: cannot find -ldeptrum_stream_aurora900: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/aurora930_node.dir/build.make:260: aurora930_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/aurora930_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

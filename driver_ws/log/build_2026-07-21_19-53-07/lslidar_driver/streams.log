@@ -1,0 +1,77 @@
+[0.060s] Invoking command in '/userdata/driver_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_driver -- -j8 -l8
+[0.487s] [ 81%] Built target lslidar_driver
+[0.680s] [100%] Built target lslidar_driver_node
+[0.734s] Invoked command in '/userdata/driver_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/driver_ws/build/lslidar_driver -- -j8 -l8
+[0.745s] Invoking command in '/userdata/driver_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_driver
+[0.780s] -- Install configuration: "Release"
+[0.782s] -- Execute custom install script
+[0.784s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/lib/lslidar_driver/liblslidar_driver.a
+[0.784s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[0.786s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/ThreadPool.h
+[0.787s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/data_acquisition_strategy.hpp
+[0.789s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/input.hpp
+[0.791s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lsiosr.hpp
+[0.792s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ch_driver.hpp
+[0.792s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_cx_driver.hpp
+[0.793s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_device_info.hpp
+[0.794s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_driver.hpp
+[0.795s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_log.hpp
+[0.797s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ls_driver.hpp
+[0.798s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_pointcloud.hpp
+[0.799s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_services.hpp
+[0.801s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/lslidar_x10_driver.hpp
+[0.801s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/include/lslidar_driver/pointcloud_transform.hpp
+[0.802s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/filter_angle.yaml
+[0.804s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_ch.yaml
+[0.804s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx.yaml
+[0.805s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_left.yaml
+[0.806s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_right.yaml
+[0.807s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_ls.yaml
+[0.809s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10_net.yaml
+[0.810s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10_uart.yaml
+[0.812s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10p_net.yaml
+[0.813s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10p_uart.yaml
+[0.814s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10_net.yaml
+[0.816s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10_uart.yaml
+[0.817s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10p_net.yaml
+[0.818s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_n10p_uart.yaml
+[0.819s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_x10.yaml
+[0.820s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/config/network_setup.yaml
+[0.820s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ch.rviz
+[0.822s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_cx.rviz
+[0.822s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ls.rviz
+[0.823s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_x10.rviz
+[0.823s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ch_launch.py
+[0.824s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_cx_launch.py
+[0.824s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[0.825s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ls_launch.py
+[0.825s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_x10_launch.py
+[0.826s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[0.826s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[0.827s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[0.827s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[0.828s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[0.828s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[0.829s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[0.829s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[0.829s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.sh
+[0.830s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.dsv
+[0.830s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[0.831s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[0.831s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[0.832s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[0.832s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[0.833s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[0.833s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[0.834s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[0.834s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[0.834s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[0.835s] -- Symlinking: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[0.862s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[0.863s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.864s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.865s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.866s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[0.867s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[0.867s] -- Up-to-date symlink: /userdata/driver_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[0.879s] Invoked command in '/userdata/driver_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/driver_ws/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/driver_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/driver_ws/build/lslidar_driver

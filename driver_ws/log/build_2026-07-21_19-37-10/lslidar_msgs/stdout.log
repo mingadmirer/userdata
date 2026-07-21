@@ -1,0 +1,526 @@
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /userdata/driver_ws/build/lslidar_msgs
+[  1%] Generating C code for ROS interfaces
+[  2%] Generating Rust code for ROS interfaces
+[  2%] Built target ament_cmake_python_symlink_lslidar_msgs
+[  2%] Generating C++ code for ROS interfaces
+running egg_info
+creating lslidar_msgs.egg-info
+writing lslidar_msgs.egg-info/PKG-INFO
+writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+writing top-level names to lslidar_msgs.egg-info/top_level.txt
+writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[  2%] Built target lslidar_msgs__rs
+[  2%] Built target lslidar_msgs__cpp
+[  3%] Generating C++ type support for eProsima Fast-RTPS
+[  4%] Generating C++ introspection for ROS interfaces
+[  5%] Generating C++ type support dispatch for ROS interfaces
+[  6%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_information__functions.c.o
+[  6%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o
+[  7%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/angle_distortion_correction__functions.c.o
+[  8%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/frame_rate__functions.c.o
+[  9%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/invalid_data__functions.c.o
+[ 10%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/ip_and_port__functions.c.o
+[ 10%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/motor_control__functions.c.o
+[ 11%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/power_control__functions.c.o
+[ 12%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/motor_speed__functions.c.o
+[ 13%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/rfd_removal__functions.c.o
+[ 13%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/standby_mode__functions.c.o
+[ 14%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/tail_removal__functions.c.o
+[ 15%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/time_mode__functions.c.o
+[ 16%] Linking C shared library liblslidar_msgs__rosidl_generator_c.so
+[ 16%] Built target lslidar_msgs__rosidl_generator_c
+[ 17%] Generating C type support for eProsima Fast-RTPS
+[ 18%] Generating C introspection for ROS interfaces
+[ 19%] Generating C type support dispatch for ROS interfaces
+[ 20%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_information__type_support.cpp.o
+[ 21%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/angle_distortion_correction__type_support.cpp.o
+[ 21%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o
+[ 22%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/frame_rate__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/invalid_data__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_information__type_support.cpp.o
+[ 24%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_information__type_support.cpp.o
+[ 25%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o
+[ 25%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o
+[ 26%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/angle_distortion_correction__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/frame_rate__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/invalid_data__type_support.cpp.o
+[ 28%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/ip_and_port__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/motor_control__type_support.cpp.o
+[ 30%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/motor_speed__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/power_control__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/rfd_removal__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/standby_mode__type_support.cpp.o
+[ 33%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_information__type_support.cpp.o
+[ 33%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o
+[ 34%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/tail_removal__type_support.cpp.o
+[ 35%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/time_mode__type_support.cpp.o
+[ 35%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/ip_and_port__type_support.cpp.o
+[ 35%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so
+[ 35%] Built target lslidar_msgs__rosidl_typesupport_c
+[ 36%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/angle_distortion_correction__type_support.cpp.o
+[ 37%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/frame_rate__type_support.cpp.o
+[ 38%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/invalid_data__type_support.cpp.o
+[ 38%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_information__type_support.c.o
+[ 38%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_information__type_support_c.cpp.o
+[ 39%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o
+[ 40%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/angle_distortion_correction__type_support.c.o
+[ 41%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/frame_rate__type_support.c.o
+[ 41%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/invalid_data__type_support.c.o
+[ 42%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/ip_and_port__type_support.c.o
+[ 43%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o
+[ 44%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/motor_control__type_support.cpp.o
+[ 45%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/motor_control__type_support.c.o
+[ 46%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/angle_distortion_correction__type_support.cpp.o
+[ 47%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/motor_speed__type_support.c.o
+[ 48%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/power_control__type_support.c.o
+[ 48%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/rfd_removal__type_support.c.o
+[ 49%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/standby_mode__type_support.c.o
+[ 50%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/motor_control__type_support.cpp.o
+[ 51%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/tail_removal__type_support.c.o
+[ 52%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/motor_speed__type_support.cpp.o
+[ 53%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/time_mode__type_support.c.o
+[ 53%] Linking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[ 54%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/frame_rate__type_support_c.cpp.o
+[ 54%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[ 55%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/frame_rate__type_support.cpp.o
+[ 56%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/power_control__type_support.cpp.o
+[ 57%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/power_control__type_support.cpp.o
+[ 58%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/angle_distortion_correction__type_support_c.cpp.o
+[ 59%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/rfd_removal__type_support.cpp.o
+[ 60%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/invalid_data__type_support.cpp.o
+[ 60%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/invalid_data__type_support_c.cpp.o
+[ 61%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/rfd_removal__type_support.cpp.o
+[ 61%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/standby_mode__type_support.cpp.o
+[ 62%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/motor_control__type_support.cpp.o
+[ 63%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/tail_removal__type_support.cpp.o
+[ 64%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/ip_and_port__type_support_c.cpp.o
+[ 64%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/standby_mode__type_support.cpp.o
+[ 65%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/time_mode__type_support.cpp.o
+[ 65%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/ip_and_port__type_support.cpp.o
+[ 66%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/motor_control__type_support_c.cpp.o
+[ 67%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/tail_removal__type_support.cpp.o
+[ 68%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so
+[ 68%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[ 69%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/power_control__type_support_c.cpp.o
+[ 70%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/motor_speed__type_support.cpp.o
+[ 71%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/time_mode__type_support.cpp.o
+[ 72%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/standby_mode__type_support_c.cpp.o
+[ 73%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/power_control__type_support.cpp.o
+[ 74%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/motor_speed__type_support.cpp.o
+[ 75%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/tail_removal__type_support_c.cpp.o
+[ 75%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/standby_mode__type_support.cpp.o
+[ 75%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/ip_and_port__type_support.cpp.o
+[ 76%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/time_mode__type_support_c.cpp.o
+[ 77%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/time_mode__type_support.cpp.o
+[ 77%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/rfd_removal__type_support_c.cpp.o
+[ 78%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[ 78%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[ 79%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/motor_speed__type_support_c.cpp.o
+[ 80%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/tail_removal__type_support.cpp.o
+[ 80%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[ 80%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[ 81%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/rfd_removal__type_support.cpp.o
+[ 82%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[ 82%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[ 82%] Built target lslidar_msgs
+[ 83%] Generating Python code for ROS interfaces
+[ 83%] Built target lslidar_msgs__py
+[ 84%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_information_s.c.o
+[ 84%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o
+[ 85%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_motor_speed_s.c.o
+[ 86%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_motor_control_s.c.o
+[ 87%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_power_control_s.c.o
+[ 88%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_rfd_removal_s.c.o
+[ 89%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_tail_removal_s.c.o
+[ 90%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_time_mode_s.c.o
+[ 90%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_standby_mode_s.c.o
+[ 90%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_ip_and_port_s.c.o
+[ 91%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_invalid_data_s.c.o
+[ 93%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_angle_distortion_correction_s.c.o
+[ 93%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_frame_rate_s.c.o
+[ 94%] Linking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[ 94%] Built target lslidar_msgs__rosidl_generator_py
+[ 96%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 96%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 98%] Linking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[ 98%] Linking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[ 98%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 99%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o
+[100%] Linking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_information.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/angle_distortion_correction.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__functions.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__struct.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__type_support.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/frame_rate.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/invalid_data.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/ip_and_port.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/power_control.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/rfd_removal.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/standby_mode.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/tail_removal.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_mode.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_introspection_c.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_information.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/angle_distortion_correction.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__builder.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__struct.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__traits.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/frame_rate.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/invalid_data.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/ip_and_port.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/power_control.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/rfd_removal.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/standby_mode.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/tail_removal.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_mode.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/__init__.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal_s.c
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode.py
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode_s.c
+-- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/rust_packages/lslidar_msgs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/Cargo.toml
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/build.rs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/lib.rs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg.rs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg/rmw.rs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/srv.rs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/srv/rmw.rs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarInformation.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode.idl
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarInformation.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode.srv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode_Request.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode_Response.msg
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...
+Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/__init__.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal.py'...
+Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode.py'...
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake

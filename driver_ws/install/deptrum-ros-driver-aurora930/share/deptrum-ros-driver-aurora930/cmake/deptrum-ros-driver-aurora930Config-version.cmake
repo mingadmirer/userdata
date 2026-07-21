@@ -1,0 +1,1 @@
+/userdata/driver_ws/build/deptrum-ros-driver-aurora930/ament_cmake_core/deptrum-ros-driver-aurora930Config-version.cmake

@@ -1,0 +1,1930 @@
+[0.000000] (-) TimerEvent: {}
+[0.000707] (deptrum-ros-driver-aurora930) JobQueued: {'identifier': 'deptrum-ros-driver-aurora930', 'dependencies': OrderedDict()}
+[0.002055] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.002898] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/userdata/driver_ws/install/lslidar_msgs')])}
+[0.003724] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.044639] (deptrum-ros-driver-aurora930) JobStarted: {'identifier': 'deptrum-ros-driver-aurora930'}
+[0.078598] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.081121] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/userdata/driver_ws/src/lslidar_msgs', '-DSTREAM_SDK_TYPE=AURORA930', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/userdata/driver_ws/install/lslidar_msgs'], 'cwd': '/userdata/driver_ws/build/lslidar_msgs', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/lslidar_msgs'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.092311] (deptrum-ros-driver-aurora930) JobProgress: {'identifier': 'deptrum-ros-driver-aurora930', 'progress': 'cmake'}
+[0.094765] (deptrum-ros-driver-aurora930) Command: {'cmd': ['/usr/bin/cmake', '/userdata/driver_ws/src/deptrum-ros-driver', '-DSTREAM_SDK_TYPE=AURORA930', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/userdata/driver_ws/install/deptrum-ros-driver-aurora930'], 'cwd': '/userdata/driver_ws/build/deptrum-ros-driver-aurora930', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/deptrum-ros-driver-aurora930'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.101969] (-) TimerEvent: {}
+[0.202412] (-) TimerEvent: {}
+[0.302965] (-) TimerEvent: {}
+[0.391928] (lslidar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.403123] (-) TimerEvent: {}
+[0.404140] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.503358] (-) TimerEvent: {}
+[0.603969] (-) TimerEvent: {}
+[0.704555] (-) TimerEvent: {}
+[0.711473] (lslidar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.726534] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.748844] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.761044] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.804801] (-) TimerEvent: {}
+[0.905408] (-) TimerEvent: {}
+[1.005978] (-) TimerEvent: {}
+[1.106491] (-) TimerEvent: {}
+[1.142884] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.152054] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.194435] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.195629] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.197440] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.202144] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.203557] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.205171] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.206602] (-) TimerEvent: {}
+[1.214173] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.220514] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.306858] (-) TimerEvent: {}
+[1.407405] (-) TimerEvent: {}
+[1.508008] (-) TimerEvent: {}
+[1.608577] (-) TimerEvent: {}
+[1.637421] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.638456] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.686866] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.688316] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.688939] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.689510] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.690702] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.691257] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.704229] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.705081] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.708766] (-) TimerEvent: {}
+[1.809328] (-) TimerEvent: {}
+[1.909833] (-) TimerEvent: {}
+[2.010366] (-) TimerEvent: {}
+[2.110922] (-) TimerEvent: {}
+[2.211485] (-) TimerEvent: {}
+[2.312039] (-) TimerEvent: {}
+[2.412612] (-) TimerEvent: {}
+[2.513147] (-) TimerEvent: {}
+[2.613726] (-) TimerEvent: {}
+[2.714282] (-) TimerEvent: {}
+[2.814873] (-) TimerEvent: {}
+[2.816206] (lslidar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.829142] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.915050] (-) TimerEvent: {}
+[3.015537] (-) TimerEvent: {}
+[3.115992] (-) TimerEvent: {}
+[3.216542] (-) TimerEvent: {}
+[3.264677] (lslidar_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.288697] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.316779] (-) TimerEvent: {}
+[3.417364] (-) TimerEvent: {}
+[3.441655] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.464288] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.466894] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.511871] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.517509] (-) TimerEvent: {}
+[3.618019] (-) TimerEvent: {}
+[3.711570] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.718186] (-) TimerEvent: {}
+[3.745069] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.754981] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.798365] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.818376] (-) TimerEvent: {}
+[3.875354] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.918589] (-) TimerEvent: {}
+[3.978409] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.993669] (lslidar_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[4.018798] (-) TimerEvent: {}
+[4.119291] (-) TimerEvent: {}
+[4.219776] (-) TimerEvent: {}
+[4.268234] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.286616] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.320014] (-) TimerEvent: {}
+[4.420521] (-) TimerEvent: {}
+[4.521093] (-) TimerEvent: {}
+[4.621695] (-) TimerEvent: {}
+[4.722211] (-) TimerEvent: {}
+[4.764591] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.822447] (-) TimerEvent: {}
+[4.902811] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.922627] (-) TimerEvent: {}
+[5.023139] (-) TimerEvent: {}
+[5.103306] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.123357] (-) TimerEvent: {}
+[5.156838] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.223560] (-) TimerEvent: {}
+[5.324041] (-) TimerEvent: {}
+[5.424559] (-) TimerEvent: {}
+[5.525075] (-) TimerEvent: {}
+[5.542740] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.544448] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.625276] (-) TimerEvent: {}
+[5.725823] (-) TimerEvent: {}
+[5.826372] (-) TimerEvent: {}
+[5.926868] (-) TimerEvent: {}
+[5.930521] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.935562] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.027061] (-) TimerEvent: {}
+[6.127533] (-) TimerEvent: {}
+[6.228086] (-) TimerEvent: {}
+[6.253738] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- STREAM_SDK_TYPE: AURORA930\n'}
+[6.254467] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- SYSTEM_PLATFORM: linux-aarch64\n'}
+[6.255577] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- deptrum-stream-aurora900-linux-aarch64-v1.1.22-18.04 exist\xef\xbc\x81\n'}
+[6.267738] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.328287] (-) TimerEvent: {}
+[6.428818] (-) TimerEvent: {}
+[6.472625] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[6.529062] (-) TimerEvent: {}
+[6.549257] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core highgui imgproc videoio \n'}
+[6.562911] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[6.626449] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[6.629217] (-) TimerEvent: {}
+[6.726855] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.729355] (-) TimerEvent: {}
+[6.829784] (-) TimerEvent: {}
+[6.930239] (-) TimerEvent: {}
+[7.030747] (-) TimerEvent: {}
+[7.131249] (-) TimerEvent: {}
+[7.231775] (-) TimerEvent: {}
+[7.332280] (-) TimerEvent: {}
+[7.432814] (-) TimerEvent: {}
+[7.533348] (-) TimerEvent: {}
+[7.604016] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[7.633596] (-) TimerEvent: {}
+[7.693521] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.701678] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.702498] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.720906] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[7.728781] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- GLog library status:\n'}
+[7.730064] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     include path: /userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/include\n'}
+[7.730707] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     library path: /userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/lib-static\n'}
+[7.731296] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     libraries: glog\n'}
+[7.731785] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- GFlags library status:\n'}
+[7.732243] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     include path: /userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/include\n'}
+[7.732689] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     library path: /userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/lib-static\n'}
+[7.733130] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'--     libraries: gflags\n'}
+[7.733547] (-) TimerEvent: {}
+[7.740909] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.834049] (-) TimerEvent: {}
+[7.934520] (-) TimerEvent: {}
+[8.034994] (-) TimerEvent: {}
+[8.041394] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.135194] (-) TimerEvent: {}
+[8.235682] (-) TimerEvent: {}
+[8.336154] (-) TimerEvent: {}
+[8.436658] (-) TimerEvent: {}
+[8.477541] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem \n'}
+[8.536864] (-) TimerEvent: {}
+[8.543932] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.634758] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.637040] (-) TimerEvent: {}
+[8.637739] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /userdata/driver_ws/src/deptrum-ros-driver/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/deptrum-stream-aurora900-linux-aarch64-v1.1.22-18.04/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/glog-0.4.0/include;/userdata/driver_ws/src/deptrum-ros-driver/ext/gflags-2.2.2/include\n'}
+[8.638464] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.728209] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.729058] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.737298] (-) TimerEvent: {}
+[8.741939] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.766630] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.780562] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.837467] (-) TimerEvent: {}
+[8.871102] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.871859] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.884921] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.897562] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.937690] (-) TimerEvent: {}
+[9.038197] (-) TimerEvent: {}
+[9.072706] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Generating done\n'}
+[9.122882] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'-- Build files have been written to: /userdata/driver_ws/build/deptrum-ros-driver-aurora930\n'}
+[9.138367] (-) TimerEvent: {}
+[9.219928] (deptrum-ros-driver-aurora930) CommandEnded: {'returncode': 0}
+[9.223603] (deptrum-ros-driver-aurora930) JobProgress: {'identifier': 'deptrum-ros-driver-aurora930', 'progress': 'build'}
+[9.228183] (deptrum-ros-driver-aurora930) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/driver_ws/build/deptrum-ros-driver-aurora930', '--', '-j8', '-l8'], 'cwd': '/userdata/driver_ws/build/deptrum-ros-driver-aurora930', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/deptrum-ros-driver-aurora930'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[9.238568] (-) TimerEvent: {}
+[9.339115] (-) TimerEvent: {}
+[9.439683] (-) TimerEvent: {}
+[9.463453] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/aurora930_node.dir/src/ros2_node.cc.o\n'}
+[9.464353] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 33%] Building CXX object subscribe_node/CMakeFiles/sub_node.dir/src/sub_node.cc.o\n'}
+[9.465077] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/aurora930_node.dir/src/aurora900_ros2_device.cc.o\n'}
+[9.466922] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/aurora930_node.dir/src/ros2_device.cc.o\n'}
+[9.467830] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 55%] Building CXX object subscribe_node/CMakeFiles/sub_node_ci.dir/src/sub_node_ci.cc.o\n'}
+[9.485116] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/aurora930_node.dir/src/camera_parameters.cc.o\n'}
+[9.539940] (-) TimerEvent: {}
+[9.640439] (-) TimerEvent: {}
+[9.741017] (-) TimerEvent: {}
+[9.760865] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.841236] (-) TimerEvent: {}
+[9.933559] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.941485] (-) TimerEvent: {}
+[9.947094] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.041817] (-) TimerEvent: {}
+[10.142387] (-) TimerEvent: {}
+[10.160143] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.162400] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.163692] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.165384] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[10.247868] (-) TimerEvent: {}
+[10.338610] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.348104] (-) TimerEvent: {}
+[10.353923] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'In file included from /userdata/driver_ws/src/deptrum-ros-driver/src/camera_parameters.cc:4:\n'}
+[10.355023] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2: warning: #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [-Wcpp]\n'}
+[10.355738] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'   35 | #warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[10.356368] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'      |  ^~~~~~~\n'}
+[10.448321] (-) TimerEvent: {}
+[10.548909] (-) TimerEvent: {}
+[10.649485] (-) TimerEvent: {}
+[10.750033] (-) TimerEvent: {}
+[10.850572] (-) TimerEvent: {}
+[10.951881] (-) TimerEvent: {}
+[11.052410] (-) TimerEvent: {}
+[11.152942] (-) TimerEvent: {}
+[11.255626] (-) TimerEvent: {}
+[11.275555] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.360614] (-) TimerEvent: {}
+[11.362108] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'In file included from /userdata/driver_ws/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20,\n'}
+[11.363027] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'                 from /userdata/driver_ws/src/deptrum-ros-driver/src/ros2_node.cc:6:\n'}
+[11.363700] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6: warning: #warning POINT_CLOUD_DEPRECATION_MESSAGE [-Wcpp]\n'}
+[11.364383] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'   47 | #    warning POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[11.365051] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'      |      ^~~~~~~\n'}
+[11.365719] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'In file included from /userdata/driver_ws/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20,\n'}
+[11.366391] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'                 from /userdata/driver_ws/src/deptrum-ros-driver/include/deptrum_ros_driver/aurora900_ros2_device.h:4,\n'}
+[11.367630] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'                 from /userdata/driver_ws/src/deptrum-ros-driver/src/aurora900_ros2_device.cc:2:\n'}
+[11.368405] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6: warning: #warning POINT_CLOUD_DEPRECATION_MESSAGE [-Wcpp]\n'}
+[11.369231] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'   47 | #    warning POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[11.370016] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'      |      ^~~~~~~\n'}
+[11.377036] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'In file included from /userdata/driver_ws/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20,\n'}
+[11.378073] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'                 from /userdata/driver_ws/src/deptrum-ros-driver/src/ros2_device.cc:5:\n'}
+[11.378849] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6: warning: #warning POINT_CLOUD_DEPRECATION_MESSAGE [-Wcpp]\n'}
+[11.379584] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'   47 | #    warning POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[11.380325] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'      |      ^~~~~~~\n'}
+[11.461989] (-) TimerEvent: {}
+[11.562693] (-) TimerEvent: {}
+[11.663309] (-) TimerEvent: {}
+[11.763900] (-) TimerEvent: {}
+[11.773731] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[11.805382] (lslidar_msgs) StderrLine: {'line': b'CMake Warning:\n'}
+[11.806594] (lslidar_msgs) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[11.807422] (lslidar_msgs) StderrLine: {'line': b'\n'}
+[11.809060] (lslidar_msgs) StderrLine: {'line': b'    STREAM_SDK_TYPE\n'}
+[11.809971] (lslidar_msgs) StderrLine: {'line': b'\n'}
+[11.811571] (lslidar_msgs) StderrLine: {'line': b'\n'}
+[11.864171] (-) TimerEvent: {}
+[11.907456] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /userdata/driver_ws/build/lslidar_msgs\n'}
+[11.964452] (-) TimerEvent: {}
+[11.975250] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[11.978160] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[11.978487] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/driver_ws/build/lslidar_msgs', '--', '-j8', '-l8'], 'cwd': '/userdata/driver_ws/build/lslidar_msgs', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/lslidar_msgs'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[12.064975] (-) TimerEvent: {}
+[12.165600] (-) TimerEvent: {}
+[12.266235] (-) TimerEvent: {}
+[12.345228] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[12.366588] (-) TimerEvent: {}
+[12.467226] (-) TimerEvent: {}
+[12.510221] (lslidar_msgs) StdoutLine: {'line': b'[  2%] Generating Rust code for ROS interfaces\n'}
+[12.525580] (lslidar_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_lslidar_msgs\n'}
+[12.545440] (lslidar_msgs) StdoutLine: {'line': b'[  2%] Generating C++ code for ROS interfaces\n'}
+[12.567512] (-) TimerEvent: {}
+[12.668125] (-) TimerEvent: {}
+[12.768670] (-) TimerEvent: {}
+[12.869247] (-) TimerEvent: {}
+[12.969842] (-) TimerEvent: {}
+[13.070382] (-) TimerEvent: {}
+[13.170953] (-) TimerEvent: {}
+[13.271534] (-) TimerEvent: {}
+[13.372146] (-) TimerEvent: {}
+[13.472756] (-) TimerEvent: {}
+[13.575026] (-) TimerEvent: {}
+[13.675738] (-) TimerEvent: {}
+[13.787825] (-) TimerEvent: {}
+[13.888868] (-) TimerEvent: {}
+[13.999753] (-) TimerEvent: {}
+[14.100341] (-) TimerEvent: {}
+[14.207887] (-) TimerEvent: {}
+[14.308458] (-) TimerEvent: {}
+[14.409047] (-) TimerEvent: {}
+[14.509642] (-) TimerEvent: {}
+[14.610259] (-) TimerEvent: {}
+[14.710854] (-) TimerEvent: {}
+[14.817834] (-) TimerEvent: {}
+[14.927834] (-) TimerEvent: {}
+[15.037871] (-) TimerEvent: {}
+[15.138498] (-) TimerEvent: {}
+[15.239131] (-) TimerEvent: {}
+[15.347842] (-) TimerEvent: {}
+[15.448426] (-) TimerEvent: {}
+[15.548989] (-) TimerEvent: {}
+[15.649551] (-) TimerEvent: {}
+[15.750144] (-) TimerEvent: {}
+[15.850729] (-) TimerEvent: {}
+[15.951331] (-) TimerEvent: {}
+[16.051887] (-) TimerEvent: {}
+[16.152497] (-) TimerEvent: {}
+[16.253104] (-) TimerEvent: {}
+[16.353687] (-) TimerEvent: {}
+[16.454266] (-) TimerEvent: {}
+[16.524729] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[16.550229] (lslidar_msgs) StdoutLine: {'line': b'creating lslidar_msgs.egg-info\n'}
+[16.553701] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[16.554661] (-) TimerEvent: {}
+[16.556468] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[16.559333] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[16.563105] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[16.580755] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[16.602640] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[16.654957] (-) TimerEvent: {}
+[16.755596] (-) TimerEvent: {}
+[16.856199] (-) TimerEvent: {}
+[16.905044] (lslidar_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[16.957861] (-) TimerEvent: {}
+[17.058445] (-) TimerEvent: {}
+[17.159028] (-) TimerEvent: {}
+[17.259977] (-) TimerEvent: {}
+[17.364601] (-) TimerEvent: {}
+[17.465213] (-) TimerEvent: {}
+[17.565836] (-) TimerEvent: {}
+[17.666442] (-) TimerEvent: {}
+[17.767004] (-) TimerEvent: {}
+[17.867625] (-) TimerEvent: {}
+[17.968157] (-) TimerEvent: {}
+[18.068732] (-) TimerEvent: {}
+[18.169317] (-) TimerEvent: {}
+[18.269926] (-) TimerEvent: {}
+[18.370506] (-) TimerEvent: {}
+[18.471065] (-) TimerEvent: {}
+[18.571678] (-) TimerEvent: {}
+[18.672264] (-) TimerEvent: {}
+[18.772873] (-) TimerEvent: {}
+[18.873484] (-) TimerEvent: {}
+[18.974139] (-) TimerEvent: {}
+[19.074686] (-) TimerEvent: {}
+[19.100879] (lslidar_msgs) StdoutLine: {'line': b'[  2%] Built target lslidar_msgs__rs\n'}
+[19.174933] (-) TimerEvent: {}
+[19.275523] (-) TimerEvent: {}
+[19.376114] (-) TimerEvent: {}
+[19.476709] (-) TimerEvent: {}
+[19.577368] (-) TimerEvent: {}
+[19.678034] (-) TimerEvent: {}
+[19.778622] (-) TimerEvent: {}
+[19.879214] (-) TimerEvent: {}
+[19.979790] (-) TimerEvent: {}
+[20.087856] (-) TimerEvent: {}
+[20.188436] (-) TimerEvent: {}
+[20.289649] (-) TimerEvent: {}
+[20.390244] (-) TimerEvent: {}
+[20.490840] (-) TimerEvent: {}
+[20.591436] (-) TimerEvent: {}
+[20.692002] (-) TimerEvent: {}
+[20.792623] (-) TimerEvent: {}
+[20.893593] (-) TimerEvent: {}
+[20.994197] (-) TimerEvent: {}
+[21.094810] (-) TimerEvent: {}
+[21.200918] (-) TimerEvent: {}
+[21.301507] (-) TimerEvent: {}
+[21.402093] (-) TimerEvent: {}
+[21.502681] (-) TimerEvent: {}
+[21.603884] (-) TimerEvent: {}
+[21.713231] (-) TimerEvent: {}
+[21.814002] (-) TimerEvent: {}
+[21.914700] (-) TimerEvent: {}
+[22.015276] (-) TimerEvent: {}
+[22.115868] (-) TimerEvent: {}
+[22.216475] (-) TimerEvent: {}
+[22.317038] (-) TimerEvent: {}
+[22.417691] (-) TimerEvent: {}
+[22.518284] (-) TimerEvent: {}
+[22.618873] (-) TimerEvent: {}
+[22.719435] (-) TimerEvent: {}
+[22.822521] (-) TimerEvent: {}
+[22.923086] (-) TimerEvent: {}
+[23.023666] (-) TimerEvent: {}
+[23.124246] (-) TimerEvent: {}
+[23.224884] (-) TimerEvent: {}
+[23.325527] (-) TimerEvent: {}
+[23.426116] (-) TimerEvent: {}
+[23.526729] (-) TimerEvent: {}
+[23.627345] (-) TimerEvent: {}
+[23.728009] (-) TimerEvent: {}
+[23.828589] (-) TimerEvent: {}
+[23.929708] (-) TimerEvent: {}
+[24.030469] (-) TimerEvent: {}
+[24.131052] (-) TimerEvent: {}
+[24.231620] (-) TimerEvent: {}
+[24.332541] (-) TimerEvent: {}
+[24.433133] (-) TimerEvent: {}
+[24.533725] (-) TimerEvent: {}
+[24.634332] (-) TimerEvent: {}
+[24.734987] (-) TimerEvent: {}
+[24.835619] (-) TimerEvent: {}
+[24.936209] (-) TimerEvent: {}
+[25.036851] (-) TimerEvent: {}
+[25.147841] (-) TimerEvent: {}
+[25.248441] (-) TimerEvent: {}
+[25.349023] (-) TimerEvent: {}
+[25.449616] (-) TimerEvent: {}
+[25.550363] (-) TimerEvent: {}
+[25.650995] (-) TimerEvent: {}
+[25.751659] (-) TimerEvent: {}
+[25.852307] (-) TimerEvent: {}
+[25.952940] (-) TimerEvent: {}
+[26.053616] (-) TimerEvent: {}
+[26.154263] (-) TimerEvent: {}
+[26.254947] (-) TimerEvent: {}
+[26.355582] (-) TimerEvent: {}
+[26.456219] (-) TimerEvent: {}
+[26.556847] (-) TimerEvent: {}
+[26.657553] (-) TimerEvent: {}
+[26.713540] (lslidar_msgs) StdoutLine: {'line': b'[  2%] Built target lslidar_msgs__cpp\n'}
+[26.757854] (-) TimerEvent: {}
+[26.799596] (lslidar_msgs) StdoutLine: {'line': b'[  3%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[26.832673] (lslidar_msgs) StdoutLine: {'line': b'[  4%] Generating C++ introspection for ROS interfaces\n'}
+[26.842134] (lslidar_msgs) StdoutLine: {'line': b'[  5%] Generating C++ type support dispatch for ROS interfaces\n'}
+[26.858111] (-) TimerEvent: {}
+[26.958723] (-) TimerEvent: {}
+[27.066328] (-) TimerEvent: {}
+[27.167380] (-) TimerEvent: {}
+[27.268003] (-) TimerEvent: {}
+[27.368538] (-) TimerEvent: {}
+[27.469098] (-) TimerEvent: {}
+[27.569679] (-) TimerEvent: {}
+[27.670292] (-) TimerEvent: {}
+[27.739930] (lslidar_msgs) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_information__functions.c.o\n'}
+[27.762288] (lslidar_msgs) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o\n'}
+[27.770589] (-) TimerEvent: {}
+[27.784070] (lslidar_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/angle_distortion_correction__functions.c.o\n'}
+[27.795852] (lslidar_msgs) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/frame_rate__functions.c.o\n'}
+[27.838533] (lslidar_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/invalid_data__functions.c.o\n'}
+[27.870868] (-) TimerEvent: {}
+[27.971439] (-) TimerEvent: {}
+[28.072018] (-) TimerEvent: {}
+[28.172615] (-) TimerEvent: {}
+[28.273256] (-) TimerEvent: {}
+[28.373879] (-) TimerEvent: {}
+[28.474876] (-) TimerEvent: {}
+[28.575480] (-) TimerEvent: {}
+[28.676053] (-) TimerEvent: {}
+[28.691667] (lslidar_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/ip_and_port__functions.c.o\n'}
+[28.714201] (lslidar_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/motor_control__functions.c.o\n'}
+[28.776313] (-) TimerEvent: {}
+[28.870049] (lslidar_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/power_control__functions.c.o\n'}
+[28.874733] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/motor_speed__functions.c.o\n'}
+[28.876505] (-) TimerEvent: {}
+[28.960560] (lslidar_msgs) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/rfd_removal__functions.c.o\n'}
+[28.976811] (-) TimerEvent: {}
+[29.077414] (-) TimerEvent: {}
+[29.178007] (-) TimerEvent: {}
+[29.280084] (-) TimerEvent: {}
+[29.380708] (-) TimerEvent: {}
+[29.481288] (-) TimerEvent: {}
+[29.495274] (lslidar_msgs) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/standby_mode__functions.c.o\n'}
+[29.559629] (lslidar_msgs) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/tail_removal__functions.c.o\n'}
+[29.565667] (lslidar_msgs) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/srv/detail/time_mode__functions.c.o\n'}
+[29.581572] (-) TimerEvent: {}
+[29.682142] (-) TimerEvent: {}
+[29.782763] (-) TimerEvent: {}
+[29.883355] (-) TimerEvent: {}
+[29.983962] (-) TimerEvent: {}
+[30.084607] (-) TimerEvent: {}
+[30.185216] (-) TimerEvent: {}
+[30.258420] (lslidar_msgs) StdoutLine: {'line': b'[ 16%] Linking C shared library liblslidar_msgs__rosidl_generator_c.so\n'}
+[30.285492] (-) TimerEvent: {}
+[30.387711] (-) TimerEvent: {}
+[30.488244] (-) TimerEvent: {}
+[30.588798] (-) TimerEvent: {}
+[30.689887] (-) TimerEvent: {}
+[30.790490] (-) TimerEvent: {}
+[30.839174] (lslidar_msgs) StdoutLine: {'line': b'[ 16%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[30.890732] (-) TimerEvent: {}
+[30.991316] (-) TimerEvent: {}
+[30.993421] (lslidar_msgs) StdoutLine: {'line': b'[ 17%] Generating C type support for eProsima Fast-RTPS\n'}
+[31.026737] (lslidar_msgs) StdoutLine: {'line': b'[ 18%] Generating C introspection for ROS interfaces\n'}
+[31.060044] (lslidar_msgs) StdoutLine: {'line': b'[ 19%] Generating C type support dispatch for ROS interfaces\n'}
+[31.091554] (-) TimerEvent: {}
+[31.192132] (-) TimerEvent: {}
+[31.298892] (-) TimerEvent: {}
+[31.399453] (-) TimerEvent: {}
+[31.500031] (-) TimerEvent: {}
+[31.600677] (-) TimerEvent: {}
+[31.701302] (-) TimerEvent: {}
+[31.801941] (-) TimerEvent: {}
+[31.902545] (-) TimerEvent: {}
+[32.003124] (-) TimerEvent: {}
+[32.103718] (-) TimerEvent: {}
+[32.204250] (-) TimerEvent: {}
+[32.304788] (-) TimerEvent: {}
+[32.405349] (-) TimerEvent: {}
+[32.505893] (-) TimerEvent: {}
+[32.606474] (-) TimerEvent: {}
+[32.707061] (-) TimerEvent: {}
+[32.808558] (-) TimerEvent: {}
+[32.910405] (-) TimerEvent: {}
+[33.011035] (-) TimerEvent: {}
+[33.111617] (-) TimerEvent: {}
+[33.212540] (-) TimerEvent: {}
+[33.313110] (-) TimerEvent: {}
+[33.413737] (-) TimerEvent: {}
+[33.514410] (-) TimerEvent: {}
+[33.615005] (-) TimerEvent: {}
+[33.715574] (-) TimerEvent: {}
+[33.816160] (-) TimerEvent: {}
+[33.916745] (-) TimerEvent: {}
+[34.017294] (-) TimerEvent: {}
+[34.117849] (-) TimerEvent: {}
+[34.218385] (-) TimerEvent: {}
+[34.319013] (-) TimerEvent: {}
+[34.419612] (-) TimerEvent: {}
+[34.520146] (-) TimerEvent: {}
+[34.621043] (-) TimerEvent: {}
+[34.721662] (-) TimerEvent: {}
+[34.822242] (-) TimerEvent: {}
+[34.922839] (-) TimerEvent: {}
+[35.023425] (-) TimerEvent: {}
+[35.124008] (-) TimerEvent: {}
+[35.224567] (-) TimerEvent: {}
+[35.325127] (-) TimerEvent: {}
+[35.425739] (-) TimerEvent: {}
+[35.526328] (-) TimerEvent: {}
+[35.626951] (-) TimerEvent: {}
+[35.727520] (-) TimerEvent: {}
+[35.828104] (-) TimerEvent: {}
+[35.928656] (-) TimerEvent: {}
+[36.029191] (-) TimerEvent: {}
+[36.129732] (-) TimerEvent: {}
+[36.230275] (-) TimerEvent: {}
+[36.330872] (-) TimerEvent: {}
+[36.431492] (-) TimerEvent: {}
+[36.532101] (-) TimerEvent: {}
+[36.632680] (-) TimerEvent: {}
+[36.733267] (-) TimerEvent: {}
+[36.833866] (-) TimerEvent: {}
+[36.934441] (-) TimerEvent: {}
+[37.035185] (-) TimerEvent: {}
+[37.135774] (-) TimerEvent: {}
+[37.236322] (-) TimerEvent: {}
+[37.336868] (-) TimerEvent: {}
+[37.437521] (-) TimerEvent: {}
+[37.538235] (-) TimerEvent: {}
+[37.638817] (-) TimerEvent: {}
+[37.739425] (-) TimerEvent: {}
+[37.840009] (-) TimerEvent: {}
+[37.940593] (-) TimerEvent: {}
+[37.986215] (lslidar_msgs) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_information__type_support.cpp.o\n'}
+[38.034537] (lslidar_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/angle_distortion_correction__type_support.cpp.o\n'}
+[38.040830] (-) TimerEvent: {}
+[38.042838] (lslidar_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\n'}
+[38.141104] (-) TimerEvent: {}
+[38.241668] (-) TimerEvent: {}
+[38.342265] (-) TimerEvent: {}
+[38.442838] (-) TimerEvent: {}
+[38.543397] (-) TimerEvent: {}
+[38.643990] (-) TimerEvent: {}
+[38.744576] (-) TimerEvent: {}
+[38.845156] (-) TimerEvent: {}
+[38.945770] (-) TimerEvent: {}
+[39.046350] (-) TimerEvent: {}
+[39.146928] (-) TimerEvent: {}
+[39.247538] (-) TimerEvent: {}
+[39.348191] (-) TimerEvent: {}
+[39.448795] (-) TimerEvent: {}
+[39.549348] (-) TimerEvent: {}
+[39.649968] (-) TimerEvent: {}
+[39.750579] (-) TimerEvent: {}
+[39.851216] (-) TimerEvent: {}
+[39.951837] (-) TimerEvent: {}
+[40.052465] (-) TimerEvent: {}
+[40.153064] (-) TimerEvent: {}
+[40.253694] (-) TimerEvent: {}
+[40.354362] (-) TimerEvent: {}
+[40.455042] (-) TimerEvent: {}
+[40.555660] (-) TimerEvent: {}
+[40.656274] (-) TimerEvent: {}
+[40.756899] (-) TimerEvent: {}
+[40.866562] (-) TimerEvent: {}
+[40.967184] (-) TimerEvent: {}
+[41.067780] (-) TimerEvent: {}
+[41.168392] (-) TimerEvent: {}
+[41.268984] (-) TimerEvent: {}
+[41.369581] (-) TimerEvent: {}
+[41.470151] (-) TimerEvent: {}
+[41.570764] (-) TimerEvent: {}
+[41.671345] (-) TimerEvent: {}
+[41.772223] (-) TimerEvent: {}
+[41.872817] (-) TimerEvent: {}
+[41.977771] (-) TimerEvent: {}
+[42.078330] (-) TimerEvent: {}
+[42.193866] (-) TimerEvent: {}
+[42.248638] (lslidar_msgs) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/frame_rate__type_support.cpp.o\n'}
+[42.262851] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/invalid_data__type_support.cpp.o\n'}
+[42.277291] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_information__type_support.cpp.o\n'}
+[42.294606] (-) TimerEvent: {}
+[42.395630] (-) TimerEvent: {}
+[42.496312] (-) TimerEvent: {}
+[42.596894] (-) TimerEvent: {}
+[42.639688] (lslidar_msgs) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_information__type_support.cpp.o\n'}
+[42.697210] (-) TimerEvent: {}
+[42.699362] (lslidar_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\n'}
+[42.701393] (lslidar_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o\n'}
+[42.797494] (-) TimerEvent: {}
+[42.898124] (-) TimerEvent: {}
+[42.998680] (-) TimerEvent: {}
+[43.099255] (-) TimerEvent: {}
+[43.160992] (lslidar_msgs) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/angle_distortion_correction__type_support.cpp.o\n'}
+[43.199497] (-) TimerEvent: {}
+[43.300060] (-) TimerEvent: {}
+[43.400639] (-) TimerEvent: {}
+[43.501234] (-) TimerEvent: {}
+[43.580275] (lslidar_msgs) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/frame_rate__type_support.cpp.o\n'}
+[43.601524] (-) TimerEvent: {}
+[43.702136] (-) TimerEvent: {}
+[43.802761] (-) TimerEvent: {}
+[43.903439] (-) TimerEvent: {}
+[44.004038] (-) TimerEvent: {}
+[44.022779] (lslidar_msgs) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/invalid_data__type_support.cpp.o\n'}
+[44.104308] (-) TimerEvent: {}
+[44.206051] (-) TimerEvent: {}
+[44.306682] (-) TimerEvent: {}
+[44.407289] (-) TimerEvent: {}
+[44.475075] (lslidar_msgs) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/ip_and_port__type_support.cpp.o\n'}
+[44.507635] (-) TimerEvent: {}
+[44.608238] (-) TimerEvent: {}
+[44.727835] (-) TimerEvent: {}
+[44.829084] (-) TimerEvent: {}
+[44.929698] (-) TimerEvent: {}
+[45.004868] (lslidar_msgs) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/motor_control__type_support.cpp.o\n'}
+[45.029965] (-) TimerEvent: {}
+[45.130562] (-) TimerEvent: {}
+[45.231185] (-) TimerEvent: {}
+[45.331830] (-) TimerEvent: {}
+[45.432421] (-) TimerEvent: {}
+[45.451554] (lslidar_msgs) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/motor_speed__type_support.cpp.o\n'}
+[45.532674] (-) TimerEvent: {}
+[45.633291] (-) TimerEvent: {}
+[45.733909] (-) TimerEvent: {}
+[45.794157] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/power_control__type_support.cpp.o\n'}
+[45.834205] (-) TimerEvent: {}
+[45.934845] (-) TimerEvent: {}
+[46.035564] (-) TimerEvent: {}
+[46.064957] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/rfd_removal__type_support.cpp.o\n'}
+[46.135874] (-) TimerEvent: {}
+[46.162277] (lslidar_msgs) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/standby_mode__type_support.cpp.o\n'}
+[46.236164] (-) TimerEvent: {}
+[46.342690] (-) TimerEvent: {}
+[46.424748] (lslidar_msgs) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_information__type_support.cpp.o\n'}
+[46.442969] (-) TimerEvent: {}
+[46.484680] (lslidar_msgs) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o\n'}
+[46.543251] (-) TimerEvent: {}
+[46.559968] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/tail_removal__type_support.cpp.o\n'}
+[46.643571] (-) TimerEvent: {}
+[46.744248] (-) TimerEvent: {}
+[46.844988] (-) TimerEvent: {}
+[46.895127] (lslidar_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/srv/time_mode__type_support.cpp.o\n'}
+[46.924236] (lslidar_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/ip_and_port__type_support.cpp.o\n'}
+[46.945236] (-) TimerEvent: {}
+[47.045838] (-) TimerEvent: {}
+[47.146467] (-) TimerEvent: {}
+[47.247082] (-) TimerEvent: {}
+[47.348440] (-) TimerEvent: {}
+[47.449074] (-) TimerEvent: {}
+[47.456988] (lslidar_msgs) StdoutLine: {'line': b'[ 35%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[47.549346] (-) TimerEvent: {}
+[47.649973] (-) TimerEvent: {}
+[47.750648] (-) TimerEvent: {}
+[47.851328] (-) TimerEvent: {}
+[47.952001] (-) TimerEvent: {}
+[48.052650] (-) TimerEvent: {}
+[48.153329] (-) TimerEvent: {}
+[48.174669] (lslidar_msgs) StdoutLine: {'line': b'[ 35%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[48.253646] (-) TimerEvent: {}
+[48.354349] (-) TimerEvent: {}
+[48.422563] (lslidar_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/angle_distortion_correction__type_support.cpp.o\n'}
+[48.454638] (-) TimerEvent: {}
+[48.555274] (-) TimerEvent: {}
+[48.655908] (-) TimerEvent: {}
+[48.756560] (-) TimerEvent: {}
+[48.849047] (lslidar_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/frame_rate__type_support.cpp.o\n'}
+[48.856909] (-) TimerEvent: {}
+[48.957554] (-) TimerEvent: {}
+[48.967016] (lslidar_msgs) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/invalid_data__type_support.cpp.o\n'}
+[49.057880] (-) TimerEvent: {}
+[49.158473] (-) TimerEvent: {}
+[49.196715] (lslidar_msgs) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_information__type_support.c.o\n'}
+[49.260193] (-) TimerEvent: {}
+[49.365318] (-) TimerEvent: {}
+[49.465977] (-) TimerEvent: {}
+[49.566905] (-) TimerEvent: {}
+[49.667613] (-) TimerEvent: {}
+[49.668826] (lslidar_msgs) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_information__type_support_c.cpp.o\n'}
+[49.680369] (lslidar_msgs) StdoutLine: {'line': b'[ 39%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o\n'}
+[49.768032] (-) TimerEvent: {}
+[49.868655] (-) TimerEvent: {}
+[49.969271] (-) TimerEvent: {}
+[50.059953] (lslidar_msgs) StdoutLine: {'line': b'[ 40%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/angle_distortion_correction__type_support.c.o\n'}
+[50.069871] (-) TimerEvent: {}
+[50.170523] (-) TimerEvent: {}
+[50.271237] (-) TimerEvent: {}
+[50.371985] (-) TimerEvent: {}
+[50.472646] (-) TimerEvent: {}
+[50.555778] (lslidar_msgs) StdoutLine: {'line': b'[ 41%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/frame_rate__type_support.c.o\n'}
+[50.573007] (-) TimerEvent: {}
+[50.673655] (-) TimerEvent: {}
+[50.774280] (-) TimerEvent: {}
+[50.874931] (-) TimerEvent: {}
+[50.975574] (-) TimerEvent: {}
+[51.076665] (lslidar_msgs) StdoutLine: {'line': b'[ 41%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/invalid_data__type_support.c.o\n'}
+[51.077649] (-) TimerEvent: {}
+[51.178171] (-) TimerEvent: {}
+[51.278815] (-) TimerEvent: {}
+[51.379492] (-) TimerEvent: {}
+[51.480106] (-) TimerEvent: {}
+[51.499460] (lslidar_msgs) StdoutLine: {'line': b'[ 42%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/ip_and_port__type_support.c.o\n'}
+[51.580431] (-) TimerEvent: {}
+[51.590197] (lslidar_msgs) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o\n'}
+[51.680697] (-) TimerEvent: {}
+[51.781364] (-) TimerEvent: {}
+[51.805380] (lslidar_msgs) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/motor_control__type_support.cpp.o\n'}
+[51.881662] (-) TimerEvent: {}
+[51.982333] (-) TimerEvent: {}
+[52.017096] (lslidar_msgs) StdoutLine: {'line': b'[ 45%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/motor_control__type_support.c.o\n'}
+[52.082641] (-) TimerEvent: {}
+[52.106170] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/angle_distortion_correction__type_support.cpp.o\n'}
+[52.182930] (-) TimerEvent: {}
+[52.283528] (-) TimerEvent: {}
+[52.384185] (-) TimerEvent: {}
+[52.484811] (-) TimerEvent: {}
+[52.585421] (-) TimerEvent: {}
+[52.636663] (lslidar_msgs) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/motor_speed__type_support.c.o\n'}
+[52.685784] (-) TimerEvent: {}
+[52.786443] (-) TimerEvent: {}
+[52.887100] (-) TimerEvent: {}
+[52.987794] (-) TimerEvent: {}
+[53.088421] (-) TimerEvent: {}
+[53.135751] (lslidar_msgs) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/power_control__type_support.c.o\n'}
+[53.188777] (-) TimerEvent: {}
+[53.289450] (-) TimerEvent: {}
+[53.393018] (-) TimerEvent: {}
+[53.493648] (-) TimerEvent: {}
+[53.564664] (lslidar_msgs) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/rfd_removal__type_support.c.o\n'}
+[53.593955] (-) TimerEvent: {}
+[53.694614] (-) TimerEvent: {}
+[53.795266] (-) TimerEvent: {}
+[53.895923] (-) TimerEvent: {}
+[53.962603] (lslidar_msgs) StdoutLine: {'line': b'[ 49%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/standby_mode__type_support.c.o\n'}
+[54.031861] (-) TimerEvent: {}
+[54.160015] (-) TimerEvent: {}
+[54.260602] (-) TimerEvent: {}
+[54.364416] (-) TimerEvent: {}
+[54.378314] (lslidar_msgs) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/motor_control__type_support.cpp.o\n'}
+[54.384601] (lslidar_msgs) StdoutLine: {'line': b'[ 51%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/tail_removal__type_support.c.o\n'}
+[54.464732] (-) TimerEvent: {}
+[54.565423] (-) TimerEvent: {}
+[54.666107] (-) TimerEvent: {}
+[54.766782] (-) TimerEvent: {}
+[54.789839] (lslidar_msgs) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/motor_speed__type_support.cpp.o\n'}
+[54.867076] (-) TimerEvent: {}
+[54.899964] (lslidar_msgs) StdoutLine: {'line': b'[ 53%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/time_mode__type_support.c.o\n'}
+[54.967329] (-) TimerEvent: {}
+[55.068028] (-) TimerEvent: {}
+[55.168697] (-) TimerEvent: {}
+[55.257759] (lslidar_msgs) StdoutLine: {'line': b'[ 53%] Linking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[55.268964] (-) TimerEvent: {}
+[55.369641] (-) TimerEvent: {}
+[55.426688] (lslidar_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/frame_rate__type_support_c.cpp.o\n'}
+[55.469914] (-) TimerEvent: {}
+[55.570585] (-) TimerEvent: {}
+[55.671252] (-) TimerEvent: {}
+[55.722831] (lslidar_msgs) StdoutLine: {'line': b'[ 54%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[55.771542] (-) TimerEvent: {}
+[55.872252] (-) TimerEvent: {}
+[55.972953] (-) TimerEvent: {}
+[56.073645] (-) TimerEvent: {}
+[56.174295] (-) TimerEvent: {}
+[56.274981] (-) TimerEvent: {}
+[56.375640] (-) TimerEvent: {}
+[56.476295] (-) TimerEvent: {}
+[56.539379] (lslidar_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/frame_rate__type_support.cpp.o\n'}
+[56.576613] (-) TimerEvent: {}
+[56.677274] (-) TimerEvent: {}
+[56.778005] (-) TimerEvent: {}
+[56.878658] (-) TimerEvent: {}
+[56.979296] (-) TimerEvent: {}
+[57.079924] (-) TimerEvent: {}
+[57.180607] (-) TimerEvent: {}
+[57.226428] (lslidar_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/power_control__type_support.cpp.o\n'}
+[57.280921] (-) TimerEvent: {}
+[57.381586] (-) TimerEvent: {}
+[57.482271] (-) TimerEvent: {}
+[57.582943] (-) TimerEvent: {}
+[57.683638] (-) TimerEvent: {}
+[57.784346] (-) TimerEvent: {}
+[57.885047] (-) TimerEvent: {}
+[57.985742] (-) TimerEvent: {}
+[58.086393] (-) TimerEvent: {}
+[58.145321] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/power_control__type_support.cpp.o\n'}
+[58.186702] (-) TimerEvent: {}
+[58.287359] (-) TimerEvent: {}
+[58.388090] (-) TimerEvent: {}
+[58.488748] (-) TimerEvent: {}
+[58.543727] (lslidar_msgs) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/angle_distortion_correction__type_support_c.cpp.o\n'}
+[58.589036] (-) TimerEvent: {}
+[58.689660] (-) TimerEvent: {}
+[58.790269] (-) TimerEvent: {}
+[58.890920] (-) TimerEvent: {}
+[58.991578] (-) TimerEvent: {}
+[59.092255] (-) TimerEvent: {}
+[59.193067] (-) TimerEvent: {}
+[59.264212] (lslidar_msgs) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/rfd_removal__type_support.cpp.o\n'}
+[59.293373] (-) TimerEvent: {}
+[59.394039] (-) TimerEvent: {}
+[59.494696] (-) TimerEvent: {}
+[59.595388] (-) TimerEvent: {}
+[59.696101] (-) TimerEvent: {}
+[59.796797] (-) TimerEvent: {}
+[59.893987] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/invalid_data__type_support.cpp.o\n'}
+[59.897071] (-) TimerEvent: {}
+[59.997769] (-) TimerEvent: {}
+[60.099345] (-) TimerEvent: {}
+[60.200018] (-) TimerEvent: {}
+[60.300709] (-) TimerEvent: {}
+[60.401371] (-) TimerEvent: {}
+[60.502039] (-) TimerEvent: {}
+[60.602685] (-) TimerEvent: {}
+[60.703379] (-) TimerEvent: {}
+[60.804100] (-) TimerEvent: {}
+[60.904780] (-) TimerEvent: {}
+[61.005486] (-) TimerEvent: {}
+[61.106194] (-) TimerEvent: {}
+[61.207872] (-) TimerEvent: {}
+[61.252304] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/invalid_data__type_support_c.cpp.o\n'}
+[61.273780] (lslidar_msgs) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/rfd_removal__type_support.cpp.o\n'}
+[61.308120] (-) TimerEvent: {}
+[61.408737] (-) TimerEvent: {}
+[61.509377] (-) TimerEvent: {}
+[61.610018] (-) TimerEvent: {}
+[61.684202] (lslidar_msgs) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/standby_mode__type_support.cpp.o\n'}
+[61.711111] (-) TimerEvent: {}
+[61.811772] (-) TimerEvent: {}
+[61.912449] (-) TimerEvent: {}
+[62.013101] (-) TimerEvent: {}
+[62.113750] (-) TimerEvent: {}
+[62.214395] (-) TimerEvent: {}
+[62.315068] (-) TimerEvent: {}
+[62.415735] (-) TimerEvent: {}
+[62.516469] (-) TimerEvent: {}
+[62.617191] (-) TimerEvent: {}
+[62.717903] (-) TimerEvent: {}
+[62.818541] (-) TimerEvent: {}
+[62.919221] (-) TimerEvent: {}
+[63.019900] (-) TimerEvent: {}
+[63.120526] (-) TimerEvent: {}
+[63.221189] (-) TimerEvent: {}
+[63.321828] (-) TimerEvent: {}
+[63.422518] (-) TimerEvent: {}
+[63.523281] (-) TimerEvent: {}
+[63.624003] (-) TimerEvent: {}
+[63.679603] (lslidar_msgs) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/motor_control__type_support.cpp.o\n'}
+[63.724491] (-) TimerEvent: {}
+[63.825145] (-) TimerEvent: {}
+[63.925931] (-) TimerEvent: {}
+[63.951079] (lslidar_msgs) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/tail_removal__type_support.cpp.o\n'}
+[64.026253] (-) TimerEvent: {}
+[64.126911] (-) TimerEvent: {}
+[64.227619] (-) TimerEvent: {}
+[64.328251] (-) TimerEvent: {}
+[64.395756] (lslidar_msgs) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/ip_and_port__type_support_c.cpp.o\n'}
+[64.428536] (-) TimerEvent: {}
+[64.529227] (-) TimerEvent: {}
+[64.629895] (-) TimerEvent: {}
+[64.730544] (-) TimerEvent: {}
+[64.822023] (lslidar_msgs) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/standby_mode__type_support.cpp.o\n'}
+[64.840450] (-) TimerEvent: {}
+[64.941153] (-) TimerEvent: {}
+[65.047886] (-) TimerEvent: {}
+[65.148665] (-) TimerEvent: {}
+[65.249334] (-) TimerEvent: {}
+[65.349995] (-) TimerEvent: {}
+[65.450672] (-) TimerEvent: {}
+[65.551351] (-) TimerEvent: {}
+[65.651992] (-) TimerEvent: {}
+[65.752622] (-) TimerEvent: {}
+[65.853268] (-) TimerEvent: {}
+[65.953944] (-) TimerEvent: {}
+[66.054633] (-) TimerEvent: {}
+[66.155304] (-) TimerEvent: {}
+[66.258178] (-) TimerEvent: {}
+[66.321049] (lslidar_msgs) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/srv/time_mode__type_support.cpp.o\n'}
+[66.358447] (-) TimerEvent: {}
+[66.459151] (-) TimerEvent: {}
+[66.559857] (-) TimerEvent: {}
+[66.660535] (-) TimerEvent: {}
+[66.761223] (-) TimerEvent: {}
+[66.861890] (-) TimerEvent: {}
+[66.962572] (-) TimerEvent: {}
+[67.029789] (lslidar_msgs) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/ip_and_port__type_support.cpp.o\n'}
+[67.062879] (-) TimerEvent: {}
+[67.163526] (-) TimerEvent: {}
+[67.194064] (lslidar_msgs) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/motor_control__type_support_c.cpp.o\n'}
+[67.263805] (-) TimerEvent: {}
+[67.364479] (-) TimerEvent: {}
+[67.465136] (-) TimerEvent: {}
+[67.565796] (-) TimerEvent: {}
+[67.666430] (-) TimerEvent: {}
+[67.767092] (-) TimerEvent: {}
+[67.867820] (-) TimerEvent: {}
+[67.968453] (-) TimerEvent: {}
+[68.069080] (-) TimerEvent: {}
+[68.169760] (-) TimerEvent: {}
+[68.191247] (lslidar_msgs) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/tail_removal__type_support.cpp.o\n'}
+[68.270069] (-) TimerEvent: {}
+[68.371265] (-) TimerEvent: {}
+[68.471952] (-) TimerEvent: {}
+[68.572603] (-) TimerEvent: {}
+[68.673289] (-) TimerEvent: {}
+[68.774908] (-) TimerEvent: {}
+[68.852724] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[68.875231] (-) TimerEvent: {}
+[68.975927] (-) TimerEvent: {}
+[69.076612] (-) TimerEvent: {}
+[69.181966] (-) TimerEvent: {}
+[69.282643] (-) TimerEvent: {}
+[69.375972] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[69.383093] (-) TimerEvent: {}
+[69.483749] (-) TimerEvent: {}
+[69.584402] (-) TimerEvent: {}
+[69.685045] (-) TimerEvent: {}
+[69.785697] (-) TimerEvent: {}
+[69.886311] (-) TimerEvent: {}
+[69.978161] (lslidar_msgs) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/power_control__type_support_c.cpp.o\n'}
+[69.986607] (-) TimerEvent: {}
+[70.087219] (-) TimerEvent: {}
+[70.187828] (-) TimerEvent: {}
+[70.288439] (-) TimerEvent: {}
+[70.389085] (-) TimerEvent: {}
+[70.489837] (-) TimerEvent: {}
+[70.590481] (-) TimerEvent: {}
+[70.671836] (lslidar_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/motor_speed__type_support.cpp.o\n'}
+[70.690771] (-) TimerEvent: {}
+[70.791428] (-) TimerEvent: {}
+[70.892045] (-) TimerEvent: {}
+[70.992664] (-) TimerEvent: {}
+[71.093311] (-) TimerEvent: {}
+[71.193942] (-) TimerEvent: {}
+[71.294562] (-) TimerEvent: {}
+[71.395218] (-) TimerEvent: {}
+[71.495878] (-) TimerEvent: {}
+[71.596493] (-) TimerEvent: {}
+[71.697120] (-) TimerEvent: {}
+[71.797793] (-) TimerEvent: {}
+[71.817167] (lslidar_msgs) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/time_mode__type_support.cpp.o\n'}
+[71.898032] (-) TimerEvent: {}
+[71.998601] (-) TimerEvent: {}
+[72.099178] (-) TimerEvent: {}
+[72.199824] (-) TimerEvent: {}
+[72.300441] (-) TimerEvent: {}
+[72.401070] (-) TimerEvent: {}
+[72.501674] (-) TimerEvent: {}
+[72.533768] (lslidar_msgs) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/standby_mode__type_support_c.cpp.o\n'}
+[72.601956] (-) TimerEvent: {}
+[72.702561] (-) TimerEvent: {}
+[72.803168] (-) TimerEvent: {}
+[72.903777] (-) TimerEvent: {}
+[73.004358] (-) TimerEvent: {}
+[73.104963] (-) TimerEvent: {}
+[73.205606] (-) TimerEvent: {}
+[73.306262] (-) TimerEvent: {}
+[73.406924] (-) TimerEvent: {}
+[73.476751] (lslidar_msgs) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/power_control__type_support.cpp.o\n'}
+[73.507222] (-) TimerEvent: {}
+[73.607897] (-) TimerEvent: {}
+[73.711226] (-) TimerEvent: {}
+[73.815783] (-) TimerEvent: {}
+[73.916370] (-) TimerEvent: {}
+[74.010670] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 77%] Linking CXX executable aurora930_node\n'}
+[74.016637] (-) TimerEvent: {}
+[74.117255] (-) TimerEvent: {}
+[74.217939] (-) TimerEvent: {}
+[74.270450] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'/usr/bin/ld: cannot find -ldeptrum_stream_aurora900: No such file or directory\n'}
+[74.318462] (-) TimerEvent: {}
+[74.419207] (-) TimerEvent: {}
+[74.479632] (lslidar_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/motor_speed__type_support.cpp.o\n'}
+[74.519451] (-) TimerEvent: {}
+[74.625891] (-) TimerEvent: {}
+[74.726687] (-) TimerEvent: {}
+[74.827303] (-) TimerEvent: {}
+[74.927968] (-) TimerEvent: {}
+[75.022883] (lslidar_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/tail_removal__type_support_c.cpp.o\n'}
+[75.033030] (-) TimerEvent: {}
+[75.135011] (-) TimerEvent: {}
+[75.235652] (-) TimerEvent: {}
+[75.336270] (-) TimerEvent: {}
+[75.436907] (-) TimerEvent: {}
+[75.537643] (-) TimerEvent: {}
+[75.638339] (-) TimerEvent: {}
+[75.738969] (-) TimerEvent: {}
+[75.839607] (-) TimerEvent: {}
+[75.940254] (-) TimerEvent: {}
+[76.040878] (-) TimerEvent: {}
+[76.141477] (-) TimerEvent: {}
+[76.243495] (-) TimerEvent: {}
+[76.350709] (-) TimerEvent: {}
+[76.406418] (lslidar_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/standby_mode__type_support.cpp.o\n'}
+[76.450987] (-) TimerEvent: {}
+[76.551579] (-) TimerEvent: {}
+[76.652171] (-) TimerEvent: {}
+[76.754727] (-) TimerEvent: {}
+[76.858443] (-) TimerEvent: {}
+[76.965163] (-) TimerEvent: {}
+[77.067149] (-) TimerEvent: {}
+[77.167796] (-) TimerEvent: {}
+[77.268386] (-) TimerEvent: {}
+[77.287718] (lslidar_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/srv/detail/ip_and_port__type_support.cpp.o\n'}
+[77.302738] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[77.310931] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aurora930_node.dir/build.make:260: aurora930_node] Error 1\n'}
+[77.311882] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/aurora930_node.dir/all] Error 2\n'}
+[77.312540] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[77.368638] (-) TimerEvent: {}
+[77.469234] (-) TimerEvent: {}
+[77.483051] (lslidar_msgs) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/time_mode__type_support_c.cpp.o\n'}
+[77.569509] (-) TimerEvent: {}
+[77.670112] (-) TimerEvent: {}
+[77.770722] (-) TimerEvent: {}
+[77.871346] (-) TimerEvent: {}
+[77.971950] (-) TimerEvent: {}
+[78.072543] (-) TimerEvent: {}
+[78.173127] (-) TimerEvent: {}
+[78.273699] (-) TimerEvent: {}
+[78.374282] (-) TimerEvent: {}
+[78.474843] (-) TimerEvent: {}
+[78.575439] (-) TimerEvent: {}
+[78.676046] (-) TimerEvent: {}
+[78.776638] (-) TimerEvent: {}
+[78.877210] (-) TimerEvent: {}
+[78.977839] (-) TimerEvent: {}
+[79.078428] (-) TimerEvent: {}
+[79.179009] (-) TimerEvent: {}
+[79.279589] (-) TimerEvent: {}
+[79.380177] (-) TimerEvent: {}
+[79.403899] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/time_mode__type_support.cpp.o\n'}
+[79.480418] (-) TimerEvent: {}
+[79.580988] (-) TimerEvent: {}
+[79.681573] (-) TimerEvent: {}
+[79.782346] (-) TimerEvent: {}
+[79.845159] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/rfd_removal__type_support_c.cpp.o\n'}
+[79.882619] (-) TimerEvent: {}
+[79.983236] (-) TimerEvent: {}
+[79.995812] (lslidar_msgs) StdoutLine: {'line': b'[ 78%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[80.083496] (-) TimerEvent: {}
+[80.184089] (-) TimerEvent: {}
+[80.287031] (-) TimerEvent: {}
+[80.387665] (-) TimerEvent: {}
+[80.488229] (-) TimerEvent: {}
+[80.507440] (lslidar_msgs) StdoutLine: {'line': b'[ 78%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[80.588465] (-) TimerEvent: {}
+[80.689016] (-) TimerEvent: {}
+[80.789549] (-) TimerEvent: {}
+[80.890102] (-) TimerEvent: {}
+[80.990615] (-) TimerEvent: {}
+[81.091160] (-) TimerEvent: {}
+[81.191720] (-) TimerEvent: {}
+[81.292282] (-) TimerEvent: {}
+[81.392845] (-) TimerEvent: {}
+[81.493406] (-) TimerEvent: {}
+[81.593971] (-) TimerEvent: {}
+[81.694574] (-) TimerEvent: {}
+[81.795200] (-) TimerEvent: {}
+[81.895803] (-) TimerEvent: {}
+[81.996386] (-) TimerEvent: {}
+[82.092279] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/srv/detail/motor_speed__type_support_c.cpp.o\n'}
+[82.096578] (-) TimerEvent: {}
+[82.189957] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/tail_removal__type_support.cpp.o\n'}
+[82.196838] (-) TimerEvent: {}
+[82.297409] (-) TimerEvent: {}
+[82.398151] (-) TimerEvent: {}
+[82.498731] (-) TimerEvent: {}
+[82.599359] (-) TimerEvent: {}
+[82.700246] (-) TimerEvent: {}
+[82.800832] (-) TimerEvent: {}
+[82.901414] (-) TimerEvent: {}
+[83.001997] (-) TimerEvent: {}
+[83.102603] (-) TimerEvent: {}
+[83.203221] (-) TimerEvent: {}
+[83.303801] (-) TimerEvent: {}
+[83.404680] (-) TimerEvent: {}
+[83.505238] (-) TimerEvent: {}
+[83.605797] (-) TimerEvent: {}
+[83.706362] (-) TimerEvent: {}
+[83.806921] (-) TimerEvent: {}
+[83.907492] (-) TimerEvent: {}
+[84.008093] (-) TimerEvent: {}
+[84.108660] (-) TimerEvent: {}
+[84.209239] (-) TimerEvent: {}
+[84.309848] (-) TimerEvent: {}
+[84.374080] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[84.410088] (-) TimerEvent: {}
+[84.510671] (-) TimerEvent: {}
+[84.611266] (-) TimerEvent: {}
+[84.712582] (-) TimerEvent: {}
+[84.813198] (-) TimerEvent: {}
+[84.890712] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[84.913458] (-) TimerEvent: {}
+[85.014186] (-) TimerEvent: {}
+[85.066227] (lslidar_msgs) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/srv/detail/dds_fastrtps/rfd_removal__type_support.cpp.o\n'}
+[85.114430] (-) TimerEvent: {}
+[85.215002] (-) TimerEvent: {}
+[85.315557] (-) TimerEvent: {}
+[85.416104] (-) TimerEvent: {}
+[85.516646] (-) TimerEvent: {}
+[85.617209] (-) TimerEvent: {}
+[85.717795] (-) TimerEvent: {}
+[85.818333] (-) TimerEvent: {}
+[85.918836] (-) TimerEvent: {}
+[86.019377] (-) TimerEvent: {}
+[86.119934] (-) TimerEvent: {}
+[86.220481] (-) TimerEvent: {}
+[86.321062] (-) TimerEvent: {}
+[86.421633] (-) TimerEvent: {}
+[86.522218] (-) TimerEvent: {}
+[86.622800] (-) TimerEvent: {}
+[86.723392] (-) TimerEvent: {}
+[86.824000] (-) TimerEvent: {}
+[86.924615] (-) TimerEvent: {}
+[87.025212] (-) TimerEvent: {}
+[87.125827] (-) TimerEvent: {}
+[87.226395] (-) TimerEvent: {}
+[87.326985] (-) TimerEvent: {}
+[87.427608] (-) TimerEvent: {}
+[87.528172] (-) TimerEvent: {}
+[87.628733] (-) TimerEvent: {}
+[87.706343] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] Linking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[87.728972] (-) TimerEvent: {}
+[87.829566] (-) TimerEvent: {}
+[87.930199] (-) TimerEvent: {}
+[88.030771] (-) TimerEvent: {}
+[88.131349] (-) TimerEvent: {}
+[88.221981] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[88.231588] (-) TimerEvent: {}
+[88.328256] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] Built target lslidar_msgs\n'}
+[88.331827] (-) TimerEvent: {}
+[88.432385] (-) TimerEvent: {}
+[88.450179] (lslidar_msgs) StdoutLine: {'line': b'[ 83%] Generating Python code for ROS interfaces\n'}
+[88.532594] (-) TimerEvent: {}
+[88.633104] (-) TimerEvent: {}
+[88.733642] (-) TimerEvent: {}
+[88.834111] (-) TimerEvent: {}
+[88.934655] (-) TimerEvent: {}
+[89.035153] (-) TimerEvent: {}
+[89.135677] (-) TimerEvent: {}
+[89.236219] (-) TimerEvent: {}
+[89.336696] (-) TimerEvent: {}
+[89.437209] (-) TimerEvent: {}
+[89.537796] (-) TimerEvent: {}
+[89.638318] (-) TimerEvent: {}
+[89.738832] (-) TimerEvent: {}
+[89.839319] (-) TimerEvent: {}
+[89.939846] (-) TimerEvent: {}
+[90.040354] (-) TimerEvent: {}
+[90.140846] (-) TimerEvent: {}
+[90.241347] (-) TimerEvent: {}
+[90.341876] (-) TimerEvent: {}
+[90.442422] (-) TimerEvent: {}
+[90.542908] (-) TimerEvent: {}
+[90.643414] (-) TimerEvent: {}
+[90.743926] (-) TimerEvent: {}
+[90.844461] (-) TimerEvent: {}
+[90.944948] (-) TimerEvent: {}
+[91.045446] (-) TimerEvent: {}
+[91.145963] (-) TimerEvent: {}
+[91.246481] (-) TimerEvent: {}
+[91.347027] (-) TimerEvent: {}
+[91.447608] (-) TimerEvent: {}
+[91.548099] (-) TimerEvent: {}
+[91.648635] (-) TimerEvent: {}
+[91.749148] (-) TimerEvent: {}
+[91.849681] (-) TimerEvent: {}
+[91.950201] (-) TimerEvent: {}
+[92.050723] (-) TimerEvent: {}
+[92.151230] (-) TimerEvent: {}
+[92.251751] (-) TimerEvent: {}
+[92.352283] (-) TimerEvent: {}
+[92.452794] (-) TimerEvent: {}
+[92.553314] (-) TimerEvent: {}
+[92.653851] (-) TimerEvent: {}
+[92.754442] (-) TimerEvent: {}
+[92.855044] (-) TimerEvent: {}
+[92.955621] (-) TimerEvent: {}
+[93.056155] (-) TimerEvent: {}
+[93.156689] (-) TimerEvent: {}
+[93.267828] (-) TimerEvent: {}
+[93.368666] (-) TimerEvent: {}
+[93.469187] (-) TimerEvent: {}
+[93.569675] (-) TimerEvent: {}
+[93.670217] (-) TimerEvent: {}
+[93.770773] (-) TimerEvent: {}
+[93.871297] (-) TimerEvent: {}
+[93.971822] (-) TimerEvent: {}
+[94.072348] (-) TimerEvent: {}
+[94.172855] (-) TimerEvent: {}
+[94.273394] (-) TimerEvent: {}
+[94.373903] (-) TimerEvent: {}
+[94.474459] (-) TimerEvent: {}
+[94.574989] (-) TimerEvent: {}
+[94.675522] (-) TimerEvent: {}
+[94.776103] (-) TimerEvent: {}
+[94.876673] (-) TimerEvent: {}
+[94.977185] (-) TimerEvent: {}
+[95.077757] (-) TimerEvent: {}
+[95.178276] (-) TimerEvent: {}
+[95.278798] (-) TimerEvent: {}
+[95.379336] (-) TimerEvent: {}
+[95.479874] (-) TimerEvent: {}
+[95.580413] (-) TimerEvent: {}
+[95.680940] (-) TimerEvent: {}
+[95.781507] (-) TimerEvent: {}
+[95.882039] (-) TimerEvent: {}
+[95.982552] (-) TimerEvent: {}
+[96.083065] (-) TimerEvent: {}
+[96.183562] (-) TimerEvent: {}
+[96.284083] (-) TimerEvent: {}
+[96.384643] (-) TimerEvent: {}
+[96.485191] (-) TimerEvent: {}
+[96.585722] (-) TimerEvent: {}
+[96.686250] (-) TimerEvent: {}
+[96.786734] (-) TimerEvent: {}
+[96.887273] (-) TimerEvent: {}
+[96.987797] (-) TimerEvent: {}
+[97.088306] (-) TimerEvent: {}
+[97.188836] (-) TimerEvent: {}
+[97.289382] (-) TimerEvent: {}
+[97.389900] (-) TimerEvent: {}
+[97.490426] (-) TimerEvent: {}
+[97.590935] (-) TimerEvent: {}
+[97.691436] (-) TimerEvent: {}
+[97.792804] (-) TimerEvent: {}
+[97.893290] (-) TimerEvent: {}
+[97.993798] (-) TimerEvent: {}
+[98.094337] (-) TimerEvent: {}
+[98.194893] (-) TimerEvent: {}
+[98.295467] (-) TimerEvent: {}
+[98.396079] (-) TimerEvent: {}
+[98.496600] (-) TimerEvent: {}
+[98.597146] (-) TimerEvent: {}
+[98.697719] (-) TimerEvent: {}
+[98.798248] (-) TimerEvent: {}
+[98.898801] (-) TimerEvent: {}
+[98.999311] (-) TimerEvent: {}
+[99.099813] (-) TimerEvent: {}
+[99.200317] (-) TimerEvent: {}
+[99.300827] (-) TimerEvent: {}
+[99.401365] (-) TimerEvent: {}
+[99.501941] (-) TimerEvent: {}
+[99.602497] (-) TimerEvent: {}
+[99.703044] (-) TimerEvent: {}
+[99.803590] (-) TimerEvent: {}
+[99.904127] (-) TimerEvent: {}
+[100.004666] (-) TimerEvent: {}
+[100.105174] (-) TimerEvent: {}
+[100.205707] (-) TimerEvent: {}
+[100.306259] (-) TimerEvent: {}
+[100.406798] (-) TimerEvent: {}
+[100.507345] (-) TimerEvent: {}
+[100.607892] (-) TimerEvent: {}
+[100.708455] (-) TimerEvent: {}
+[100.808975] (-) TimerEvent: {}
+[100.909481] (-) TimerEvent: {}
+[101.009952] (-) TimerEvent: {}
+[101.110465] (-) TimerEvent: {}
+[101.211008] (-) TimerEvent: {}
+[101.311506] (-) TimerEvent: {}
+[101.412036] (-) TimerEvent: {}
+[101.512510] (-) TimerEvent: {}
+[101.613007] (-) TimerEvent: {}
+[101.713550] (-) TimerEvent: {}
+[101.814113] (-) TimerEvent: {}
+[101.914628] (-) TimerEvent: {}
+[102.015135] (-) TimerEvent: {}
+[102.115677] (-) TimerEvent: {}
+[102.216232] (-) TimerEvent: {}
+[102.317833] (-) TimerEvent: {}
+[102.418400] (-) TimerEvent: {}
+[102.518980] (-) TimerEvent: {}
+[102.619536] (-) TimerEvent: {}
+[102.720070] (-) TimerEvent: {}
+[102.820618] (-) TimerEvent: {}
+[102.921170] (-) TimerEvent: {}
+[103.021678] (-) TimerEvent: {}
+[103.122204] (-) TimerEvent: {}
+[103.222740] (-) TimerEvent: {}
+[103.323298] (-) TimerEvent: {}
+[103.423870] (-) TimerEvent: {}
+[103.524437] (-) TimerEvent: {}
+[103.625021] (-) TimerEvent: {}
+[103.725611] (-) TimerEvent: {}
+[103.826183] (-) TimerEvent: {}
+[103.926701] (-) TimerEvent: {}
+[104.027215] (-) TimerEvent: {}
+[104.127735] (-) TimerEvent: {}
+[104.228256] (-) TimerEvent: {}
+[104.328800] (-) TimerEvent: {}
+[104.429352] (-) TimerEvent: {}
+[104.529882] (-) TimerEvent: {}
+[104.630382] (-) TimerEvent: {}
+[104.730888] (-) TimerEvent: {}
+[104.831421] (-) TimerEvent: {}
+[104.931914] (-) TimerEvent: {}
+[105.032398] (-) TimerEvent: {}
+[105.132895] (-) TimerEvent: {}
+[105.233404] (-) TimerEvent: {}
+[105.333919] (-) TimerEvent: {}
+[105.434502] (-) TimerEvent: {}
+[105.535067] (-) TimerEvent: {}
+[105.635607] (-) TimerEvent: {}
+[105.736126] (-) TimerEvent: {}
+[105.836633] (-) TimerEvent: {}
+[105.937189] (-) TimerEvent: {}
+[106.037725] (-) TimerEvent: {}
+[106.138247] (-) TimerEvent: {}
+[106.238798] (-) TimerEvent: {}
+[106.339329] (-) TimerEvent: {}
+[106.439915] (-) TimerEvent: {}
+[106.540501] (-) TimerEvent: {}
+[106.641102] (-) TimerEvent: {}
+[106.741680] (-) TimerEvent: {}
+[106.842270] (-) TimerEvent: {}
+[106.938630] (lslidar_msgs) StdoutLine: {'line': b'[ 83%] Built target lslidar_msgs__py\n'}
+[106.942498] (-) TimerEvent: {}
+[107.038237] (lslidar_msgs) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_information_s.c.o\n'}
+[107.040307] (lslidar_msgs) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o\n'}
+[107.042712] (-) TimerEvent: {}
+[107.143274] (-) TimerEvent: {}
+[107.247836] (-) TimerEvent: {}
+[107.348430] (-) TimerEvent: {}
+[107.448995] (-) TimerEvent: {}
+[107.549549] (-) TimerEvent: {}
+[107.650372] (-) TimerEvent: {}
+[107.750970] (-) TimerEvent: {}
+[107.851571] (-) TimerEvent: {}
+[107.952224] (-) TimerEvent: {}
+[108.052822] (-) TimerEvent: {}
+[108.082510] (lslidar_msgs) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_motor_speed_s.c.o\n'}
+[108.153071] (-) TimerEvent: {}
+[108.253660] (-) TimerEvent: {}
+[108.310947] (lslidar_msgs) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_motor_control_s.c.o\n'}
+[108.354453] (-) TimerEvent: {}
+[108.390941] (lslidar_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_power_control_s.c.o\n'}
+[108.463197] (-) TimerEvent: {}
+[108.563867] (-) TimerEvent: {}
+[108.664490] (-) TimerEvent: {}
+[108.765107] (-) TimerEvent: {}
+[108.865731] (-) TimerEvent: {}
+[108.966724] (-) TimerEvent: {}
+[108.983538] (lslidar_msgs) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_rfd_removal_s.c.o\n'}
+[109.062442] (lslidar_msgs) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_tail_removal_s.c.o\n'}
+[109.066948] (-) TimerEvent: {}
+[109.167505] (-) TimerEvent: {}
+[109.268129] (-) TimerEvent: {}
+[109.368702] (-) TimerEvent: {}
+[109.469246] (-) TimerEvent: {}
+[109.569805] (-) TimerEvent: {}
+[109.670371] (-) TimerEvent: {}
+[109.743997] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_time_mode_s.c.o\n'}
+[109.744804] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_standby_mode_s.c.o\n'}
+[109.770617] (-) TimerEvent: {}
+[109.871156] (-) TimerEvent: {}
+[109.971691] (-) TimerEvent: {}
+[110.072218] (-) TimerEvent: {}
+[110.172729] (-) TimerEvent: {}
+[110.273265] (-) TimerEvent: {}
+[110.372589] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_ip_and_port_s.c.o\n'}
+[110.374470] (-) TimerEvent: {}
+[110.394705] (lslidar_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_invalid_data_s.c.o\n'}
+[110.474797] (-) TimerEvent: {}
+[110.575443] (-) TimerEvent: {}
+[110.676043] (-) TimerEvent: {}
+[110.776629] (-) TimerEvent: {}
+[110.877197] (-) TimerEvent: {}
+[110.977770] (-) TimerEvent: {}
+[111.047724] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_angle_distortion_correction_s.c.o\n'}
+[111.048499] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/srv/_frame_rate_s.c.o\n'}
+[111.078025] (-) TimerEvent: {}
+[111.178582] (-) TimerEvent: {}
+[111.279135] (-) TimerEvent: {}
+[111.379680] (-) TimerEvent: {}
+[111.480239] (-) TimerEvent: {}
+[111.580812] (-) TimerEvent: {}
+[111.681376] (-) TimerEvent: {}
+[111.686201] (lslidar_msgs) StdoutLine: {'line': b'[ 94%] Linking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[111.781643] (-) TimerEvent: {}
+[111.882243] (-) TimerEvent: {}
+[111.962035] (lslidar_msgs) StdoutLine: {'line': b'[ 94%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[111.982469] (-) TimerEvent: {}
+[112.057437] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[112.058381] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[112.082709] (-) TimerEvent: {}
+[112.187928] (-) TimerEvent: {}
+[112.288508] (-) TimerEvent: {}
+[112.389032] (-) TimerEvent: {}
+[112.491172] (-) TimerEvent: {}
+[112.591781] (-) TimerEvent: {}
+[112.692344] (-) TimerEvent: {}
+[112.792921] (-) TimerEvent: {}
+[112.893496] (-) TimerEvent: {}
+[112.994072] (-) TimerEvent: {}
+[113.094739] (-) TimerEvent: {}
+[113.195273] (-) TimerEvent: {}
+[113.210370] (lslidar_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[113.211259] (lslidar_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[113.295550] (-) TimerEvent: {}
+[113.397391] (-) TimerEvent: {}
+[113.449872] (lslidar_msgs) StdoutLine: {'line': b'[ 98%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[113.450808] (lslidar_msgs) StdoutLine: {'line': b'[ 98%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[113.497773] (-) TimerEvent: {}
+[113.549245] (lslidar_msgs) StdoutLine: {'line': b'[ 99%] Building C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[113.597995] (-) TimerEvent: {}
+[113.698537] (-) TimerEvent: {}
+[113.799081] (-) TimerEvent: {}
+[113.899638] (-) TimerEvent: {}
+[114.000193] (-) TimerEvent: {}
+[114.100742] (-) TimerEvent: {}
+[114.201322] (-) TimerEvent: {}
+[114.301892] (-) TimerEvent: {}
+[114.402476] (-) TimerEvent: {}
+[114.505401] (-) TimerEvent: {}
+[114.605968] (-) TimerEvent: {}
+[114.657379] (lslidar_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[114.706210] (-) TimerEvent: {}
+[114.806765] (-) TimerEvent: {}
+[114.872296] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[114.906988] (-) TimerEvent: {}
+[114.954264] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[114.958644] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[115.007193] (-) TimerEvent: {}
+[115.107771] (-) TimerEvent: {}
+[115.113973] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/driver_ws/build/lslidar_msgs'], 'cwd': '/userdata/driver_ws/build/lslidar_msgs', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-195_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 5332 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9e8d7dda-04ff-40cd-87c1-c06e5a182658.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '64369'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/driver_ws/build/lslidar_msgs'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 5332 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[115.208029] (-) TimerEvent: {}
+[115.308620] (-) TimerEvent: {}
+[115.362044] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[115.399620] (lslidar_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[115.401396] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[115.408794] (-) TimerEvent: {}
+[115.456190] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__functions.h\n'}
+[115.498034] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__struct.h\n'}
+[115.509036] (-) TimerEvent: {}
+[115.538337] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__type_support.h\n'}
+[115.581514] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[115.609283] (-) TimerEvent: {}
+[115.624380] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[115.666127] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[115.727160] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_information.h\n'}
+[115.728494] (-) TimerEvent: {}
+[115.755106] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[115.796524] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[115.828733] (-) TimerEvent: {}
+[115.838218] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/angle_distortion_correction.h\n'}
+[115.877133] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__functions.h\n'}
+[115.916999] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__struct.h\n'}
+[115.928911] (-) TimerEvent: {}
+[115.957445] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__type_support.h\n'}
+[115.998085] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__functions.h\n'}
+[116.029152] (-) TimerEvent: {}
+[116.037018] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__struct.h\n'}
+[116.077511] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__type_support.h\n'}
+[116.116134] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__functions.h\n'}
+[116.129364] (-) TimerEvent: {}
+[116.154747] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__struct.h\n'}
+[116.195875] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__type_support.h\n'}
+[116.219673] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[ 88%] Linking CXX executable sub_node\n'}
+[116.229585] (-) TimerEvent: {}
+[116.235131] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__functions.h\n'}
+[116.274663] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__struct.h\n'}
+[116.315764] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__type_support.h\n'}
+[116.329826] (-) TimerEvent: {}
+[116.358269] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__functions.h\n'}
+[116.397391] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.h\n'}
+[116.430066] (-) TimerEvent: {}
+[116.439453] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__type_support.h\n'}
+[116.482143] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__functions.h\n'}
+[116.528880] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.h\n'}
+[116.530199] (-) TimerEvent: {}
+[116.571163] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__type_support.h\n'}
+[116.611499] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__functions.h\n'}
+[116.630452] (-) TimerEvent: {}
+[116.655408] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__struct.h\n'}
+[116.691969] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[100%] Linking CXX executable sub_node_ci\n'}
+[116.696484] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__type_support.h\n'}
+[116.730670] (-) TimerEvent: {}
+[116.762365] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__functions.h\n'}
+[116.804788] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__struct.h\n'}
+[116.830968] (-) TimerEvent: {}
+[116.849229] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__type_support.h\n'}
+[116.893014] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__functions.h\n'}
+[116.931214] (-) TimerEvent: {}
+[116.934794] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__struct.h\n'}
+[116.977517] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__type_support.h\n'}
+[117.018765] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__functions.h\n'}
+[117.031442] (-) TimerEvent: {}
+[117.061817] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__struct.h\n'}
+[117.108832] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__type_support.h\n'}
+[117.131684] (-) TimerEvent: {}
+[117.153430] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__functions.h\n'}
+[117.197645] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__struct.h\n'}
+[117.231965] (-) TimerEvent: {}
+[117.240582] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__type_support.h\n'}
+[117.285246] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/frame_rate.h\n'}
+[117.329509] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/invalid_data.h\n'}
+[117.332136] (-) TimerEvent: {}
+[117.375359] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/ip_and_port.h\n'}
+[117.421223] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.h\n'}
+[117.432352] (-) TimerEvent: {}
+[117.467425] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.h\n'}
+[117.513987] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/power_control.h\n'}
+[117.532631] (-) TimerEvent: {}
+[117.560350] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/rfd_removal.h\n'}
+[117.606538] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/standby_mode.h\n'}
+[117.632973] (-) TimerEvent: {}
+[117.651587] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/tail_removal.h\n'}
+[117.694575] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_mode.h\n'}
+[117.733211] (-) TimerEvent: {}
+[117.743849] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[117.787351] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[117.833449] (-) TimerEvent: {}
+[117.834443] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_fastrtps_c.h\n'}
+[117.879473] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[117.921568] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[117.933662] (-) TimerEvent: {}
+[117.965128] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_fastrtps_c.h\n'}
+[118.009554] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_fastrtps_c.h\n'}
+[118.033900] (-) TimerEvent: {}
+[118.052241] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_fastrtps_c.h\n'}
+[118.097823] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_fastrtps_c.h\n'}
+[118.134167] (-) TimerEvent: {}
+[118.143240] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_c.h\n'}
+[118.190862] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_c.h\n'}
+[118.234428] (-) TimerEvent: {}
+[118.237621] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_fastrtps_c.h\n'}
+[118.284400] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_fastrtps_c.h\n'}
+[118.332841] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[118.334655] (-) TimerEvent: {}
+[118.377483] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_fastrtps_c.h\n'}
+[118.423331] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[118.434929] (-) TimerEvent: {}
+[118.470971] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_introspection_c.h\n'}
+[118.513456] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[118.535190] (-) TimerEvent: {}
+[118.559196] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[118.604817] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_introspection_c.h\n'}
+[118.635469] (-) TimerEvent: {}
+[118.647788] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_introspection_c.h\n'}
+[118.689445] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_introspection_c.h\n'}
+[118.731970] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_introspection_c.h\n'}
+[118.735658] (-) TimerEvent: {}
+[118.775015] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_c.h\n'}
+[118.815613] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_c.h\n'}
+[118.835895] (-) TimerEvent: {}
+[118.858070] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_introspection_c.h\n'}
+[118.897078] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_introspection_c.h\n'}
+[118.936008] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_introspection_c.h\n'}
+[118.936849] (-) TimerEvent: {}
+[118.976172] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_introspection_c.h\n'}
+[119.013020] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_introspection_c.h\n'}
+[119.037113] (-) TimerEvent: {}
+[119.056263] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__builder.hpp\n'}
+[119.097204] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__struct.hpp\n'}
+[119.137348] (-) TimerEvent: {}
+[119.138815] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__traits.hpp\n'}
+[119.178772] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[119.219806] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[119.237589] (-) TimerEvent: {}
+[119.258001] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[119.297304] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_information.hpp\n'}
+[119.337507] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[119.338408] (-) TimerEvent: {}
+[119.374915] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/angle_distortion_correction.hpp\n'}
+[119.415184] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__builder.hpp\n'}
+[119.438680] (-) TimerEvent: {}
+[119.455785] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__struct.hpp\n'}
+[119.495066] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__traits.hpp\n'}
+[119.535266] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__builder.hpp\n'}
+[119.538823] (-) TimerEvent: {}
+[119.575598] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__struct.hpp\n'}
+[119.615204] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__traits.hpp\n'}
+[119.639072] (-) TimerEvent: {}
+[119.654874] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__builder.hpp\n'}
+[119.696944] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__struct.hpp\n'}
+[119.738041] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__traits.hpp\n'}
+[119.739395] (-) TimerEvent: {}
+[119.780111] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__builder.hpp\n'}
+[119.821808] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__struct.hpp\n'}
+[119.839694] (-) TimerEvent: {}
+[119.866453] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__traits.hpp\n'}
+[119.907164] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__builder.hpp\n'}
+[119.939862] (-) TimerEvent: {}
+[119.954545] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__struct.hpp\n'}
+[120.001162] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__traits.hpp\n'}
+[120.040129] (-) TimerEvent: {}
+[120.045302] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__builder.hpp\n'}
+[120.089763] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__struct.hpp\n'}
+[120.129001] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__traits.hpp\n'}
+[120.140290] (-) TimerEvent: {}
+[120.173871] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__builder.hpp\n'}
+[120.216295] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__struct.hpp\n'}
+[120.240517] (-) TimerEvent: {}
+[120.260960] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__traits.hpp\n'}
+[120.308752] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__builder.hpp\n'}
+[120.340753] (-) TimerEvent: {}
+[120.352975] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__struct.hpp\n'}
+[120.393307] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__traits.hpp\n'}
+[120.435347] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__builder.hpp\n'}
+[120.440940] (-) TimerEvent: {}
+[120.476153] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__struct.hpp\n'}
+[120.514303] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__traits.hpp\n'}
+[120.541164] (-) TimerEvent: {}
+[120.555000] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__builder.hpp\n'}
+[120.594047] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__struct.hpp\n'}
+[120.632504] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__traits.hpp\n'}
+[120.641371] (-) TimerEvent: {}
+[120.671304] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__builder.hpp\n'}
+[120.709134] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__struct.hpp\n'}
+[120.741586] (-) TimerEvent: {}
+[120.748443] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__traits.hpp\n'}
+[120.788348] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/frame_rate.hpp\n'}
+[120.832340] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/invalid_data.hpp\n'}
+[120.841822] (-) TimerEvent: {}
+[120.883088] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/ip_and_port.hpp\n'}
+[120.925459] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_control.hpp\n'}
+[120.942014] (-) TimerEvent: {}
+[120.969431] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/motor_speed.hpp\n'}
+[121.007803] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/power_control.hpp\n'}
+[121.042188] (-) TimerEvent: {}
+[121.048924] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/rfd_removal.hpp\n'}
+[121.095344] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/standby_mode.hpp\n'}
+[121.135673] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/tail_removal.hpp\n'}
+[121.142367] (-) TimerEvent: {}
+[121.186635] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/time_mode.hpp\n'}
+[121.235933] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.242572] (-) TimerEvent: {}
+[121.275026] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.316147] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[121.342803] (-) TimerEvent: {}
+[121.354120] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.392469] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.432347] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.443045] (-) TimerEvent: {}
+[121.473291] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.514084] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.543314] (-) TimerEvent: {}
+[121.557283] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.599842] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.637408] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.643524] (-) TimerEvent: {}
+[121.675622] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.712927] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.743749] (-) TimerEvent: {}
+[121.793879] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[121.836809] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_information__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.843984] (-) TimerEvent: {}
+[121.876673] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.915292] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/angle_distortion_correction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.944229] (-) TimerEvent: {}
+[121.953347] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/frame_rate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[121.994645] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/invalid_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.032762] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/ip_and_port__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.044452] (-) TimerEvent: {}
+[122.073062] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.116119] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/motor_speed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.144670] (-) TimerEvent: {}
+[122.153927] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.191888] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/rfd_removal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.231161] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/standby_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.244909] (-) TimerEvent: {}
+[122.270282] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/tail_removal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.309386] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/srv/detail/time_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[122.345148] (-) TimerEvent: {}
+[122.351656] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[122.395880] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[122.436179] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/PKG-INFO\n'}
+[122.445381] (-) TimerEvent: {}
+[122.474832] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/SOURCES.txt\n'}
+[122.512878] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/dependency_links.txt\n'}
+[122.545635] (-) TimerEvent: {}
+[122.552884] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-5.1.1-py3.10.egg-info/top_level.txt\n'}
+[122.595908] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py\n'}
+[122.635228] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[122.645810] (-) TimerEvent: {}
+[122.676242] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[122.713399] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[122.746033] (-) TimerEvent: {}
+[122.751286] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[122.792314] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[122.833009] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[122.846234] (-) TimerEvent: {}
+[122.871011] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[122.911694] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py\n'}
+[122.946412] (-) TimerEvent: {}
+[122.950849] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information.py\n'}
+[122.989893] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information_s.c\n'}
+[123.030548] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[123.046628] (-) TimerEvent: {}
+[123.069187] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[123.109377] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/__init__.py\n'}
+[123.146855] (-) TimerEvent: {}
+[123.148306] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction.py\n'}
+[123.186875] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction_s.c\n'}
+[123.226457] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate.py\n'}
+[123.247081] (-) TimerEvent: {}
+[123.267666] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate_s.c\n'}
+[123.307730] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data.py\n'}
+[123.347364] (-) TimerEvent: {}
+[123.349344] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data_s.c\n'}
+[123.390519] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port.py\n'}
+[123.429533] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port_s.c\n'}
+[123.447945] (-) TimerEvent: {}
+[123.471874] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control.py\n'}
+[123.512268] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control_s.c\n'}
+[123.547821] (-) TimerEvent: {}
+[123.554909] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed.py\n'}
+[123.595070] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed_s.c\n'}
+[123.636034] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control.py\n'}
+[123.648047] (-) TimerEvent: {}
+[123.677449] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control_s.c\n'}
+[123.718952] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal.py\n'}
+[123.748278] (-) TimerEvent: {}
+[123.758631] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal_s.c\n'}
+[123.798535] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode.py\n'}
+[123.836961] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode_s.c\n'}
+[123.848619] (-) TimerEvent: {}
+[123.876846] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal.py\n'}
+[123.918793] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal_s.c\n'}
+[123.948855] (-) TimerEvent: {}
+[123.958191] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode.py\n'}
+[123.998562] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode_s.c\n'}
+[124.040519] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[124.042158] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[124.044017] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[124.045209] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/rust_packages/lslidar_msgs\n'}
+[124.049017] (-) TimerEvent: {}
+[124.085453] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/Cargo.toml\n'}
+[124.126383] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/build.rs\n'}
+[124.149223] (-) TimerEvent: {}
+[124.167188] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/lib.rs\n'}
+[124.207529] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg.rs\n'}
+[124.249482] (-) TimerEvent: {}
+[124.250340] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg/rmw.rs\n'}
+[124.292069] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/srv.rs\n'}
+[124.333492] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/rust/src/srv/rmw.rs\n'}
+[124.349705] (-) TimerEvent: {}
+[124.372865] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarInformation.idl\n'}
+[124.411597] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[124.449942] (-) TimerEvent: {}
+[124.453565] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection.idl\n'}
+[124.494738] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate.idl\n'}
+[124.535275] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData.idl\n'}
+[124.550164] (-) TimerEvent: {}
+[124.576526] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort.idl\n'}
+[124.615209] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.idl\n'}
+[124.650379] (-) TimerEvent: {}
+[124.653944] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.idl\n'}
+[124.693644] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl.idl\n'}
+[124.733361] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval.idl\n'}
+[124.750622] (-) TimerEvent: {}
+[124.773866] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode.idl\n'}
+[124.815004] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval.idl\n'}
+[124.850847] (-) TimerEvent: {}
+[124.854402] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode.idl\n'}
+[124.895405] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarInformation.msg\n'}
+[124.936173] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[124.951134] (-) TimerEvent: {}
+[124.975467] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection.srv\n'}
+[125.016527] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection_Request.msg\n'}
+[125.051372] (-) TimerEvent: {}
+[125.055256] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/AngleDistortionCorrection_Response.msg\n'}
+[125.095919] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate.srv\n'}
+[125.137258] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate_Request.msg\n'}
+[125.151599] (-) TimerEvent: {}
+[125.175612] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/FrameRate_Response.msg\n'}
+[125.199971] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[100%] Built target sub_node\n'}
+[125.213408] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData.srv\n'}
+[125.251825] (-) TimerEvent: {}
+[125.255152] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData_Request.msg\n'}
+[125.268461] (deptrum-ros-driver-aurora930) StdoutLine: {'line': b'[100%] Built target sub_node_ci\n'}
+[125.273143] (deptrum-ros-driver-aurora930) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[125.280673] (deptrum-ros-driver-aurora930) CommandEnded: {'returncode': 2}
+[125.352096] (-) TimerEvent: {}
+[125.452692] (-) TimerEvent: {}
+[125.461969] (deptrum-ros-driver-aurora930) JobEnded: {'identifier': 'deptrum-ros-driver-aurora930', 'rc': 2}
+[125.521879] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/InvalidData_Response.msg\n'}
+[125.522606] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort.srv\n'}
+[125.523108] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort_Request.msg\n'}
+[125.523530] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/IpAndPort_Response.msg\n'}
+[125.523928] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl.srv\n'}
+[125.524327] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Request.msg\n'}
+[125.538735] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorControl_Response.msg\n'}
+[125.552917] (-) TimerEvent: {}
+[125.581823] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed.srv\n'}
+[125.620507] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Request.msg\n'}
+[125.653132] (-) TimerEvent: {}
+[125.659305] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/MotorSpeed_Response.msg\n'}
+[125.698035] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl.srv\n'}
+[125.739227] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl_Request.msg\n'}
+[125.753294] (-) TimerEvent: {}
+[125.782492] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/PowerControl_Response.msg\n'}
+[125.825512] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval.srv\n'}
+[125.853525] (-) TimerEvent: {}
+[125.866781] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval_Request.msg\n'}
+[125.907809] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/RfdRemoval_Response.msg\n'}
+[125.948719] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode.srv\n'}
+[125.953697] (-) TimerEvent: {}
+[125.996172] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode_Request.msg\n'}
+[126.041727] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/StandbyMode_Response.msg\n'}
+[126.053908] (-) TimerEvent: {}
+[126.084774] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval.srv\n'}
+[126.126483] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval_Request.msg\n'}
+[126.154120] (-) TimerEvent: {}
+[126.167873] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TailRemoval_Response.msg\n'}
+[126.212929] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode.srv\n'}
+[126.254400] (-) TimerEvent: {}
+[126.258608] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode_Request.msg\n'}
+[126.299877] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/srv/TimeMode_Response.msg\n'}
+[126.343397] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[126.354589] (-) TimerEvent: {}
+[126.385927] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[126.454870] (-) TimerEvent: {}
+[126.457653] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[126.501856] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[126.543843] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[126.555057] (-) TimerEvent: {}
+[126.585016] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[126.625793] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[126.655294] (-) TimerEvent: {}
+[126.666726] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[126.709235] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[126.755512] (-) TimerEvent: {}
+[126.792842] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[126.832912] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[126.855730] (-) TimerEvent: {}
+[126.874424] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[126.915386] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[126.955963] (-) TimerEvent: {}
+[126.956914] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[126.997495] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[127.038946] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[127.056162] (-) TimerEvent: {}
+[127.080635] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[127.126602] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[127.156443] (-) TimerEvent: {}
+[127.167335] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[127.213113] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[127.254199] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[127.256609] (-) TimerEvent: {}
+[127.296603] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[127.356847] (-) TimerEvent: {}
+[127.370578] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[127.408367] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""\n'}
+[127.410163] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[127.413812] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[127.414874] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[127.416711] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[127.417668] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[127.419365] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[127.420256] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[127.422799] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[127.423831] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[127.427443] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[127.429169] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[127.432405] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[127.457036] (-) TimerEvent: {}
+[127.557550] (-) TimerEvent: {}
+[127.658145] (-) TimerEvent: {}
+[127.758660] (-) TimerEvent: {}
+[127.798565] (lslidar_msgs) StdoutLine: {'line': b"Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...\n"}
+[127.799507] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...\n"}
+[127.800158] (lslidar_msgs) StdoutLine: {'line': b"Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...\n"}
+[127.800748] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...\n"}
+[127.801320] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_information.py'...\n"}
+[127.801871] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...\n"}
+[127.802475] (lslidar_msgs) StdoutLine: {'line': b"Listing '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv'...\n"}
+[127.803012] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/__init__.py'...\n"}
+[127.803538] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_angle_distortion_correction.py'...\n"}
+[127.804102] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_frame_rate.py'...\n"}
+[127.804718] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_invalid_data.py'...\n"}
+[127.805223] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_ip_and_port.py'...\n"}
+[127.805713] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_control.py'...\n"}
+[127.806192] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_motor_speed.py'...\n"}
+[127.806666] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_power_control.py'...\n"}
+[127.807138] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_rfd_removal.py'...\n"}
+[127.807681] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_standby_mode.py'...\n"}
+[127.808184] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_tail_removal.py'...\n"}
+[127.808667] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/userdata/driver_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/srv/_time_mode.py'...\n"}
+[127.842074] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[127.844743] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/userdata/driver_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""\n'}
+[127.845459] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[127.846506] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[127.847770] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[127.849302] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[127.850686] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[127.852272] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[127.853695] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[127.855110] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[127.856466] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[127.857759] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[127.858738] (-) TimerEvent: {}
+[127.859175] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[127.860380] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[127.861725] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[127.863049] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[127.864247] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[127.865437] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[127.866722] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /userdata/driver_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[127.877084] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 'SIGINT'}
+[127.889338] (lslidar_driver) JobSkipped: {'identifier': 'lslidar_driver'}
+[127.889672] (-) EventReactorShutdown: {}

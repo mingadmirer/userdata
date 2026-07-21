@@ -1,0 +1,13 @@
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarInformation.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPacket.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/AngleDistortionCorrection.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/FrameRate.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/InvalidData.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/IpAndPort.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/MotorControl.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/MotorSpeed.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/PowerControl.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/RfdRemoval.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/StandbyMode.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/TailRemoval.idl
+/userdata/driver_ws/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:srv/TimeMode.idl

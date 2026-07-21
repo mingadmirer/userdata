@@ -1,0 +1,1 @@
+/userdata/driver_ws/build/lslidar_msgs/rosidl_typesupport_introspection_c/lslidar_msgs/srv/detail/power_control__rosidl_typesupport_introspection_c.h

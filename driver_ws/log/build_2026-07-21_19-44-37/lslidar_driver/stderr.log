@@ -1,0 +1,13 @@
+** WARNING ** io features related to pcap will be disabled
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    STREAM_SDK_TYPE
+
+
+c++: fatal error: Killed signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lslidar_driver.dir/build.make:104: CMakeFiles/lslidar_driver.dir/src/lslidar_ch_driver.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lslidar_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
