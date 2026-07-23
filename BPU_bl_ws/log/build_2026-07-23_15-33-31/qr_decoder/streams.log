@@ -1,0 +1,20 @@
+[4.924s] Invoking command in '/userdata/BPU_bl_ws/build/qr_decoder': PYTHONPATH=/userdata/BPU_bl_ws/build/qr_decoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/BPU_bl_ws/build/qr_decoder/build --no-deps symlink_data
+[7.055s] running develop
+[8.411s] running egg_info
+[8.412s] writing qr_decoder.egg-info/PKG-INFO
+[8.413s] writing dependency_links to qr_decoder.egg-info/dependency_links.txt
+[8.415s] writing entry points to qr_decoder.egg-info/entry_points.txt
+[8.416s] writing requirements to qr_decoder.egg-info/requires.txt
+[8.417s] writing top-level names to qr_decoder.egg-info/top_level.txt
+[8.429s] reading manifest file 'qr_decoder.egg-info/SOURCES.txt'
+[8.434s] writing manifest file 'qr_decoder.egg-info/SOURCES.txt'
+[8.445s] running build_ext
+[8.447s] Creating /userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages/qr-decoder.egg-link (link to .)
+[8.454s] Installing qr_cropper_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin
+[8.455s] Installing qr_decode_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin
+[8.457s] 
+[8.458s] Installed /userdata/BPU_bl_ws/build/qr_decoder
+[8.459s] running symlink_data
+[8.460s] creating /userdata/BPU_bl_ws/install/qr_decoder/share/qr_decoder/launch
+[8.460s] symbolically linking /userdata/BPU_bl_ws/build/qr_decoder/launch/qr_pipeline.launch.py -> /userdata/BPU_bl_ws/install/qr_decoder/share/qr_decoder/launch
+[8.733s] Invoked command in '/userdata/BPU_bl_ws/build/qr_decoder' returned '0': PYTHONPATH=/userdata/BPU_bl_ws/build/qr_decoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/BPU_bl_ws/build/qr_decoder/build --no-deps symlink_data

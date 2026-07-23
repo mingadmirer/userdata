@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/userdata/BPU_bl_ws/build/qr_decoder/scripts/qr_cropper_node' -> '/userdata/BPU_bl_ws/install/qr_decoder/lib/qr_decoder/qr_cropper_node'

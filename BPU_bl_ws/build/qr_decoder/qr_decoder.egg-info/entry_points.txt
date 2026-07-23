@@ -1,0 +1,4 @@
+[console_scripts]
+qr_cropper_node = qr_decoder.qr_decoder_node:main
+qr_decode_node = qr_decoder.qr_decode_node:main
+

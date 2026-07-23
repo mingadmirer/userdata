@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing qr_decoder.egg-info/PKG-INFO
+writing dependency_links to qr_decoder.egg-info/dependency_links.txt
+writing entry points to qr_decoder.egg-info/entry_points.txt
+writing requirements to qr_decoder.egg-info/requires.txt
+writing top-level names to qr_decoder.egg-info/top_level.txt
+reading manifest file 'qr_decoder.egg-info/SOURCES.txt'
+writing manifest file 'qr_decoder.egg-info/SOURCES.txt'
+running build_ext
+Creating /userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages/qr-decoder.egg-link (link to .)
+Installing qr_cropper_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin
+Installing qr_decode_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin
+
+Installed /userdata/BPU_bl_ws/build/qr_decoder
+running symlink_data
+symbolically linking /userdata/BPU_bl_ws/build/qr_decoder/scripts/qr_cropper_node -> /userdata/BPU_bl_ws/install/qr_decoder/lib/qr_decoder
+error: [Errno 17] File exists: '/userdata/BPU_bl_ws/build/qr_decoder/scripts/qr_cropper_node' -> '/userdata/BPU_bl_ws/install/qr_decoder/lib/qr_decoder/qr_cropper_node'

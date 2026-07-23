@@ -23,6 +23,12 @@ BPU_bl_ws/
 │   │       └── custom_4/                   ← 4 类障碍物检测配置
 │   │           ├── model.json
 │   │           └── custom_4class.list
+│   ├── qr_decoder/               ← QR 码裁切 + 解码
+│   │   ├── launch/
+│   │   │   └── qr_pipeline.launch.py       ← 一键启动裁切+解码
+│   │   └── qr_decoder/
+│   │       ├── qr_decoder_node.py          ← DNN bbox → 裁切 /qr_crop
+│   │       └── qr_decode_node.py           ← 矫正 + 解码 → /qr_result
 │   └── utils/                   ← symlink → ../dev_ws/src/origincar/utils
 ├── build/
 ├── install/
@@ -69,6 +75,39 @@ ros2 launch bpu_bringup usb_camera_yolo.launch.py \
 
 检测框格式：`类别名(置信度)`，如 `line(0.923)`。左侧面板可控制各类可视化开关。
 
+## QR 码检测
+
+当使用 4 类模型（含 `qrcode`）时，可以启动 QR 码裁切和解码节点：
+
+```bash
+# 终端1：DNN 推理（默认用4类模型）
+ros2 launch bpu_bringup usb_camera_yolo.launch.py \
+    dnn_example_config_file:=config/custom_4/model.json
+
+# 终端2：QR 裁切 + 解码
+ros2 launch qr_decoder qr_pipeline.launch.py
+
+# 终端3：查看解码结果
+ros2 topic echo /qr_result
+```
+
+### 解码流程
+
+```
+/qr_crop 图像 (DNN bbox裁切)
+  │
+  ├─① CLAHE 增强对比度 → detectAndDecode 直接解
+  ├─② 失败 → detect() 拿4角点 → warpPerspective 拉正 → decode
+  └─③ 还失败 → 增强图也透视矫正 → 再 decode
+  │
+  └─→ /qr_result (std_msgs/String) + 终端日志
+```
+
+| 话题 | 类型 | 说明 |
+|------|------|------|
+| `/qr_crop` | `sensor_msgs/Image` | DNN 检测 qrcode 后裁切的码图 |
+| `/qr_result` | `std_msgs/String` | 解码出的文本内容 |
+
 ## 添加自己的模型
 
 1. 将 RTM `.bin` 模型文件放到 `/opt/hobot/model/x5/custom/`
@@ -107,4 +146,11 @@ dnn_node_example → /hobot_dnn_detection (BPU 推理 + 检测结果)
   │
   ▼
 websocket → 浏览器 (MJPEG + AI 检测数据 WebSocket 推流)
+
+  │ (qrcode 检测到后)
+  ▼
+qr_cropper → /qr_crop (裁切图)
+  │
+  ▼
+qr_decode → /qr_result (解码文本)
 ```

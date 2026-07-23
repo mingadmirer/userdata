@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from qr_decoder.qr_decoder_node import main
+main()

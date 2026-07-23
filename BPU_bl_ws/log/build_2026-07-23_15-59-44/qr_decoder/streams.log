@@ -1,0 +1,18 @@
+[4.507s] Invoking command in '/userdata/BPU_bl_ws/build/qr_decoder': PYTHONPATH=/userdata/BPU_bl_ws/build/qr_decoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/BPU_bl_ws/build/qr_decoder/build --no-deps symlink_data
+[6.396s] running develop
+[7.566s] running egg_info
+[7.567s] writing qr_decoder.egg-info/PKG-INFO
+[7.569s] writing dependency_links to qr_decoder.egg-info/dependency_links.txt
+[7.570s] writing entry points to qr_decoder.egg-info/entry_points.txt
+[7.571s] writing requirements to qr_decoder.egg-info/requires.txt
+[7.572s] writing top-level names to qr_decoder.egg-info/top_level.txt
+[7.582s] reading manifest file 'qr_decoder.egg-info/SOURCES.txt'
+[7.587s] writing manifest file 'qr_decoder.egg-info/SOURCES.txt'
+[7.596s] running build_ext
+[7.597s] Creating /userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages/qr-decoder.egg-link (link to .)
+[7.602s] Installing qr_cropper_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin
+[7.603s] Installing qr_decode_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin
+[7.605s] 
+[7.605s] Installed /userdata/BPU_bl_ws/build/qr_decoder
+[7.606s] running symlink_data
+[7.857s] Invoked command in '/userdata/BPU_bl_ws/build/qr_decoder' returned '0': PYTHONPATH=/userdata/BPU_bl_ws/build/qr_decoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/BPU_bl_ws/build/qr_decoder/build --no-deps symlink_data
