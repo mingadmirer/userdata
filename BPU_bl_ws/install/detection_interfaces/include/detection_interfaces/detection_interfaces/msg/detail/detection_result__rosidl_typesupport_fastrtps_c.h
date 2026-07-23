@@ -1,0 +1,1 @@
+/userdata/BPU_bl_ws/build/detection_interfaces/rosidl_typesupport_fastrtps_c/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_c.h

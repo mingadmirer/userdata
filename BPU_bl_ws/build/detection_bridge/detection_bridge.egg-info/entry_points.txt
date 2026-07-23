@@ -1,0 +1,3 @@
+[console_scripts]
+detection_bridge_node = detection_bridge.bridge_node:main
+

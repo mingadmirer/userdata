@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.000546] (-) JobUnselected: {'identifier': 'bpu_bringup'}
+[0.001380] (-) JobUnselected: {'identifier': 'qr_decoder'}
+[0.001641] (-) JobUnselected: {'identifier': 'utils'}
+[0.003032] (detection_interfaces) JobQueued: {'identifier': 'detection_interfaces', 'dependencies': OrderedDict()}
+[0.003969] (detection_bridge) JobQueued: {'identifier': 'detection_bridge', 'dependencies': OrderedDict([('detection_interfaces', '/userdata/BPU_bl_ws/install/detection_interfaces')])}
+[0.004907] (detection_interfaces) JobStarted: {'identifier': 'detection_interfaces'}
+[0.055284] (detection_interfaces) JobProgress: {'identifier': 'detection_interfaces', 'progress': 'cmake'}
+[0.058723] (detection_interfaces) JobProgress: {'identifier': 'detection_interfaces', 'progress': 'build'}
+[0.062830] (detection_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/BPU_bl_ws/build/detection_interfaces', '--', '-j8', '-l8'], 'cwd': '/userdata/BPU_bl_ws/build/detection_interfaces', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-216_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 13545 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-09f438ed-40e3-413f-9ee3-96c4519b2cfb.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '37679'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('CLAUDE_PID', '4181'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/BPU_bl_ws/build/detection_interfaces'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 13545 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098778] (-) TimerEvent: {}
+[0.199365] (-) TimerEvent: {}
+[0.277267] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_generator_c\n'}
+[0.299608] (-) TimerEvent: {}
+[0.314003] (detection_interfaces) StdoutLine: {'line': b'[  5%] Built target detection_interfaces__rs\n'}
+[0.316099] (detection_interfaces) StdoutLine: {'line': b'[  5%] Built target detection_interfaces__cpp\n'}
+[0.331316] (detection_interfaces) StdoutLine: {'line': b'[ 15%] Built target detection_interfaces__rosidl_generator_c\n'}
+[0.353650] (detection_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_symlink_detection_interfaces\n'}
+[0.387922] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_c\n'}
+[0.390947] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.392445] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.399864] (-) TimerEvent: {}
+[0.403413] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_cpp\n'}
+[0.407218] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.409874] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.450210] (detection_interfaces) StdoutLine: {'line': b'[ 25%] Built target detection_interfaces__rosidl_typesupport_c\n'}
+[0.453658] (detection_interfaces) StdoutLine: {'line': b'[ 35%] Built target detection_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.457184] (detection_interfaces) StdoutLine: {'line': b'[ 45%] Built target detection_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.472350] (detection_interfaces) StdoutLine: {'line': b'[ 62%] Built target detection_interfaces__rosidl_typesupport_cpp\n'}
+[0.473710] (detection_interfaces) StdoutLine: {'line': b'[ 65%] Built target detection_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.475435] (detection_interfaces) StdoutLine: {'line': b'[ 75%] Built target detection_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.500272] (-) TimerEvent: {}
+[0.572090] (detection_interfaces) StdoutLine: {'line': b'[ 75%] Built target detection_interfaces\n'}
+[0.600495] (-) TimerEvent: {}
+[0.670171] (detection_interfaces) StdoutLine: {'line': b'[ 77%] Built target detection_interfaces__py\n'}
+[0.700704] (-) TimerEvent: {}
+[0.738387] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_generator_py\n'}
+[0.792960] (detection_interfaces) StdoutLine: {'line': b'[ 85%] Built target detection_interfaces__rosidl_generator_py\n'}
+[0.800941] (-) TimerEvent: {}
+[0.856500] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.857906] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.858697] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.901149] (-) TimerEvent: {}
+[0.911749] (detection_interfaces) StdoutLine: {'line': b'[100%] Built target detection_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.912630] (detection_interfaces) StdoutLine: {'line': b'[100%] Built target detection_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.913212] (detection_interfaces) StdoutLine: {'line': b'[100%] Built target detection_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.001363] (-) TimerEvent: {}
+[1.101869] (-) TimerEvent: {}
+[1.202322] (-) TimerEvent: {}
+[1.302731] (-) TimerEvent: {}
+[1.403188] (-) TimerEvent: {}
+[1.503668] (-) TimerEvent: {}
+[1.604164] (-) TimerEvent: {}
+[1.704734] (-) TimerEvent: {}
+[1.805245] (-) TimerEvent: {}
+[1.905735] (-) TimerEvent: {}
+[2.006197] (-) TimerEvent: {}
+[2.106664] (-) TimerEvent: {}
+[2.146214] (detection_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.150430] (detection_interfaces) StdoutLine: {'line': b'writing detection_interfaces.egg-info/PKG-INFO\n'}
+[2.151603] (detection_interfaces) StdoutLine: {'line': b'writing dependency_links to detection_interfaces.egg-info/dependency_links.txt\n'}
+[2.152810] (detection_interfaces) StdoutLine: {'line': b'writing top-level names to detection_interfaces.egg-info/top_level.txt\n'}
+[2.169152] (detection_interfaces) StdoutLine: {'line': b"reading manifest file 'detection_interfaces.egg-info/SOURCES.txt'\n"}
+[2.173090] (detection_interfaces) StdoutLine: {'line': b"writing manifest file 'detection_interfaces.egg-info/SOURCES.txt'\n"}
+[2.206909] (-) TimerEvent: {}
+[2.307462] (-) TimerEvent: {}
+[2.388447] (detection_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_detection_interfaces_egg\n'}
+[2.407686] (-) TimerEvent: {}
+[2.457095] (detection_interfaces) CommandEnded: {'returncode': 0}
+[2.460703] (detection_interfaces) JobProgress: {'identifier': 'detection_interfaces', 'progress': 'install'}
+[2.505641] (detection_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/BPU_bl_ws/build/detection_interfaces'], 'cwd': '/userdata/BPU_bl_ws/build/detection_interfaces', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-216_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 13545 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-09f438ed-40e3-413f-9ee3-96c4519b2cfb.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '37679'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('CLAUDE_PID', '4181'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/BPU_bl_ws/build/detection_interfaces'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 13545 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[2.511654] (-) TimerEvent: {}
+[2.547338] (detection_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.550056] (detection_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.551356] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/rosidl_interfaces/detection_interfaces\n'}
+[2.553379] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__functions.h\n'}
+[2.555194] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__struct.h\n'}
+[2.556431] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__type_support.h\n'}
+[2.557595] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__functions.h\n'}
+[2.558572] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__struct.h\n'}
+[2.560034] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__type_support.h\n'}
+[2.560677] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_array.h\n'}
+[2.561266] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_result.h\n'}
+[2.562359] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.563561] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/library_path.sh\n'}
+[2.564089] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/library_path.dsv\n'}
+[2.564563] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[2.565625] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_c.h\n'}
+[2.566670] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.567463] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__builder.hpp\n'}
+[2.568554] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__struct.hpp\n'}
+[2.569343] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__traits.hpp\n'}
+[2.569828] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__builder.hpp\n'}
+[2.570295] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__struct.hpp\n'}
+[2.570767] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__traits.hpp\n'}
+[2.571952] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_array.hpp\n'}
+[2.573291] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_result.hpp\n'}
+[2.574081] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.576417] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.577139] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.578767] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_introspection_c.h\n'}
+[2.579483] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_c.h\n'}
+[2.580714] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.581872] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.582522] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.585080] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/pythonpath.sh\n'}
+[2.585827] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/pythonpath.dsv\n'}
+[2.586451] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.587234] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.589873] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.591621] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.593202] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/__init__.py\n'}
+[2.594732] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.595342] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.596347] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.597328] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.597907] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.598923] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.599859] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/libdetection_interfaces__rosidl_generator_py.so\n'}
+[2.600394] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/__init__.py\n'}
+[2.601308] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array.py\n'}
+[2.602982] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array_s.c\n'}
+[2.603915] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result.py\n'}
+[2.604857] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result_s.c\n'}
+[2.606021] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.606937] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.607887] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.608959] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/rust_packages/detection_interfaces\n'}
+[2.610289] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/Cargo.toml\n'}
+[2.611195] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/build.rs\n'}
+[2.612052] (-) TimerEvent: {}
+[2.612538] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/lib.rs\n'}
+[2.613416] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/msg.rs\n'}
+[2.614326] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/msg/rmw.rs\n'}
+[2.615581] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionResult.idl\n'}
+[2.616144] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionArray.idl\n'}
+[2.616652] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionResult.msg\n'}
+[2.617163] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionArray.msg\n'}
+[2.617655] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/package_run_dependencies/detection_interfaces\n'}
+[2.618129] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/parent_prefix_path/detection_interfaces\n'}
+[2.618715] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/ament_prefix_path.sh\n'}
+[2.619201] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.619661] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/path.sh\n'}
+[2.620127] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/path.dsv\n'}
+[2.620586] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.bash\n'}
+[2.621046] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.sh\n'}
+[2.621542] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.zsh\n'}
+[2.622008] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.dsv\n'}
+[2.622474] (detection_interfaces) StdoutLine: {'line': b'-- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/package.dsv\n'}
+[2.657613] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/packages/detection_interfaces\n'}
+[2.659141] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.660712] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.662389] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.664013] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.665556] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.666782] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.667517] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.668700] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfacesConfig.cmake\n'}
+[2.669703] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfacesConfig-version.cmake\n'}
+[2.670244] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/package.xml\n'}
+[2.671146] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_c.so\n'}
+[2.672036] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.672569] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.673418] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.673908] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_c.so\n'}
+[2.674710] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.675232] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.712258] (-) TimerEvent: {}
+[2.812726] (-) TimerEvent: {}
+[2.882795] (detection_interfaces) StdoutLine: {'line': b"Listing '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces'...\n"}
+[2.883630] (detection_interfaces) StdoutLine: {'line': b"Listing '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg'...\n"}
+[2.912958] (-) TimerEvent: {}
+[2.922293] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_py.so\n'}
+[2.924100] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.925760] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.929382] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.931232] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.932121] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.933051] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.933758] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.934415] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.935046] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.935712] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.936311] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.936889] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.937462] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.938033] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.938668] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.940185] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.942931] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.944002] (detection_interfaces) CommandEnded: {'returncode': 0}
+[3.016798] (-) TimerEvent: {}
+[3.099435] (detection_interfaces) JobEnded: {'identifier': 'detection_interfaces', 'rc': 0}
+[3.106684] (detection_bridge) JobStarted: {'identifier': 'detection_bridge'}
+[3.116956] (-) TimerEvent: {}
+[3.217455] (-) TimerEvent: {}
+[3.317976] (-) TimerEvent: {}
+[3.418505] (-) TimerEvent: {}
+[3.519006] (-) TimerEvent: {}
+[3.619540] (-) TimerEvent: {}
+[3.720107] (-) TimerEvent: {}
+[3.820688] (-) TimerEvent: {}
+[3.921211] (-) TimerEvent: {}
+[4.021716] (-) TimerEvent: {}
+[4.122220] (-) TimerEvent: {}
+[4.222731] (-) TimerEvent: {}
+[4.323228] (-) TimerEvent: {}
+[4.423710] (-) TimerEvent: {}
+[4.524205] (-) TimerEvent: {}
+[4.624745] (-) TimerEvent: {}
+[4.725267] (-) TimerEvent: {}
+[4.825792] (-) TimerEvent: {}
+[4.926338] (-) TimerEvent: {}
+[5.026855] (-) TimerEvent: {}
+[5.129012] (-) TimerEvent: {}
+[5.229490] (-) TimerEvent: {}
+[5.329978] (-) TimerEvent: {}
+[5.430491] (-) TimerEvent: {}
+[5.530990] (-) TimerEvent: {}
+[5.631515] (-) TimerEvent: {}
+[5.732040] (-) TimerEvent: {}
+[5.832540] (-) TimerEvent: {}
+[5.933037] (-) TimerEvent: {}
+[6.033526] (-) TimerEvent: {}
+[6.134002] (-) TimerEvent: {}
+[6.234470] (-) TimerEvent: {}
+[6.334979] (-) TimerEvent: {}
+[6.435451] (-) TimerEvent: {}
+[6.535945] (-) TimerEvent: {}
+[6.636458] (-) TimerEvent: {}
+[6.736973] (-) TimerEvent: {}
+[6.837471] (-) TimerEvent: {}
+[6.938035] (-) TimerEvent: {}
+[7.038674] (-) TimerEvent: {}
+[7.139151] (-) TimerEvent: {}
+[7.239606] (-) TimerEvent: {}
+[7.340071] (-) TimerEvent: {}
+[7.440612] (-) TimerEvent: {}
+[7.541211] (-) TimerEvent: {}
+[7.636698] (detection_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/userdata/BPU_bl_ws/build/detection_bridge/build', '--no-deps', 'symlink_data'], 'cwd': '/userdata/BPU_bl_ws/build/detection_bridge', 'env': {'ANTHROPIC_MODEL': 'deepseek-v4-pro[1m]', 'AI_AGENT': 'claude-code_2-1-216_agent', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '10.20.179.36 13545 22', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata/dev_ws', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-09f438ed-40e3-413f-9ee3-96c4519b2cfb.sock', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-v4-pro[1m]', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js', 'CLAUDE_CODE_CHILD_SESSION': '1', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'CLAUDE_CODE_SSE_PORT': '37679', 'XDG_SESSION_CLASS': 'user', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-v4-pro[1m]', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/0', 'CLAUDE_EFFORT': 'high', 'CLAUDE_PID': '4181', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-v4-flash', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-542defa892.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'ANTHROPIC_AUTH_TOKEN': 'sk-f3aae6b04a344439914906c5855e7726', 'CLAUDE_CODE_SESSION_ID': '64da2a8a-d359-444c-bb01-2226036eda69', 'CLAUDECODE': '1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/BPU_bl_ws/build/detection_bridge', 'COPILOT_DEBUG_NONCE': '3c39f077c7b1a9208cc6243afd7431f9', 'SSH_CONNECTION': '10.20.179.36 13545 10.20.179.24 22', 'CLAUDE_CODE_EXECPATH': '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe', 'PYTHONPATH': '/userdata/BPU_bl_ws/build/detection_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[7.645179] (-) TimerEvent: {}
+[7.745624] (-) TimerEvent: {}
+[7.846131] (-) TimerEvent: {}
+[7.946611] (-) TimerEvent: {}
+[8.047095] (-) TimerEvent: {}
+[8.147606] (-) TimerEvent: {}
+[8.248147] (-) TimerEvent: {}
+[8.348672] (-) TimerEvent: {}
+[8.449139] (-) TimerEvent: {}
+[8.549603] (-) TimerEvent: {}
+[8.650099] (-) TimerEvent: {}
+[8.750610] (-) TimerEvent: {}
+[8.851107] (-) TimerEvent: {}
+[8.951606] (-) TimerEvent: {}
+[9.052102] (-) TimerEvent: {}
+[9.152593] (-) TimerEvent: {}
+[9.253090] (-) TimerEvent: {}
+[9.353620] (-) TimerEvent: {}
+[9.454107] (-) TimerEvent: {}
+[9.510466] (detection_bridge) StdoutLine: {'line': b'running develop\n'}
+[9.554325] (-) TimerEvent: {}
+[9.654825] (-) TimerEvent: {}
+[9.755320] (-) TimerEvent: {}
+[9.855810] (-) TimerEvent: {}
+[9.956286] (-) TimerEvent: {}
+[10.056729] (-) TimerEvent: {}
+[10.157192] (-) TimerEvent: {}
+[10.257720] (-) TimerEvent: {}
+[10.358233] (-) TimerEvent: {}
+[10.458738] (-) TimerEvent: {}
+[10.559252] (-) TimerEvent: {}
+[10.659752] (-) TimerEvent: {}
+[10.670070] (detection_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[10.670933] (detection_bridge) StdoutLine: {'line': b'creating detection_bridge.egg-info\n'}
+[10.671884] (detection_bridge) StdoutLine: {'line': b'writing detection_bridge.egg-info/PKG-INFO\n'}
+[10.672837] (detection_bridge) StdoutLine: {'line': b'writing dependency_links to detection_bridge.egg-info/dependency_links.txt\n'}
+[10.674343] (detection_bridge) StdoutLine: {'line': b'writing entry points to detection_bridge.egg-info/entry_points.txt\n'}
+[10.674965] (detection_bridge) StdoutLine: {'line': b'writing requirements to detection_bridge.egg-info/requires.txt\n'}
+[10.675897] (detection_bridge) StdoutLine: {'line': b'writing top-level names to detection_bridge.egg-info/top_level.txt\n'}
+[10.676480] (detection_bridge) StdoutLine: {'line': b"writing manifest file 'detection_bridge.egg-info/SOURCES.txt'\n"}
+[10.684927] (detection_bridge) StdoutLine: {'line': b"reading manifest file 'detection_bridge.egg-info/SOURCES.txt'\n"}
+[10.689513] (detection_bridge) StdoutLine: {'line': b"writing manifest file 'detection_bridge.egg-info/SOURCES.txt'\n"}
+[10.699011] (detection_bridge) StdoutLine: {'line': b'running build_ext\n'}
+[10.700431] (detection_bridge) StdoutLine: {'line': b'Creating /userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages/detection-bridge.egg-link (link to .)\n'}
+[10.705649] (detection_bridge) StdoutLine: {'line': b'Installing detection_bridge_node script to /userdata/BPU_bl_ws/install/detection_bridge/bin\n'}
+[10.707554] (detection_bridge) StdoutLine: {'line': b'\n'}
+[10.710884] (detection_bridge) StdoutLine: {'line': b'Installed /userdata/BPU_bl_ws/build/detection_bridge\n'}
+[10.711887] (detection_bridge) StdoutLine: {'line': b'running symlink_data\n'}
+[10.712496] (detection_bridge) StdoutLine: {'line': b'creating /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index\n'}
+[10.713069] (detection_bridge) StdoutLine: {'line': b'creating /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index/resource_index\n'}
+[10.713600] (detection_bridge) StdoutLine: {'line': b'creating /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index/resource_index/packages\n'}
+[10.714112] (detection_bridge) StdoutLine: {'line': b'symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/resource/detection_bridge -> /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index/resource_index/packages\n'}
+[10.714612] (detection_bridge) StdoutLine: {'line': b'symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/package.xml -> /userdata/BPU_bl_ws/install/detection_bridge/share/detection_bridge\n'}
+[10.715099] (detection_bridge) StdoutLine: {'line': b'creating /userdata/BPU_bl_ws/install/detection_bridge/share/detection_bridge/launch\n'}
+[10.715569] (detection_bridge) StdoutLine: {'line': b'symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/launch/detection_bridge.launch.py -> /userdata/BPU_bl_ws/install/detection_bridge/share/detection_bridge/launch\n'}
+[10.716038] (detection_bridge) StdoutLine: {'line': b'creating /userdata/BPU_bl_ws/install/detection_bridge/lib/detection_bridge\n'}
+[10.716494] (detection_bridge) StdoutLine: {'line': b'symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/scripts/detection_bridge_node -> /userdata/BPU_bl_ws/install/detection_bridge/lib/detection_bridge\n'}
+[10.759985] (-) TimerEvent: {}
+[10.860543] (-) TimerEvent: {}
+[10.953926] (detection_bridge) CommandEnded: {'returncode': 0}
+[10.960645] (-) TimerEvent: {}
+[11.033582] (detection_bridge) JobEnded: {'identifier': 'detection_bridge', 'rc': 0}
+[11.036504] (-) EventReactorShutdown: {}

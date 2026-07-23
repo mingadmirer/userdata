@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating detection_bridge.egg-info
+writing detection_bridge.egg-info/PKG-INFO
+writing dependency_links to detection_bridge.egg-info/dependency_links.txt
+writing entry points to detection_bridge.egg-info/entry_points.txt
+writing requirements to detection_bridge.egg-info/requires.txt
+writing top-level names to detection_bridge.egg-info/top_level.txt
+writing manifest file 'detection_bridge.egg-info/SOURCES.txt'
+reading manifest file 'detection_bridge.egg-info/SOURCES.txt'
+writing manifest file 'detection_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages/detection-bridge.egg-link (link to .)
+Installing detection_bridge_node script to /userdata/BPU_bl_ws/install/detection_bridge/bin
+
+Installed /userdata/BPU_bl_ws/build/detection_bridge
+running symlink_data
+creating /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index
+creating /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index/resource_index
+creating /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index/resource_index/packages
+symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/resource/detection_bridge -> /userdata/BPU_bl_ws/install/detection_bridge/share/ament_index/resource_index/packages
+symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/package.xml -> /userdata/BPU_bl_ws/install/detection_bridge/share/detection_bridge
+creating /userdata/BPU_bl_ws/install/detection_bridge/share/detection_bridge/launch
+symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/launch/detection_bridge.launch.py -> /userdata/BPU_bl_ws/install/detection_bridge/share/detection_bridge/launch
+creating /userdata/BPU_bl_ws/install/detection_bridge/lib/detection_bridge
+symbolically linking /userdata/BPU_bl_ws/build/detection_bridge/scripts/detection_bridge_node -> /userdata/BPU_bl_ws/install/detection_bridge/lib/detection_bridge

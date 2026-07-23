@@ -29,6 +29,15 @@ BPU_bl_ws/
 │   │   └── qr_decoder/
 │   │       ├── qr_decoder_node.py          ← DNN bbox → 裁切 /qr_crop
 │   │       └── qr_decode_node.py           ← 矫正 + 解码 → /qr_result
+│   ├── detection_interfaces/      ← 自定义检测消息接口
+│   │   └── msg/
+│   │       ├── DetectionResult.msg         ← 单目标 (name, bbox, confidence)
+│   │       └── DetectionArray.msg          ← 一帧检测集合
+│   ├── detection_bridge/          ← DNN → detection_interfaces 桥接
+│   │   ├── launch/
+│   │   │   └── detection_bridge.launch.py  ← 一键启动桥接
+│   │   └── detection_bridge/
+│   │       └── bridge_node.py              ← PerceptionTargets → DetectionArray
 │   └── utils/                   ← symlink → ../dev_ws/src/origincar/utils
 ├── build/
 ├── install/
@@ -108,6 +117,28 @@ ros2 topic echo /qr_result
 | `/qr_crop` | `sensor_msgs/Image` | DNN 检测 qrcode 后裁切的码图 |
 | `/qr_result` | `std_msgs/String` | 解码出的文本内容 |
 
+## 检测结果接口 (detection_interfaces)
+
+DNN 推理结果已集成桥接节点，自动转换为 `detection_interfaces` 消息。主 launch 启动后即发布。
+
+| 话题 | 类型 | 说明 |
+|------|------|------|
+| `/detection_result` | `detection_interfaces/DetectionArray` | 所有检测目标 (name, bbox, confidence) |
+
+```bash
+ros2 topic echo /detection_result
+```
+
+消息格式：
+
+```
+name: "tv"
+x1: 0.0, y1: 231.0, x2: 122.0, y2: 474.0
+confidence: 0.638
+```
+
+> bbox 坐标为像素值，基于相机分辨率 640×480。
+
 ## 添加自己的模型
 
 1. 将 RTM `.bin` 模型文件放到 `/opt/hobot/model/x5/custom/`
@@ -144,13 +175,11 @@ hobot_codec_decode → /hbmem_img (NV12, 共享内存)
   ▼
 dnn_node_example → /hobot_dnn_detection (BPU 推理 + 检测结果)
   │
-  ▼
-websocket → 浏览器 (MJPEG + AI 检测数据 WebSocket 推流)
-
-  │ (qrcode 检测到后)
-  ▼
-qr_cropper → /qr_crop (裁切图)
+  ├──→ detection_bridge → /detection_result (标准化检测消息)
+  ├──→ websocket → 浏览器 (MJPEG + AI 检测数据 WebSocket 推流)
   │
-  ▼
-qr_decode → /qr_result (解码文本)
+  │ (qrcode 检测到后)
+  ├──→ qr_cropper → /qr_crop (裁切图)
+  │       │
+  │       └──→ qr_decode → /qr_result (解码文本)
 ```

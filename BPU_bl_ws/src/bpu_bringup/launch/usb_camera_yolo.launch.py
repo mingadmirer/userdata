@@ -61,10 +61,17 @@ def generate_launch_description():
         output='screen',
         arguments=['--ros-args', '--log-level', 'info']
     )
+    detection_bridge_node = Node(
+        package='detection_bridge',
+        executable='detection_bridge_node',
+        output='screen',
+        arguments=['--ros-args', '--log-level', 'info']
+    )
     return LaunchDescription(launch_args + [
         usb_node,
         nv12_codec_node,
         dnn_node_example_node,
+        detection_bridge_node,
         web_node,
         image_transport_node
     ])

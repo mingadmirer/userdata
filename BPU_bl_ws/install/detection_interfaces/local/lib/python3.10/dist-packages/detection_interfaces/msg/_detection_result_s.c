@@ -1,0 +1,1 @@
+/userdata/BPU_bl_ws/build/detection_interfaces/rosidl_generator_py/detection_interfaces/msg/_detection_result_s.c

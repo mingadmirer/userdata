@@ -1,0 +1,1 @@
+/userdata/BPU_bl_ws/build/detection_interfaces/rosidl_generator_rs/detection_interfaces/rust/src/msg/rmw.rs

@@ -1,0 +1,14 @@
+package.xml
+setup.py
+detection_bridge/__init__.py
+detection_bridge/bridge_node.py
+detection_bridge.egg-info/PKG-INFO
+detection_bridge.egg-info/SOURCES.txt
+detection_bridge.egg-info/dependency_links.txt
+detection_bridge.egg-info/entry_points.txt
+detection_bridge.egg-info/requires.txt
+detection_bridge.egg-info/top_level.txt
+detection_bridge.egg-info/zip-safe
+launch/detection_bridge.launch.py
+resource/detection_bridge
+scripts/detection_bridge_node

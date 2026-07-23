@@ -1,0 +1,7 @@
+{
+  "package_name": "detection_interfaces",
+  "non_idl_tuples": [
+    "/userdata/BPU_bl_ws/src/detection_interfaces:msg/DetectionResult.msg",
+    "/userdata/BPU_bl_ws/src/detection_interfaces:msg/DetectionArray.msg"
+  ]
+}

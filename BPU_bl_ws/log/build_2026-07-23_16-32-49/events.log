@@ -1,0 +1,497 @@
+[0.000000] (-) TimerEvent: {}
+[0.001000] (-) JobUnselected: {'identifier': 'bpu_bringup'}
+[0.002662] (-) JobUnselected: {'identifier': 'qr_decoder'}
+[0.003695] (-) JobUnselected: {'identifier': 'utils'}
+[0.004640] (detection_interfaces) JobQueued: {'identifier': 'detection_interfaces', 'dependencies': OrderedDict()}
+[0.004969] (detection_interfaces) JobStarted: {'identifier': 'detection_interfaces'}
+[0.053260] (detection_interfaces) JobProgress: {'identifier': 'detection_interfaces', 'progress': 'cmake'}
+[0.056984] (detection_interfaces) JobProgress: {'identifier': 'detection_interfaces', 'progress': 'build'}
+[0.061054] (detection_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/BPU_bl_ws/build/detection_interfaces', '--', '-j8', '-l8'], 'cwd': '/userdata/BPU_bl_ws/build/detection_interfaces', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-216_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 13545 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-09f438ed-40e3-413f-9ee3-96c4519b2cfb.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '37679'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('CLAUDE_PID', '4181'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/BPU_bl_ws/build/detection_interfaces'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 13545 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098057] (-) TimerEvent: {}
+[0.184352] (detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198235] (-) TimerEvent: {}
+[0.298727] (-) TimerEvent: {}
+[0.399246] (-) TimerEvent: {}
+[0.499775] (-) TimerEvent: {}
+[0.600338] (-) TimerEvent: {}
+[0.700908] (-) TimerEvent: {}
+[0.801408] (-) TimerEvent: {}
+[0.901900] (-) TimerEvent: {}
+[1.002463] (-) TimerEvent: {}
+[1.011986] (detection_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.051934] (detection_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.102720] (-) TimerEvent: {}
+[1.177347] (detection_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.193006] (detection_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.202914] (-) TimerEvent: {}
+[1.227559] (detection_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.286516] (detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.303131] (-) TimerEvent: {}
+[1.365357] (detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403354] (-) TimerEvent: {}
+[1.503888] (-) TimerEvent: {}
+[1.507569] (detection_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.604113] (-) TimerEvent: {}
+[1.704637] (-) TimerEvent: {}
+[1.805152] (-) TimerEvent: {}
+[1.905675] (-) TimerEvent: {}
+[2.006205] (-) TimerEvent: {}
+[2.106748] (-) TimerEvent: {}
+[2.207262] (-) TimerEvent: {}
+[2.307771] (-) TimerEvent: {}
+[2.408301] (-) TimerEvent: {}
+[2.508826] (-) TimerEvent: {}
+[2.609347] (-) TimerEvent: {}
+[2.709864] (-) TimerEvent: {}
+[2.810330] (-) TimerEvent: {}
+[2.910852] (-) TimerEvent: {}
+[3.011411] (-) TimerEvent: {}
+[3.111951] (-) TimerEvent: {}
+[3.212461] (-) TimerEvent: {}
+[3.312959] (-) TimerEvent: {}
+[3.413498] (-) TimerEvent: {}
+[3.454206] (detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.513726] (-) TimerEvent: {}
+[3.614275] (-) TimerEvent: {}
+[3.714770] (-) TimerEvent: {}
+[3.815300] (-) TimerEvent: {}
+[3.915846] (-) TimerEvent: {}
+[4.016378] (-) TimerEvent: {}
+[4.116975] (-) TimerEvent: {}
+[4.217481] (-) TimerEvent: {}
+[4.318031] (-) TimerEvent: {}
+[4.418611] (-) TimerEvent: {}
+[4.519157] (-) TimerEvent: {}
+[4.619694] (-) TimerEvent: {}
+[4.720217] (-) TimerEvent: {}
+[4.820718] (-) TimerEvent: {}
+[4.921280] (-) TimerEvent: {}
+[5.021914] (-) TimerEvent: {}
+[5.122443] (-) TimerEvent: {}
+[5.222925] (-) TimerEvent: {}
+[5.323428] (-) TimerEvent: {}
+[5.423977] (-) TimerEvent: {}
+[5.524532] (-) TimerEvent: {}
+[5.625052] (-) TimerEvent: {}
+[5.725537] (-) TimerEvent: {}
+[5.826013] (-) TimerEvent: {}
+[5.926574] (-) TimerEvent: {}
+[5.941189] (detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.026781] (-) TimerEvent: {}
+[6.127274] (-) TimerEvent: {}
+[6.227780] (-) TimerEvent: {}
+[6.328298] (-) TimerEvent: {}
+[6.428863] (-) TimerEvent: {}
+[6.529463] (-) TimerEvent: {}
+[6.629987] (-) TimerEvent: {}
+[6.730509] (-) TimerEvent: {}
+[6.831038] (-) TimerEvent: {}
+[6.931571] (-) TimerEvent: {}
+[6.942053] (detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.031831] (-) TimerEvent: {}
+[7.105149] (detection_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.132000] (-) TimerEvent: {}
+[7.232568] (-) TimerEvent: {}
+[7.268935] (detection_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.269811] (detection_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.270367] (detection_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[7.332778] (-) TimerEvent: {}
+[7.433388] (-) TimerEvent: {}
+[7.533948] (-) TimerEvent: {}
+[7.634478] (-) TimerEvent: {}
+[7.735012] (-) TimerEvent: {}
+[7.835491] (-) TimerEvent: {}
+[7.936016] (-) TimerEvent: {}
+[8.004133] (detection_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.036236] (-) TimerEvent: {}
+[8.136843] (-) TimerEvent: {}
+[8.198954] (detection_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[8.237057] (-) TimerEvent: {}
+[8.268249] (detection_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /userdata/BPU_bl_ws/build/detection_interfaces\n'}
+[8.337277] (-) TimerEvent: {}
+[8.411751] (detection_interfaces) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[8.437545] (-) TimerEvent: {}
+[8.461837] (detection_interfaces) StdoutLine: {'line': b'[  7%] Generating C++ code for ROS interfaces\n'}
+[8.462986] (detection_interfaces) StdoutLine: {'line': b'[  7%] Generating Rust code for ROS interfaces\n'}
+[8.505067] (detection_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_symlink_detection_interfaces\n'}
+[8.537745] (-) TimerEvent: {}
+[8.638332] (-) TimerEvent: {}
+[8.738917] (-) TimerEvent: {}
+[8.839625] (-) TimerEvent: {}
+[8.940184] (-) TimerEvent: {}
+[9.040722] (-) TimerEvent: {}
+[9.141269] (-) TimerEvent: {}
+[9.241812] (-) TimerEvent: {}
+[9.342359] (-) TimerEvent: {}
+[9.442888] (-) TimerEvent: {}
+[9.543404] (-) TimerEvent: {}
+[9.643940] (-) TimerEvent: {}
+[9.746855] (-) TimerEvent: {}
+[9.856654] (-) TimerEvent: {}
+[9.957142] (-) TimerEvent: {}
+[10.066659] (-) TimerEvent: {}
+[10.176671] (-) TimerEvent: {}
+[10.277172] (-) TimerEvent: {}
+[10.377665] (-) TimerEvent: {}
+[10.386230] (detection_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[10.391893] (detection_interfaces) StdoutLine: {'line': b'writing detection_interfaces.egg-info/PKG-INFO\n'}
+[10.393249] (detection_interfaces) StdoutLine: {'line': b'writing dependency_links to detection_interfaces.egg-info/dependency_links.txt\n'}
+[10.394557] (detection_interfaces) StdoutLine: {'line': b'writing top-level names to detection_interfaces.egg-info/top_level.txt\n'}
+[10.410290] (detection_interfaces) StdoutLine: {'line': b"reading manifest file 'detection_interfaces.egg-info/SOURCES.txt'\n"}
+[10.413983] (detection_interfaces) StdoutLine: {'line': b"writing manifest file 'detection_interfaces.egg-info/SOURCES.txt'\n"}
+[10.477898] (-) TimerEvent: {}
+[10.578424] (-) TimerEvent: {}
+[10.647319] (detection_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_detection_interfaces_egg\n'}
+[10.678627] (-) TimerEvent: {}
+[10.779185] (-) TimerEvent: {}
+[10.838136] (detection_interfaces) StdoutLine: {'line': b'[  7%] Built target detection_interfaces__rs\n'}
+[10.879379] (-) TimerEvent: {}
+[10.979917] (-) TimerEvent: {}
+[11.080522] (-) TimerEvent: {}
+[11.181221] (-) TimerEvent: {}
+[11.224891] (detection_interfaces) StdoutLine: {'line': b'[  7%] Built target detection_interfaces__cpp\n'}
+[11.274629] (detection_interfaces) StdoutLine: {'line': b'[ 15%] Generating C++ type support dispatch for ROS interfaces\n'}
+[11.276359] (detection_interfaces) StdoutLine: {'line': b'[ 15%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[11.277214] (detection_interfaces) StdoutLine: {'line': b'[ 15%] Generating C++ introspection for ROS interfaces\n'}
+[11.281453] (-) TimerEvent: {}
+[11.282903] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_generator_c\n'}
+[11.338371] (detection_interfaces) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/detection_interfaces/msg/detail/detection_result__functions.c.o\n'}
+[11.340964] (detection_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/detection_interfaces/msg/detail/detection_array__functions.c.o\n'}
+[11.381675] (-) TimerEvent: {}
+[11.482239] (-) TimerEvent: {}
+[11.582807] (-) TimerEvent: {}
+[11.632990] (detection_interfaces) StdoutLine: {'line': b'[ 22%] Linking C shared library libdetection_interfaces__rosidl_generator_c.so\n'}
+[11.683016] (-) TimerEvent: {}
+[11.783588] (-) TimerEvent: {}
+[11.862760] (detection_interfaces) StdoutLine: {'line': b'[ 22%] Built target detection_interfaces__rosidl_generator_c\n'}
+[11.883815] (-) TimerEvent: {}
+[11.911110] (detection_interfaces) StdoutLine: {'line': b'[ 25%] Generating C introspection for ROS interfaces\n'}
+[11.916310] (detection_interfaces) StdoutLine: {'line': b'[ 27%] Generating C type support for eProsima Fast-RTPS\n'}
+[11.924809] (detection_interfaces) StdoutLine: {'line': b'[ 30%] Generating C type support dispatch for ROS interfaces\n'}
+[11.984040] (-) TimerEvent: {}
+[12.085013] (-) TimerEvent: {}
+[12.185563] (-) TimerEvent: {}
+[12.286391] (-) TimerEvent: {}
+[12.387185] (-) TimerEvent: {}
+[12.487977] (-) TimerEvent: {}
+[12.589242] (-) TimerEvent: {}
+[12.690479] (-) TimerEvent: {}
+[12.796751] (-) TimerEvent: {}
+[12.897349] (-) TimerEvent: {}
+[12.998251] (-) TimerEvent: {}
+[13.099000] (-) TimerEvent: {}
+[13.206697] (-) TimerEvent: {}
+[13.307504] (-) TimerEvent: {}
+[13.408089] (-) TimerEvent: {}
+[13.508666] (-) TimerEvent: {}
+[13.609239] (-) TimerEvent: {}
+[13.710123] (-) TimerEvent: {}
+[13.774353] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_cpp\n'}
+[13.810378] (-) TimerEvent: {}
+[13.841850] (detection_interfaces) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detection_interfaces/msg/detection_result__type_support.cpp.o\n'}
+[13.849150] (detection_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detection_interfaces/msg/detection_array__type_support.cpp.o\n'}
+[13.862989] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[13.910597] (-) TimerEvent: {}
+[13.947402] (detection_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detection_interfaces/msg/detail/detection_result__type_support.cpp.o\n'}
+[13.975102] (detection_interfaces) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detection_interfaces/msg/detail/detection_array__type_support.cpp.o\n'}
+[14.027405] (-) TimerEvent: {}
+[14.123043] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.127666] (-) TimerEvent: {}
+[14.226484] (detection_interfaces) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detection_interfaces/msg/detail/dds_fastrtps/detection_result__type_support.cpp.o\n'}
+[14.227648] (-) TimerEvent: {}
+[14.328165] (-) TimerEvent: {}
+[14.428802] (-) TimerEvent: {}
+[14.478535] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_c\n'}
+[14.529114] (-) TimerEvent: {}
+[14.587948] (detection_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/detection_interfaces/msg/detection_result__type_support.cpp.o\n'}
+[14.629421] (-) TimerEvent: {}
+[14.730403] (-) TimerEvent: {}
+[14.831344] (-) TimerEvent: {}
+[14.856419] (detection_interfaces) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/detection_interfaces/msg/detection_array__type_support.cpp.o\n'}
+[14.859996] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_introspection_c\n'}
+[14.929410] (detection_interfaces) StdoutLine: {'line': b'[ 50%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detection_interfaces/msg/detail/detection_result__type_support.c.o\n'}
+[14.931554] (-) TimerEvent: {}
+[15.038976] (-) TimerEvent: {}
+[15.041635] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.103836] (detection_interfaces) StdoutLine: {'line': b'[ 52%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_c.so\n'}
+[15.110753] (detection_interfaces) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detection_interfaces/msg/detail/detection_result__type_support_c.cpp.o\n'}
+[15.139250] (-) TimerEvent: {}
+[15.190046] (detection_interfaces) StdoutLine: {'line': b'[ 57%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detection_interfaces/msg/detail/detection_array__type_support.c.o\n'}
+[15.239555] (-) TimerEvent: {}
+[15.335860] (detection_interfaces) StdoutLine: {'line': b'[ 57%] Built target detection_interfaces__rosidl_typesupport_c\n'}
+[15.339826] (-) TimerEvent: {}
+[15.417338] (detection_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detection_interfaces/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o\n'}
+[15.440080] (-) TimerEvent: {}
+[15.482773] (detection_interfaces) StdoutLine: {'line': b'[ 62%] Linking C shared library libdetection_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[15.540380] (-) TimerEvent: {}
+[15.641353] (-) TimerEvent: {}
+[15.742339] (-) TimerEvent: {}
+[15.833151] (detection_interfaces) StdoutLine: {'line': b'[ 62%] Built target detection_interfaces__rosidl_typesupport_introspection_c\n'}
+[15.842645] (-) TimerEvent: {}
+[15.880368] (detection_interfaces) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detection_interfaces/msg/detail/detection_array__type_support_c.cpp.o\n'}
+[15.942950] (-) TimerEvent: {}
+[15.998407] (detection_interfaces) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_cpp.so\n'}
+[16.043413] (-) TimerEvent: {}
+[16.144415] (-) TimerEvent: {}
+[16.233710] (detection_interfaces) StdoutLine: {'line': b'[ 67%] Built target detection_interfaces__rosidl_typesupport_cpp\n'}
+[16.244682] (-) TimerEvent: {}
+[16.345644] (-) TimerEvent: {}
+[16.446692] (-) TimerEvent: {}
+[16.547677] (-) TimerEvent: {}
+[16.648591] (-) TimerEvent: {}
+[16.749597] (-) TimerEvent: {}
+[16.850241] (-) TimerEvent: {}
+[16.951198] (-) TimerEvent: {}
+[17.052930] (-) TimerEvent: {}
+[17.153571] (-) TimerEvent: {}
+[17.254207] (-) TimerEvent: {}
+[17.316172] (detection_interfaces) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.354446] (-) TimerEvent: {}
+[17.455066] (-) TimerEvent: {}
+[17.555699] (-) TimerEvent: {}
+[17.656322] (-) TimerEvent: {}
+[17.756926] (-) TimerEvent: {}
+[17.815739] (detection_interfaces) StdoutLine: {'line': b'[ 70%] Built target detection_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[17.857145] (-) TimerEvent: {}
+[17.957712] (-) TimerEvent: {}
+[18.058258] (-) TimerEvent: {}
+[18.158810] (-) TimerEvent: {}
+[18.202077] (detection_interfaces) StdoutLine: {'line': b'[ 72%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[18.259067] (-) TimerEvent: {}
+[18.359608] (-) TimerEvent: {}
+[18.400096] (detection_interfaces) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.459834] (-) TimerEvent: {}
+[18.560398] (-) TimerEvent: {}
+[18.660997] (-) TimerEvent: {}
+[18.680284] (detection_interfaces) StdoutLine: {'line': b'[ 75%] Built target detection_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.761213] (-) TimerEvent: {}
+[18.861794] (-) TimerEvent: {}
+[18.883477] (detection_interfaces) StdoutLine: {'line': b'[ 75%] Built target detection_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.962040] (-) TimerEvent: {}
+[18.983631] (detection_interfaces) StdoutLine: {'line': b'[ 75%] Built target detection_interfaces\n'}
+[19.062255] (-) TimerEvent: {}
+[19.078601] (detection_interfaces) StdoutLine: {'line': b'[ 77%] Generating Python code for ROS interfaces\n'}
+[19.162432] (-) TimerEvent: {}
+[19.262935] (-) TimerEvent: {}
+[19.363448] (-) TimerEvent: {}
+[19.463981] (-) TimerEvent: {}
+[19.564515] (-) TimerEvent: {}
+[19.665063] (-) TimerEvent: {}
+[19.765605] (-) TimerEvent: {}
+[19.866124] (-) TimerEvent: {}
+[19.966645] (-) TimerEvent: {}
+[20.067159] (-) TimerEvent: {}
+[20.167684] (-) TimerEvent: {}
+[20.268223] (-) TimerEvent: {}
+[20.368738] (-) TimerEvent: {}
+[20.469267] (-) TimerEvent: {}
+[20.569779] (-) TimerEvent: {}
+[20.670310] (-) TimerEvent: {}
+[20.770839] (-) TimerEvent: {}
+[20.871340] (-) TimerEvent: {}
+[20.971850] (-) TimerEvent: {}
+[21.072369] (-) TimerEvent: {}
+[21.172874] (-) TimerEvent: {}
+[21.273414] (-) TimerEvent: {}
+[21.373944] (-) TimerEvent: {}
+[21.474474] (-) TimerEvent: {}
+[21.575004] (-) TimerEvent: {}
+[21.675550] (-) TimerEvent: {}
+[21.776097] (-) TimerEvent: {}
+[21.876660] (-) TimerEvent: {}
+[21.977244] (-) TimerEvent: {}
+[22.077799] (-) TimerEvent: {}
+[22.178308] (-) TimerEvent: {}
+[22.278796] (-) TimerEvent: {}
+[22.379298] (-) TimerEvent: {}
+[22.479824] (-) TimerEvent: {}
+[22.580330] (-) TimerEvent: {}
+[22.680842] (-) TimerEvent: {}
+[22.781307] (-) TimerEvent: {}
+[22.881842] (-) TimerEvent: {}
+[22.982409] (-) TimerEvent: {}
+[23.078766] (detection_interfaces) StdoutLine: {'line': b'[ 77%] Built target detection_interfaces__py\n'}
+[23.082594] (-) TimerEvent: {}
+[23.148212] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_generator_py\n'}
+[23.182838] (-) TimerEvent: {}
+[23.203539] (detection_interfaces) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_py.dir/rosidl_generator_py/detection_interfaces/msg/_detection_result_s.c.o\n'}
+[23.204543] (detection_interfaces) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_py.dir/rosidl_generator_py/detection_interfaces/msg/_detection_array_s.c.o\n'}
+[23.283083] (-) TimerEvent: {}
+[23.384001] (-) TimerEvent: {}
+[23.484571] (-) TimerEvent: {}
+[23.585118] (-) TimerEvent: {}
+[23.685676] (-) TimerEvent: {}
+[23.786252] (-) TimerEvent: {}
+[23.834842] (detection_interfaces) StdoutLine: {'line': b'[ 85%] Linking C shared library rosidl_generator_py/detection_interfaces/libdetection_interfaces__rosidl_generator_py.so\n'}
+[23.886518] (-) TimerEvent: {}
+[23.987095] (-) TimerEvent: {}
+[24.077648] (detection_interfaces) StdoutLine: {'line': b'[ 85%] Built target detection_interfaces__rosidl_generator_py\n'}
+[24.087362] (-) TimerEvent: {}
+[24.138893] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_c__pyext\n'}
+[24.140012] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[24.141587] (detection_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detection_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[24.187594] (-) TimerEvent: {}
+[24.194599] (detection_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[24.195569] (detection_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[24.196223] (detection_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[24.287833] (-) TimerEvent: {}
+[24.388385] (-) TimerEvent: {}
+[24.488957] (-) TimerEvent: {}
+[24.589576] (-) TimerEvent: {}
+[24.690148] (-) TimerEvent: {}
+[24.789017] (detection_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.789987] (detection_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.790661] (-) TimerEvent: {}
+[24.799203] (detection_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.890960] (-) TimerEvent: {}
+[24.991543] (-) TimerEvent: {}
+[25.037042] (detection_interfaces) StdoutLine: {'line': b'[100%] Built target detection_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.037938] (detection_interfaces) StdoutLine: {'line': b'[100%] Built target detection_interfaces__rosidl_typesupport_c__pyext\n'}
+[25.048467] (detection_interfaces) StdoutLine: {'line': b'[100%] Built target detection_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[25.091752] (-) TimerEvent: {}
+[25.107504] (detection_interfaces) CommandEnded: {'returncode': 0}
+[25.111747] (detection_interfaces) JobProgress: {'identifier': 'detection_interfaces', 'progress': 'install'}
+[25.155596] (detection_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/BPU_bl_ws/build/detection_interfaces'], 'cwd': '/userdata/BPU_bl_ws/build/detection_interfaces', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-216_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.20.179.36 13545 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws'), ('TERM_PROGRAM_VERSION', '1.129.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-09f438ed-40e3-413f-9ee3-96c4519b2cfb.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '37679'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('CLAUDE_PID', '4181'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-542defa892.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '64da2a8a-d359-444c-bb01-2226036eda69'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/BPU_bl_ws/build/detection_interfaces'), ('COPILOT_DEBUG_NONCE', '3c39f077c7b1a9208cc6243afd7431f9'), ('SSH_CONNECTION', '10.20.179.36 13545 10.20.179.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[25.191976] (-) TimerEvent: {}
+[25.199325] (detection_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.202105] (detection_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.203577] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/rosidl_interfaces/detection_interfaces\n'}
+[25.205607] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__functions.h\n'}
+[25.207136] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__struct.h\n'}
+[25.208850] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__type_support.h\n'}
+[25.210749] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__functions.h\n'}
+[25.211993] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__struct.h\n'}
+[25.213025] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__type_support.h\n'}
+[25.213608] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_array.h\n'}
+[25.214483] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_result.h\n'}
+[25.215571] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.216048] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/library_path.sh\n'}
+[25.216552] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/library_path.dsv\n'}
+[25.217035] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[25.218418] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_c.h\n'}
+[25.219174] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.220233] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__builder.hpp\n'}
+[25.221260] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__struct.hpp\n'}
+[25.221749] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__traits.hpp\n'}
+[25.222295] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__builder.hpp\n'}
+[25.222788] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__struct.hpp\n'}
+[25.223575] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__traits.hpp\n'}
+[25.224593] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_array.hpp\n'}
+[25.225066] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_result.hpp\n'}
+[25.225551] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.226734] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.227580] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.228081] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_introspection_c.h\n'}
+[25.228860] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_c.h\n'}
+[25.229635] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.230430] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.231875] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.233041] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/pythonpath.sh\n'}
+[25.234103] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/pythonpath.dsv\n'}
+[25.234739] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.235368] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.235938] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.236567] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.238548] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/__init__.py\n'}
+[25.240621] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[25.242389] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[25.244063] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[25.244712] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.245627] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.246608] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.247184] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/libdetection_interfaces__rosidl_generator_py.so\n'}
+[25.248036] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/__init__.py\n'}
+[25.248860] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array.py\n'}
+[25.249376] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array_s.c\n'}
+[25.250199] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result.py\n'}
+[25.251253] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result_s.c\n'}
+[25.252289] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.253076] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.253849] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.254661] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/rust_packages/detection_interfaces\n'}
+[25.255460] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/Cargo.toml\n'}
+[25.256229] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/build.rs\n'}
+[25.257242] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/lib.rs\n'}
+[25.257838] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/msg.rs\n'}
+[25.258433] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/msg/rmw.rs\n'}
+[25.259447] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionResult.idl\n'}
+[25.260377] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionArray.idl\n'}
+[25.261307] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionResult.msg\n'}
+[25.262206] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionArray.msg\n'}
+[25.263168] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/package_run_dependencies/detection_interfaces\n'}
+[25.265054] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/parent_prefix_path/detection_interfaces\n'}
+[25.266923] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/ament_prefix_path.sh\n'}
+[25.267787] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/ament_prefix_path.dsv\n'}
+[25.268517] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/path.sh\n'}
+[25.269209] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/path.dsv\n'}
+[25.269873] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.bash\n'}
+[25.270618] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.sh\n'}
+[25.271255] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.zsh\n'}
+[25.271881] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.dsv\n'}
+[25.272488] (detection_interfaces) StdoutLine: {'line': b'-- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/package.dsv\n'}
+[25.292214] (-) TimerEvent: {}
+[25.307827] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/packages/detection_interfaces\n'}
+[25.308958] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[25.309878] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.310667] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.311401] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.312121] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[25.312843] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[25.313559] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[25.314323] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfacesConfig.cmake\n'}
+[25.315042] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfacesConfig-version.cmake\n'}
+[25.315759] (detection_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/package.xml\n'}
+[25.316584] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_c.so\n'}
+[25.318717] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_c.so" to ""\n'}
+[25.320018] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[25.321559] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[25.322419] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.324710] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[25.325546] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[25.327138] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[25.327960] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_c.so\n'}
+[25.329307] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[25.330128] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[25.332049] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[25.332847] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_cpp.so\n'}
+[25.334258] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[25.392377] (-) TimerEvent: {}
+[25.492869] (-) TimerEvent: {}
+[25.566205] (detection_interfaces) StdoutLine: {'line': b"Listing '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces'...\n"}
+[25.567122] (detection_interfaces) StdoutLine: {'line': b"Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/__init__.py'...\n"}
+[25.567896] (detection_interfaces) StdoutLine: {'line': b"Listing '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg'...\n"}
+[25.568509] (detection_interfaces) StdoutLine: {'line': b"Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/__init__.py'...\n"}
+[25.569049] (detection_interfaces) StdoutLine: {'line': b"Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array.py'...\n"}
+[25.569608] (detection_interfaces) StdoutLine: {'line': b"Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result.py'...\n"}
+[25.593110] (-) TimerEvent: {}
+[25.612647] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_py.so\n'}
+[25.614342] (detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_py.so" to ""\n'}
+[25.615803] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[25.616915] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport.cmake\n'}
+[25.618331] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[25.619315] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[25.619971] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[25.621036] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[25.622368] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cppExport.cmake\n'}
+[25.623352] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[25.624584] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[25.625528] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[25.626888] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[25.627970] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[25.628904] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[25.630123] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[25.630812] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[25.632565] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[25.633222] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[25.634731] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[25.635705] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[25.636318] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[25.637270] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[25.637942] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[25.638573] (detection_interfaces) StdoutLine: {'line': b'-- Old export file "/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[25.639149] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport.cmake\n'}
+[25.639639] (detection_interfaces) StdoutLine: {'line': b'-- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[25.645397] (detection_interfaces) CommandEnded: {'returncode': 0}
+[25.693301] (-) TimerEvent: {}
+[25.786926] (detection_interfaces) JobEnded: {'identifier': 'detection_interfaces', 'rc': 0}
+[25.789772] (-) EventReactorShutdown: {}

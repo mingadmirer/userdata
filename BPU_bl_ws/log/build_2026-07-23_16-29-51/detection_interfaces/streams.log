@@ -1,0 +1,233 @@
+[0.057s] Invoking command in '/userdata/BPU_bl_ws/build/detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/BPU_bl_ws/src/detection_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/BPU_bl_ws/install/detection_interfaces
+[1.795s] -- The C compiler identification is GNU 11.2.0
+[3.500s] -- The CXX compiler identification is GNU 11.2.0
+[3.553s] -- Detecting C compiler ABI info
+[4.048s] -- Detecting C compiler ABI info - done
+[4.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.150s] -- Detecting C compile features
+[6.154s] -- Detecting C compile features - done
+[7.578s] -- Detecting CXX compiler ABI info
+[10.153s] -- Detecting CXX compiler ABI info - done
+[10.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.210s] -- Detecting CXX compile features
+[10.212s] -- Detecting CXX compile features - done
+[10.233s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.377s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.854s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.136s] -- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[12.396s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.438s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.507s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.867s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[12.966s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[14.985s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[17.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.750s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[18.765s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[18.957s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[18.958s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.959s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[18.959s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[19.105s] -- Found PythonExtra: .so  
+[20.059s] -- Configuring done
+[20.251s] -- Generating done
+[20.320s] -- Build files have been written to: /userdata/BPU_bl_ws/build/detection_interfaces
+[20.361s] Invoked command in '/userdata/BPU_bl_ws/build/detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/BPU_bl_ws/src/detection_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/BPU_bl_ws/install/detection_interfaces
+[20.371s] Invoking command in '/userdata/BPU_bl_ws/build/detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/BPU_bl_ws/build/detection_interfaces -- -j8 -l8
+[20.567s] [  2%] Generating C code for ROS interfaces
+[20.616s] [  5%] Generating Rust code for ROS interfaces
+[20.618s] [  7%] Generating C++ code for ROS interfaces
+[20.657s] [  7%] Built target ament_cmake_python_symlink_detection_interfaces
+[22.455s] running egg_info
+[22.460s] creating detection_interfaces.egg-info
+[22.462s] writing detection_interfaces.egg-info/PKG-INFO
+[22.463s] writing dependency_links to detection_interfaces.egg-info/dependency_links.txt
+[22.463s] writing top-level names to detection_interfaces.egg-info/top_level.txt
+[22.465s] writing manifest file 'detection_interfaces.egg-info/SOURCES.txt'
+[22.478s] reading manifest file 'detection_interfaces.egg-info/SOURCES.txt'
+[22.482s] writing manifest file 'detection_interfaces.egg-info/SOURCES.txt'
+[22.709s] [  7%] Built target ament_cmake_python_build_detection_interfaces_egg
+[23.170s] [  7%] Built target detection_interfaces__rs
+[23.605s] [  7%] Built target detection_interfaces__cpp
+[23.649s] [ 12%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/detection_interfaces/msg/detail/detection_array__functions.c.o
+[23.651s] [ 12%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/detection_interfaces/msg/detail/detection_result__functions.c.o
+[23.656s] [ 20%] Generating C++ type support dispatch for ROS interfaces
+[23.657s] [ 20%] Generating C++ introspection for ROS interfaces
+[23.658s] [ 20%] Generating C++ type support for eProsima Fast-RTPS
+[24.142s] [ 22%] Linking C shared library libdetection_interfaces__rosidl_generator_c.so
+[24.380s] [ 22%] Built target detection_interfaces__rosidl_generator_c
+[24.433s] [ 27%] Generating C introspection for ROS interfaces
+[24.435s] [ 27%] Generating C type support dispatch for ROS interfaces
+[24.437s] [ 30%] Generating C type support for eProsima Fast-RTPS
+[26.369s] [ 35%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detection_interfaces/msg/detection_result__type_support.cpp.o
+[26.371s] [ 35%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detection_interfaces/msg/detection_array__type_support.cpp.o
+[26.454s] [ 37%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detection_interfaces/msg/detail/detection_result__type_support.cpp.o
+[26.489s] [ 40%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detection_interfaces/msg/detail/detection_array__type_support.cpp.o
+[26.695s] [ 42%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detection_interfaces/msg/detail/dds_fastrtps/detection_result__type_support.cpp.o
+[27.197s] [ 45%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/detection_interfaces/msg/detection_result__type_support.cpp.o
+[27.417s] [ 47%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detection_interfaces/msg/detail/detection_result__type_support.c.o
+[27.530s] [ 50%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/detection_interfaces/msg/detection_array__type_support.cpp.o
+[27.553s] [ 52%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detection_interfaces/msg/detail/detection_result__type_support_c.cpp.o
+[27.657s] [ 55%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detection_interfaces/msg/detail/detection_array__type_support.c.o
+[27.811s] [ 57%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_c.so
+[28.025s] [ 60%] Linking C shared library libdetection_interfaces__rosidl_typesupport_introspection_c.so
+[28.102s] [ 60%] Built target detection_interfaces__rosidl_typesupport_c
+[28.159s] [ 62%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detection_interfaces/msg/detail/detection_array__type_support_c.cpp.o
+[28.358s] [ 62%] Built target detection_interfaces__rosidl_typesupport_introspection_c
+[28.473s] [ 65%] Building CXX object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detection_interfaces/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o
+[28.868s] [ 67%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_cpp.so
+[29.126s] [ 67%] Built target detection_interfaces__rosidl_typesupport_cpp
+[30.096s] [ 70%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_introspection_cpp.so
+[30.559s] [ 72%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_fastrtps_c.so
+[30.586s] [ 72%] Built target detection_interfaces__rosidl_typesupport_introspection_cpp
+[31.034s] [ 72%] Built target detection_interfaces__rosidl_typesupport_fastrtps_c
+[31.508s] [ 75%] Linking CXX shared library libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[31.988s] [ 75%] Built target detection_interfaces__rosidl_typesupport_fastrtps_cpp
+[32.091s] [ 75%] Built target detection_interfaces
+[32.194s] [ 77%] Generating Python code for ROS interfaces
+[36.481s] [ 77%] Built target detection_interfaces__py
+[36.580s] [ 80%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_py.dir/rosidl_generator_py/detection_interfaces/msg/_detection_result_s.c.o
+[36.581s] [ 82%] Building C object CMakeFiles/detection_interfaces__rosidl_generator_py.dir/rosidl_generator_py/detection_interfaces/msg/_detection_array_s.c.o
+[37.487s] [ 85%] Linking C shared library rosidl_generator_py/detection_interfaces/libdetection_interfaces__rosidl_generator_py.so
+[37.735s] [ 85%] Built target detection_interfaces__rosidl_generator_py
+[37.834s] [ 90%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[37.835s] [ 90%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_c.c.o
+[37.836s] [ 92%] Building C object CMakeFiles/detection_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[38.429s] [100%] Linking C shared library rosidl_generator_py/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[38.430s] [100%] Linking C shared library rosidl_generator_py/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[38.431s] [100%] Linking C shared library rosidl_generator_py/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[38.678s] [100%] Built target detection_interfaces__rosidl_typesupport_c__pyext
+[38.679s] [100%] Built target detection_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[38.680s] [100%] Built target detection_interfaces__rosidl_typesupport_introspection_c__pyext
+[38.740s] Invoked command in '/userdata/BPU_bl_ws/build/detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/BPU_bl_ws/build/detection_interfaces -- -j8 -l8
+[38.790s] Invoking command in '/userdata/BPU_bl_ws/build/detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/BPU_bl_ws/build/detection_interfaces
+[38.829s] -- Install configuration: ""
+[38.833s] -- Execute custom install script
+[38.834s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/rosidl_interfaces/detection_interfaces
+[38.878s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__functions.h
+[38.924s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__struct.h
+[38.969s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__type_support.h
+[39.021s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__functions.h
+[39.068s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__struct.h
+[39.112s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__type_support.h
+[39.157s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_array.h
+[39.197s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_result.h
+[39.243s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_generator_c__visibility_control.h
+[39.286s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/library_path.sh
+[39.331s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/library_path.dsv
+[39.379s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[39.424s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_c.h
+[39.469s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.516s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__builder.hpp
+[39.558s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__struct.hpp
+[39.601s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__traits.hpp
+[39.645s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__builder.hpp
+[39.695s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__struct.hpp
+[39.740s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__traits.hpp
+[39.784s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_array.hpp
+[39.838s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detection_result.hpp
+[39.887s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[39.930s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_cpp.hpp
+[39.977s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.032s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[40.094s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_c.h
+[40.136s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[40.181s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[40.225s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/include/detection_interfaces/detection_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_cpp.hpp
+[40.270s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/pythonpath.sh
+[40.313s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/pythonpath.dsv
+[40.362s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[40.405s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[40.449s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[40.492s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[40.542s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/__init__.py
+[40.588s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_c.c
+[40.638s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[40.682s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[40.728s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[40.773s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[40.821s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[40.871s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/libdetection_interfaces__rosidl_generator_py.so
+[40.917s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/__init__.py
+[40.964s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array.py
+[41.011s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array_s.c
+[41.063s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result.py
+[41.113s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result_s.c
+[41.158s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[41.159s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[41.161s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[41.162s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/rust_packages/detection_interfaces
+[41.207s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/Cargo.toml
+[41.251s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/build.rs
+[41.298s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/lib.rs
+[41.341s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/msg.rs
+[41.386s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/rust/src/msg/rmw.rs
+[41.433s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionResult.idl
+[41.478s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionArray.idl
+[41.523s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionResult.msg
+[41.568s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/msg/DetectionArray.msg
+[41.613s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/package_run_dependencies/detection_interfaces
+[41.658s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/parent_prefix_path/detection_interfaces
+[41.702s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/ament_prefix_path.sh
+[41.747s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/ament_prefix_path.dsv
+[41.792s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/path.sh
+[41.842s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/environment/path.dsv
+[41.887s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.bash
+[41.934s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.sh
+[41.982s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.zsh
+[42.026s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/local_setup.dsv
+[42.075s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/package.dsv
+[42.119s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/ament_index/resource_index/packages/detection_interfaces
+[42.167s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake-extras.cmake
+[42.212s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.256s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.302s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[42.347s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[42.394s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[42.439s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.485s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfacesConfig.cmake
+[42.531s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfacesConfig-version.cmake
+[42.575s] -- Symlinking: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/package.xml
+[42.620s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_c.so
+[42.621s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_c.so" to ""
+[42.622s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_c.so
+[42.623s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[42.624s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[42.626s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[42.626s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_c.so
+[42.628s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[42.630s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_c.so
+[42.630s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_c.so" to ""
+[42.631s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_cpp.so
+[42.633s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[42.634s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_cpp.so
+[42.634s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_cpp.so" to ""
+[42.874s] Listing '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces'...
+[42.874s] Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/__init__.py'...
+[42.875s] Listing '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg'...
+[42.876s] Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/__init__.py'...
+[42.876s] Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_array.py'...
+[42.876s] Compiling '/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages/detection_interfaces/msg/_detection_result.py'...
+[42.916s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_py.so
+[42.918s] -- Set runtime path of "/userdata/BPU_bl_ws/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_py.so" to ""
+[42.919s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport.cmake
+[42.920s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cExport-noconfig.cmake
+[42.921s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[42.922s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[42.923s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_cppExport.cmake
+[42.924s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[42.925s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[42.926s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[42.927s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[42.928s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport.cmake
+[42.929s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[42.932s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[42.933s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[42.934s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport.cmake
+[42.935s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/detection_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[42.936s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport.cmake
+[42.937s] -- Installing: /userdata/BPU_bl_ws/install/detection_interfaces/share/detection_interfaces/cmake/export_detection_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[42.949s] Invoked command in '/userdata/BPU_bl_ws/build/detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/BPU_bl_ws/build/detection_interfaces

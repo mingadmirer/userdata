@@ -1,0 +1,1 @@
+/userdata/BPU_bl_ws/build/detection_interfaces/ament_cmake_environment_hooks/local_setup.zsh
