@@ -31,3 +31,11 @@
 /userdata/dev_ws/build/origincar_base/origincar_base__py/CMakeFiles/install.dir
 /userdata/dev_ws/build/origincar_base/origincar_base__py/CMakeFiles/install/local.dir
 /userdata/dev_ws/build/origincar_base/origincar_base__py/CMakeFiles/install/strip.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/origincar_base__rs.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/test.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/edit_cache.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/rebuild_cache.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/list_install_components.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/install.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/install/local.dir
+/userdata/dev_ws/build/origincar_base/origincar_base__rs/CMakeFiles/install/strip.dir

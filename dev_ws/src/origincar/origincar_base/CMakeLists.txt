@@ -69,7 +69,7 @@ ament_target_dependencies(origincar_base_node tf2_ros tf2 tf2_geometry_msgs rclc
 #add_executable(testNode src/test.cpp src/Quaternion_Solution.cpp)
 #ament_target_dependencies(testNode rclcpp std_msgs nav_msgs std_srvs sensor_msgs ackermann_msgs serial origincar_msg)
 
-install(PROGRAMS scripts/cmd_vel_to_ackermann_drive.py scripts/origincar_joy_teleop.py DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS scripts/cmd_vel_to_ackermann_drive.py scripts/origincar_joy_teleop.py scripts/akm_test.py scripts/akm_maxspeed.py DESTINATION lib/${PROJECT_NAME})
 
 install(TARGETS
 origincar_base_node

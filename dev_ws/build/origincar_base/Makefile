@@ -418,6 +418,19 @@ origincar_base__py/fast:
 	$(MAKE) $(MAKESILENT) -f origincar_base__py/CMakeFiles/origincar_base__py.dir/build.make origincar_base__py/CMakeFiles/origincar_base__py.dir/build
 .PHONY : origincar_base__py/fast
 
+#=============================================================================
+# Target rules for targets named origincar_base__rs
+
+# Build rule for target.
+origincar_base__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 origincar_base__rs
+.PHONY : origincar_base__rs
+
+# fast build rule for target.
+origincar_base__rs/fast:
+	$(MAKE) $(MAKESILENT) -f origincar_base__rs/CMakeFiles/origincar_base__rs.dir/build.make origincar_base__rs/CMakeFiles/origincar_base__rs.dir/build
+.PHONY : origincar_base__rs/fast
+
 rosidl_generator_c/origincar_base/msg/detail/position__functions.o: rosidl_generator_c/origincar_base/msg/detail/position__functions.c.o
 .PHONY : rosidl_generator_c/origincar_base/msg/detail/position__functions.o
 
@@ -748,6 +761,7 @@ help:
 	@echo "... origincar_base"
 	@echo "... origincar_base__cpp"
 	@echo "... origincar_base__py"
+	@echo "... origincar_base__rs"
 	@echo "... origincar_base_uninstall"
 	@echo "... uninstall"
 	@echo "... origincar_base__rosidl_generator_c"

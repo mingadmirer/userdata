@@ -358,14 +358,20 @@ include("/userdata/dev_ws/build/origincar_base/ament_cmake_symlink_install_targe
 # install("TARGETS" "origincar_base__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/origincar_base")
 include("/userdata/dev_ws/build/origincar_base/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/userdata/dev_ws/build/origincar_base/ament_cmake_index/share/ament_index/resource_index/rust_packages/origincar_base" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+ament_cmake_symlink_install_files("/userdata/dev_ws/src/origincar/origincar_base" FILES "/userdata/dev_ws/build/origincar_base/ament_cmake_index/share/ament_index/resource_index/rust_packages/origincar_base" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+
+# install(DIRECTORY "/userdata/dev_ws/build/origincar_base/rosidl_generator_rs/origincar_base/rust" "DESTINATION" "share/origincar_base")
+ament_cmake_symlink_install_directory("/userdata/dev_ws/src/origincar/origincar_base" DIRECTORY "/userdata/dev_ws/build/origincar_base/rosidl_generator_rs/origincar_base/rust" "DESTINATION" "share/origincar_base")
+
 # install(FILES "/userdata/dev_ws/build/origincar_base/rosidl_adapter/origincar_base/msg/Position.idl" "DESTINATION" "share/origincar_base/msg")
 ament_cmake_symlink_install_files("/userdata/dev_ws/src/origincar/origincar_base" FILES "/userdata/dev_ws/build/origincar_base/rosidl_adapter/origincar_base/msg/Position.idl" "DESTINATION" "share/origincar_base/msg")
 
 # install(FILES "/userdata/dev_ws/src/origincar/origincar_base/msg/Position.msg" "DESTINATION" "share/origincar_base/msg")
 ament_cmake_symlink_install_files("/userdata/dev_ws/src/origincar/origincar_base" FILES "/userdata/dev_ws/src/origincar/origincar_base/msg/Position.msg" "DESTINATION" "share/origincar_base/msg")
 
-# install(PROGRAMS "scripts/cmd_vel_to_ackermann_drive.py" "scripts/origincar_joy_teleop.py" "DESTINATION" "lib/origincar_base")
-ament_cmake_symlink_install_programs("/userdata/dev_ws/src/origincar/origincar_base" PROGRAMS "scripts/cmd_vel_to_ackermann_drive.py" "scripts/origincar_joy_teleop.py" "DESTINATION" "lib/origincar_base")
+# install(PROGRAMS "scripts/cmd_vel_to_ackermann_drive.py" "scripts/origincar_joy_teleop.py" "scripts/akm_test.py" "scripts/akm_maxspeed.py" "DESTINATION" "lib/origincar_base")
+ament_cmake_symlink_install_programs("/userdata/dev_ws/src/origincar/origincar_base" PROGRAMS "scripts/cmd_vel_to_ackermann_drive.py" "scripts/origincar_joy_teleop.py" "scripts/akm_test.py" "scripts/akm_maxspeed.py" "DESTINATION" "lib/origincar_base")
 
 # install("TARGETS" "origincar_base_node" "DESTINATION" "lib/origincar_base" "ARCHIVE_DESTINATION" "LIBRARY_DESTINATION" "RUNTIME_DESTINATION")
 include("/userdata/dev_ws/build/origincar_base/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")

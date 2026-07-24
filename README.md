@@ -65,6 +65,13 @@ ros2 launch qr_decoder qr_pipeline.launch.py
 
 浏览器查看：`http://<IP>:8000` → web展示端，检测框带置信度。
 
+| 话题 | 类型 | 说明 |
+|------|------|------|
+| `hobot_dnn_detection` | `ai_msgs/PerceptionTargets` | BPU 原始检测结果 |
+| `/detection_result` | `detection_interfaces/DetectionArray` | 标准化检测消息 |
+| `/qr_crop` | `sensor_msgs/Image` | QR 码裁切图 |
+| `/qr_result` | `std_msgs/String` | QR 解码文本 |
+
 ### driver_ws — 传感器驱动
 
 ```bash
@@ -96,6 +103,7 @@ ros2 launch lslidar_driver lsn10_launch.py
 │   │         │                                       │
 │   │         ├──→ dnn_node (BPU) → hobot_dnn_detection│
 │   │         │         │                             │
+│   │         │         ├──→ detection_bridge → /detection_result│
 │   │         │         ├──→ websocket → 浏览器        │
 │   │         │         └──→ qr_cropper → /qr_crop    │
 │   │         │                   │                   │
