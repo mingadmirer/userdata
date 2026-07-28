@@ -38,25 +38,33 @@ class QRDecode(Node):
             return cv2.resize(img, (int(w * scale), int(h * scale)))
         return img
 
-    def decode_once(self, img):
-        """单次解码：缩小→找角点→透视矫正→解码"""
-        img = self.resize(img)
+    def to_gray(self, img):
+        return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) if len(img.shape) == 3 else img
 
-        # 直接解码
-        data, points, _ = self.detector.detectAndDecode(img)
+    def decode_once(self, img):
+        """缩小→增强→解码→找角点→透视矫正→解码"""
+        img = self.resize(img)
+        gray = self.to_gray(img)
+
+        # 第一轮：灰度直接解
+        data, points, _ = self.detector.detectAndDecode(gray)
         if data:
             return data
 
-        # 找角点
-        ret, corners = self.detector.detect(img)
+        # 第二轮：灰度+CLAHE增强
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+        enhanced = clahe.apply(gray)
+        data, points, _ = self.detector.detectAndDecode(enhanced)
+        if data:
+            return data
+
+        # 第三轮：找角点 → 透视矫正 → 解码
+        ret, corners = self.detector.detect(gray)
         if not ret or corners is None:
-            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
-            ret, corners = self.detector.detect(clahe.apply(gray))
+            ret, corners = self.detector.detect(enhanced)
         if not ret or corners is None:
             return None
 
-        # 透视矫正
         corners = corners.reshape(4, 2).astype(np.float32)
         side = int(max(
             np.linalg.norm(corners[1] - corners[0]),
@@ -64,11 +72,10 @@ class QRDecode(Node):
             np.linalg.norm(corners[3] - corners[0]),
             np.linalg.norm(corners[2] - corners[1])))
         side = max(side, 100)
-
         dst = np.array([[0, 0], [side, 0], [side, side], [0, side]],
                        dtype=np.float32)
         warped = cv2.warpPerspective(
-            img, cv2.getPerspectiveTransform(corners, dst), (side, side))
+            enhanced, cv2.getPerspectiveTransform(corners, dst), (side, side))
 
         data, _, _ = self.detector.detectAndDecode(warped)
         return data if data else None

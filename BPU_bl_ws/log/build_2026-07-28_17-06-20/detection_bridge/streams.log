@@ -1,0 +1,17 @@
+[4.850s] Invoking command in '/userdata/BPU_bl_ws/build/detection_bridge': AMENT_PREFIX_PATH=/userdata/BPU_bl_ws/install/detection_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/BPU_bl_ws/install/detection_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/BPU_bl_ws/build/detection_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/BPU_bl_ws/build/detection_bridge/build --no-deps symlink_data
+[6.710s] running develop
+[7.936s] running egg_info
+[7.937s] writing detection_bridge.egg-info/PKG-INFO
+[7.938s] writing dependency_links to detection_bridge.egg-info/dependency_links.txt
+[7.939s] writing entry points to detection_bridge.egg-info/entry_points.txt
+[7.941s] writing requirements to detection_bridge.egg-info/requires.txt
+[7.941s] writing top-level names to detection_bridge.egg-info/top_level.txt
+[7.952s] reading manifest file 'detection_bridge.egg-info/SOURCES.txt'
+[7.958s] writing manifest file 'detection_bridge.egg-info/SOURCES.txt'
+[7.968s] running build_ext
+[7.969s] Creating /userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages/detection-bridge.egg-link (link to .)
+[7.973s] Installing detection_bridge_node script to /userdata/BPU_bl_ws/install/detection_bridge/bin
+[7.975s] 
+[7.975s] Installed /userdata/BPU_bl_ws/build/detection_bridge
+[7.976s] running symlink_data
+[8.219s] Invoked command in '/userdata/BPU_bl_ws/build/detection_bridge' returned '0': AMENT_PREFIX_PATH=/userdata/BPU_bl_ws/install/detection_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/BPU_bl_ws/install/detection_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/BPU_bl_ws/build/detection_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/BPU_bl_ws/build/detection_bridge/build --no-deps symlink_data

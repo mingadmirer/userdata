@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing detection_bridge.egg-info/PKG-INFO
+writing dependency_links to detection_bridge.egg-info/dependency_links.txt
+writing entry points to detection_bridge.egg-info/entry_points.txt
+writing requirements to detection_bridge.egg-info/requires.txt
+writing top-level names to detection_bridge.egg-info/top_level.txt
+reading manifest file 'detection_bridge.egg-info/SOURCES.txt'
+writing manifest file 'detection_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages/detection-bridge.egg-link (link to .)
+Installing detection_bridge_node script to /userdata/BPU_bl_ws/install/detection_bridge/bin
+
+Installed /userdata/BPU_bl_ws/build/detection_bridge
+running symlink_data

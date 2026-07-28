@@ -128,28 +128,48 @@ msg.drive.steering_angle = 0.3  # rad, 正=左转
 pub.publish(msg)  # → /ackermann_cmd → 串口 → STM32
 ```
 
-## 自启动 (开机自动运行)
+## 自启动服务 (开机自动运行)
 
-已配置 systemd 服务, 开机后自动启动阿克曼模式:
+已配置两个 systemd 服务，开机自启：
 
 ```bash
-# 查看状态
-systemctl status origincar-base
+# ─── 查看所有服务状态 ───
+systemctl status origincar-base aurora930-camera
 
-# 手动启停
-systemctl stop origincar-base
-systemctl start origincar-base
+# ─── 启停 ───
+systemctl stop origincar-base       # 停底盘
+systemctl start aurora930-camera     # 启相机
+systemctl restart origincar-base     # 重启底盘
 
-# 查看日志
-journalctl -u origincar-base -f
+# ─── 日志 ───
+journalctl -u origincar-base -f      # 底盘实时日志
+journalctl -u aurora930-camera -f    # 相机实时日志
+journalctl -u origincar-base -n 50   # 底盘最近50行
 
-# 禁用自启动
-systemctl disable origincar-base
+# ─── 禁用/启用 ───
+systemctl disable origincar-base     # 取消自启
+systemctl enable aurora930-camera    # 恢复自启
 ```
 
-服务文件: `/etc/systemd/system/origincar-base.service`
+### origincar-base — 底盘驱动
 
-启动流程: 等待 `/dev/ttyACM0` 就绪 → source ROS2 环境 → `ros2 launch origincar_base base_serial.launch.py akmcar:=true`。退出时自动向底盘发送零速停车帧。
+| 项目 | 值 |
+|------|-----|
+| 服务文件 | `/etc/systemd/system/origincar-base.service` |
+| 启动内容 | `ros2 launch origincar_base base_serial.launch.py akmcar:=true` |
+| 等待条件 | `/dev/ttyACM0` 串口就绪 |
+| 退出行为 | 自动发送零速停车帧 |
+| 崩溃处理 | 3 秒后自动重启 |
+
+### aurora930-camera — 深度相机
+
+| 项目 | 值 |
+|------|-----|
+| 服务文件 | `/etc/systemd/system/aurora930-camera.service` |
+| 启动内容 | `ros2 launch deptrum-ros-driver-aurora930 aurora930_launch.py` |
+| 等待条件 | USB 设备 `Aurora 930` 就绪 |
+| 崩溃处理 | 5 秒后自动重启 |
+| 开启模块 | depth + point cloud (IR/RGB 关闭) |
 
 ## 键盘控制 (手柄替代)
 
@@ -175,7 +195,26 @@ ros2 launch origincar_bringup usb_websocket_display.launch.py
 
 ## 深度相机 (Aurora930)
 
+开机自启 (aurora930-camera 服务)，发布话题:
+
+| 话题 | 类型 | 说明 |
+|------|------|------|
+| `/aurora/depth/image_raw` | `Image` (16UC1) | 深度图 |
+| `/aurora/points2` | `PointCloud2` | 点云 |
+
+手动启动 (调试用):
+
 ```bash
-ros2 launch deptrum-ros-driver-aurora930 aurora930_launch.py
+ros2 launch deptrum-ros-driver-aurora930 aurora930_launch.py \
+    depth_enable:=true ir_enable:=true rgb_enable:=true point_cloud_enable:=true
+```
+
+可视化:
+
+```bash
+ros2 launch deptrum-ros-driver-aurora930 viewer930_launch.py
+# 或
 ros2 run rqt_image_view rqt_image_view
 ```
+
+Rviz 中 Fixed Frame 设为 `depth_camera_link`，按话题添加 depth / points2。

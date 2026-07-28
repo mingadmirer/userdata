@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000758] (-) JobUnselected: {'identifier': 'bpu_bringup'}
+[0.001696] (-) JobUnselected: {'identifier': 'detection_bridge'}
+[0.003294] (-) JobUnselected: {'identifier': 'detection_interfaces'}
+[0.004560] (-) JobUnselected: {'identifier': 'utils'}
+[0.005519] (qr_decoder) JobQueued: {'identifier': 'qr_decoder', 'dependencies': OrderedDict()}
+[0.005935] (qr_decoder) JobStarted: {'identifier': 'qr_decoder'}
+[0.098123] (-) TimerEvent: {}
+[0.198634] (-) TimerEvent: {}
+[0.299127] (-) TimerEvent: {}
+[0.399709] (-) TimerEvent: {}
+[0.500220] (-) TimerEvent: {}
+[0.600805] (-) TimerEvent: {}
+[0.701400] (-) TimerEvent: {}
+[0.801940] (-) TimerEvent: {}
+[0.902462] (-) TimerEvent: {}
+[1.003099] (-) TimerEvent: {}
+[1.103663] (-) TimerEvent: {}
+[1.204226] (-) TimerEvent: {}
+[1.304835] (-) TimerEvent: {}
+[1.405450] (-) TimerEvent: {}
+[1.506151] (-) TimerEvent: {}
+[1.606838] (-) TimerEvent: {}
+[1.707415] (-) TimerEvent: {}
+[1.807971] (-) TimerEvent: {}
+[1.908479] (-) TimerEvent: {}
+[2.009037] (-) TimerEvent: {}
+[2.109651] (-) TimerEvent: {}
+[2.210239] (-) TimerEvent: {}
+[2.310847] (-) TimerEvent: {}
+[2.411630] (-) TimerEvent: {}
+[2.512141] (-) TimerEvent: {}
+[2.612679] (-) TimerEvent: {}
+[2.713166] (-) TimerEvent: {}
+[2.813640] (-) TimerEvent: {}
+[2.914114] (-) TimerEvent: {}
+[3.014599] (-) TimerEvent: {}
+[3.115123] (-) TimerEvent: {}
+[3.215677] (-) TimerEvent: {}
+[3.316254] (-) TimerEvent: {}
+[3.416770] (-) TimerEvent: {}
+[3.517313] (-) TimerEvent: {}
+[3.617918] (-) TimerEvent: {}
+[3.718541] (-) TimerEvent: {}
+[3.819067] (-) TimerEvent: {}
+[3.919616] (-) TimerEvent: {}
+[4.020135] (-) TimerEvent: {}
+[4.120677] (-) TimerEvent: {}
+[4.221207] (-) TimerEvent: {}
+[4.321764] (-) TimerEvent: {}
+[4.422298] (-) TimerEvent: {}
+[4.522774] (-) TimerEvent: {}
+[4.623299] (-) TimerEvent: {}
+[4.723807] (-) TimerEvent: {}
+[4.824339] (-) TimerEvent: {}
+[4.924819] (-) TimerEvent: {}
+[5.025362] (-) TimerEvent: {}
+[5.125942] (-) TimerEvent: {}
+[5.226516] (-) TimerEvent: {}
+[5.327112] (-) TimerEvent: {}
+[5.423341] (qr_decoder) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/userdata/BPU_bl_ws/build/qr_decoder/build', '--no-deps', 'symlink_data'], 'cwd': '/userdata/BPU_bl_ws/build/qr_decoder', 'env': {'ANTHROPIC_MODEL': 'deepseek-v4-pro[1m]', 'AI_AGENT': 'claude-code_2-1-218_agent', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '10.74.114.36 6614 22', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-1b6a188127eeaf9194f945eb6eb89a657e93c54c/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-1b6a188127eeaf9194f945eb6eb89a657e93c54c/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata/dev_ws', 'TERM_PROGRAM_VERSION': '1.130.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-c6dbc554-1be5-4241-8057-653b31130627.sock', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-v4-pro[1m]', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-1b6a188127eeaf9194f945eb6eb89a657e93c54c/server/extensions/git/dist/askpass-main.js', 'CLAUDE_CODE_CHILD_SESSION': '1', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-1b6a188127eeaf9194f945eb6eb89a657e93c54c/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'CLAUDE_CODE_SSE_PORT': '63160', 'XDG_SESSION_CLASS': 'user', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-v4-pro[1m]', 'PATH': '/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-1b6a188127eeaf9194f945eb6eb89a657e93c54c/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/0', 'CLAUDE_EFFORT': 'high', 'CLAUDE_PID': '15964', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-v4-flash', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-63dc610f39.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'ANTHROPIC_AUTH_TOKEN': 'sk-f3aae6b04a344439914906c5855e7726', 'CLAUDE_CODE_SESSION_ID': '64da2a8a-d359-444c-bb01-2226036eda69', 'CLAUDECODE': '1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/BPU_bl_ws/build/qr_decoder', 'COPILOT_DEBUG_NONCE': '6055476f0a8390b22b37e12f5efa6840', 'SSH_CONNECTION': '10.74.114.36 6614 10.74.114.24 22', 'CLAUDE_CODE_EXECPATH': '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe', 'PYTHONPATH': '/userdata/BPU_bl_ws/build/qr_decoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[5.432449] (-) TimerEvent: {}
+[5.532910] (-) TimerEvent: {}
+[5.633429] (-) TimerEvent: {}
+[5.734057] (-) TimerEvent: {}
+[5.834678] (-) TimerEvent: {}
+[5.935219] (-) TimerEvent: {}
+[6.035784] (-) TimerEvent: {}
+[6.136299] (-) TimerEvent: {}
+[6.236819] (-) TimerEvent: {}
+[6.337311] (-) TimerEvent: {}
+[6.437807] (-) TimerEvent: {}
+[6.538327] (-) TimerEvent: {}
+[6.638820] (-) TimerEvent: {}
+[6.739359] (-) TimerEvent: {}
+[6.839943] (-) TimerEvent: {}
+[6.940641] (-) TimerEvent: {}
+[7.041285] (-) TimerEvent: {}
+[7.141849] (-) TimerEvent: {}
+[7.242482] (-) TimerEvent: {}
+[7.343138] (-) TimerEvent: {}
+[7.443806] (-) TimerEvent: {}
+[7.544366] (-) TimerEvent: {}
+[7.644929] (-) TimerEvent: {}
+[7.745501] (-) TimerEvent: {}
+[7.846172] (-) TimerEvent: {}
+[7.862554] (qr_decoder) StdoutLine: {'line': b'running develop\n'}
+[7.946397] (-) TimerEvent: {}
+[8.046978] (-) TimerEvent: {}
+[8.147520] (-) TimerEvent: {}
+[8.248050] (-) TimerEvent: {}
+[8.348564] (-) TimerEvent: {}
+[8.449112] (-) TimerEvent: {}
+[8.549636] (-) TimerEvent: {}
+[8.650167] (-) TimerEvent: {}
+[8.750885] (-) TimerEvent: {}
+[8.851429] (-) TimerEvent: {}
+[8.951925] (-) TimerEvent: {}
+[9.052412] (-) TimerEvent: {}
+[9.152917] (-) TimerEvent: {}
+[9.253475] (-) TimerEvent: {}
+[9.354110] (-) TimerEvent: {}
+[9.454904] (-) TimerEvent: {}
+[9.483525] (qr_decoder) StdoutLine: {'line': b'running egg_info\n'}
+[9.485230] (qr_decoder) StdoutLine: {'line': b'writing qr_decoder.egg-info/PKG-INFO\n'}
+[9.487258] (qr_decoder) StdoutLine: {'line': b'writing dependency_links to qr_decoder.egg-info/dependency_links.txt\n'}
+[9.488590] (qr_decoder) StdoutLine: {'line': b'writing entry points to qr_decoder.egg-info/entry_points.txt\n'}
+[9.490204] (qr_decoder) StdoutLine: {'line': b'writing requirements to qr_decoder.egg-info/requires.txt\n'}
+[9.491350] (qr_decoder) StdoutLine: {'line': b'writing top-level names to qr_decoder.egg-info/top_level.txt\n'}
+[9.502857] (qr_decoder) StdoutLine: {'line': b"reading manifest file 'qr_decoder.egg-info/SOURCES.txt'\n"}
+[9.508194] (qr_decoder) StdoutLine: {'line': b"writing manifest file 'qr_decoder.egg-info/SOURCES.txt'\n"}
+[9.518160] (qr_decoder) StdoutLine: {'line': b'running build_ext\n'}
+[9.520137] (qr_decoder) StdoutLine: {'line': b'Creating /userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages/qr-decoder.egg-link (link to .)\n'}
+[9.530653] (qr_decoder) StdoutLine: {'line': b'Installing qr_cropper_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin\n'}
+[9.532309] (qr_decoder) StdoutLine: {'line': b'Installing qr_decode_node script to /userdata/BPU_bl_ws/install/qr_decoder/bin\n'}
+[9.534184] (qr_decoder) StdoutLine: {'line': b'\n'}
+[9.534913] (qr_decoder) StdoutLine: {'line': b'Installed /userdata/BPU_bl_ws/build/qr_decoder\n'}
+[9.535537] (qr_decoder) StdoutLine: {'line': b'running symlink_data\n'}
+[9.555121] (-) TimerEvent: {}
+[9.656009] (-) TimerEvent: {}
+[9.756689] (-) TimerEvent: {}
+[9.857341] (-) TimerEvent: {}
+[9.865596] (qr_decoder) CommandEnded: {'returncode': 0}
+[9.958994] (-) TimerEvent: {}
+[9.979229] (qr_decoder) JobEnded: {'identifier': 'qr_decoder', 'rc': 0}
+[9.982789] (-) EventReactorShutdown: {}
