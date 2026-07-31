@@ -1,0 +1,46 @@
+[0.072s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/navi_ws/src/navi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup
+[1.894s] -- The C compiler identification is GNU 11.2.0
+[3.686s] -- The CXX compiler identification is GNU 11.2.0
+[3.740s] -- Detecting C compiler ABI info
+[4.213s] -- Detecting C compiler ABI info - done
+[4.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.292s] -- Detecting C compile features
+[4.296s] -- Detecting C compile features - done
+[4.318s] -- Detecting CXX compiler ABI info
+[4.750s] -- Detecting CXX compiler ABI info - done
+[4.808s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.809s] -- Detecting CXX compile features
+[4.811s] -- Detecting CXX compile features - done
+[4.834s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.018s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.525s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.534s] -- Configuring done
+[7.546s] -- Generating done
+[7.553s] -- Build files have been written to: /userdata/navi_ws/build/navi_bringup
+[7.576s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/navi_ws/src/navi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup
+[7.584s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8
+[7.755s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8
+[7.805s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/navi_ws/build/navi_bringup
+[7.863s] -- Install configuration: ""
+[7.864s] -- Installing: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/launch
+[7.865s] -- Installing: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/launch/ekf_fusion.launch.py
+[7.866s] -- Installing: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config
+[7.866s] -- Installing: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/ekf.yaml
+[7.867s] -- Installing: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/imu_filter.yaml
+[7.868s] -- Execute custom install script
+[7.869s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/package_run_dependencies/navi_bringup
+[7.910s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/parent_prefix_path/navi_bringup
+[7.951s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.sh
+[7.994s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.dsv
+[8.037s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.sh
+[8.085s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.dsv
+[8.128s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.bash
+[8.170s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.sh
+[8.212s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.zsh
+[8.254s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.dsv
+[8.297s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.dsv
+[8.341s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/packages/navi_bringup
+[8.383s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig.cmake
+[8.427s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig-version.cmake
+[8.466s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.xml
+[8.514s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/navi_ws/build/navi_bringup
