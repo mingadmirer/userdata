@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from task_controller.main_controller import main
+main()

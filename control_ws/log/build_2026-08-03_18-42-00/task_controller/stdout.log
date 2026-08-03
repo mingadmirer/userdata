@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating task_controller.egg-info
+writing task_controller.egg-info/PKG-INFO
+writing dependency_links to task_controller.egg-info/dependency_links.txt
+writing entry points to task_controller.egg-info/entry_points.txt
+writing requirements to task_controller.egg-info/requires.txt
+writing top-level names to task_controller.egg-info/top_level.txt
+writing manifest file 'task_controller.egg-info/SOURCES.txt'
+reading manifest file 'task_controller.egg-info/SOURCES.txt'
+writing manifest file 'task_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task-controller.egg-link (link to .)
+Installing main_controller script to /userdata/control_ws/install/task_controller/bin
+
+Installed /userdata/control_ws/build/task_controller
+running symlink_data
+creating /userdata/control_ws/install/task_controller/share/ament_index
+creating /userdata/control_ws/install/task_controller/share/ament_index/resource_index
+creating /userdata/control_ws/install/task_controller/share/ament_index/resource_index/packages
+symbolically linking /userdata/control_ws/build/task_controller/resource/task_controller -> /userdata/control_ws/install/task_controller/share/ament_index/resource_index/packages
+symbolically linking /userdata/control_ws/build/task_controller/package.xml -> /userdata/control_ws/install/task_controller/share/task_controller
+creating /userdata/control_ws/install/task_controller/share/task_controller/launch
+creating /userdata/control_ws/install/task_controller/lib/task_controller
+symbolically linking /userdata/control_ws/build/task_controller/scripts/main_controller_node -> /userdata/control_ws/install/task_controller/lib/task_controller

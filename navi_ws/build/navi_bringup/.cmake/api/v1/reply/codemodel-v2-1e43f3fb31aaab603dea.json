@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6d9f7e0750c248e83da9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "navi_bringup__py",
+					"jsonFile" : "directory-navi_bringup__py-136f35d28d35bfb8bcef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/userdata/navi_ws/build/navi_bringup/navi_bringup__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "navi_bringup__rs",
+					"jsonFile" : "directory-navi_bringup__rs-646e3053cb645fb62e93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/userdata/navi_ws/build/navi_bringup/navi_bringup__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "navi_bringup",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_navi_bringup_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_navi_bringup_egg-9a0905a08c09f9667ee0.json",
+					"name" : "ament_cmake_python_build_navi_bringup_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_navi_bringup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_navi_bringup-a40ece3b7de6a47ace29.json",
+					"name" : "ament_cmake_python_symlink_navi_bringup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup-a27d74e31556a2d2059d.json",
+					"name" : "navi_bringup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__cpp-ba61751b5600202b71fd.json",
+					"name" : "navi_bringup__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "navi_bringup__py::@6bcacd42834e5e92e465",
+					"jsonFile" : "target-navi_bringup__py-7d3245f5dfddbd9db80c.json",
+					"name" : "navi_bringup__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_generator_c-527377252b0025be0ebf.json",
+					"name" : "navi_bringup__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_generator_py-a3159c4081eb6e2b9228.json",
+					"name" : "navi_bringup__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_c-79ed3b18b62e6c8637ba.json",
+					"name" : "navi_bringup__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_c__pyext-ebf5cbd2bd009d471e58.json",
+					"name" : "navi_bringup__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_cpp-95fc8cb41e3a16661175.json",
+					"name" : "navi_bringup__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_fastrtps_c-ef1cd1349b5e02a099d6.json",
+					"name" : "navi_bringup__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_fastrtps_c__pyext-0454f0cf22830efc543b.json",
+					"name" : "navi_bringup__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_fastrtps_cpp-70127d8ad5d270317a51.json",
+					"name" : "navi_bringup__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_introspection_c-74aea84f7192eb4a3ec8.json",
+					"name" : "navi_bringup__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_introspection_c__pyext-eec9820d103ced0cd090.json",
+					"name" : "navi_bringup__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup__rosidl_typesupport_introspection_cpp-bf574951151a5116391f.json",
+					"name" : "navi_bringup__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "navi_bringup__rs::@201638de6d15c1328180",
+					"jsonFile" : "target-navi_bringup__rs-9f486c3fcd9c5ba44196.json",
+					"name" : "navi_bringup__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_bringup_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_bringup_uninstall-7a3a544c00f38f73da35.json",
+					"name" : "navi_bringup_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b91be79048f901961a18.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/userdata/navi_ws/build/navi_bringup",
+		"source" : "/userdata/navi_ws/src/navi_bringup"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

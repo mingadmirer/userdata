@@ -1,2 +1,4 @@
 source;share/navi_bringup/environment/ament_prefix_path.sh
+source;share/navi_bringup/environment/library_path.sh
 source;share/navi_bringup/environment/path.sh
+source;share/navi_bringup/environment/pythonpath.sh

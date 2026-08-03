@@ -4,3 +4,5 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
+subdirs("navi_bringup__py")
+subdirs("navi_bringup__rs")

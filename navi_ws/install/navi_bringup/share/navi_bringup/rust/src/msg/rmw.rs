@@ -1,0 +1,1 @@
+/userdata/navi_ws/build/navi_bringup/rosidl_generator_rs/navi_bringup/rust/src/msg/rmw.rs

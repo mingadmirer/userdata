@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001992] (task_controller) JobQueued: {'identifier': 'task_controller', 'dependencies': OrderedDict()}
+[0.002804] (task_controller) JobStarted: {'identifier': 'task_controller'}
+[0.098673] (-) TimerEvent: {}
+[0.199473] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.401238] (-) TimerEvent: {}
+[0.502144] (-) TimerEvent: {}
+[0.603283] (-) TimerEvent: {}
+[0.704417] (-) TimerEvent: {}
+[0.805316] (-) TimerEvent: {}
+[0.906223] (-) TimerEvent: {}
+[1.007161] (-) TimerEvent: {}
+[1.108112] (-) TimerEvent: {}
+[1.208978] (-) TimerEvent: {}
+[1.309802] (-) TimerEvent: {}
+[1.410648] (-) TimerEvent: {}
+[1.511488] (-) TimerEvent: {}
+[1.612425] (-) TimerEvent: {}
+[1.713235] (-) TimerEvent: {}
+[1.814023] (-) TimerEvent: {}
+[1.914821] (-) TimerEvent: {}
+[2.015681] (-) TimerEvent: {}
+[2.116719] (-) TimerEvent: {}
+[2.217756] (-) TimerEvent: {}
+[2.318718] (-) TimerEvent: {}
+[2.419820] (-) TimerEvent: {}
+[2.520799] (-) TimerEvent: {}
+[2.621694] (-) TimerEvent: {}
+[2.722536] (-) TimerEvent: {}
+[2.823504] (-) TimerEvent: {}
+[2.924372] (-) TimerEvent: {}
+[3.025213] (-) TimerEvent: {}
+[3.126068] (-) TimerEvent: {}
+[3.226938] (-) TimerEvent: {}
+[3.327770] (-) TimerEvent: {}
+[3.428601] (-) TimerEvent: {}
+[3.529401] (-) TimerEvent: {}
+[3.630227] (-) TimerEvent: {}
+[3.731029] (-) TimerEvent: {}
+[3.831842] (-) TimerEvent: {}
+[3.932757] (-) TimerEvent: {}
+[4.033766] (-) TimerEvent: {}
+[4.134944] (-) TimerEvent: {}
+[4.236096] (-) TimerEvent: {}
+[4.337078] (-) TimerEvent: {}
+[4.437946] (-) TimerEvent: {}
+[4.538890] (-) TimerEvent: {}
+[4.639876] (-) TimerEvent: {}
+[4.740814] (-) TimerEvent: {}
+[4.841737] (-) TimerEvent: {}
+[4.940127] (task_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task_controller', 'build', '--build-base', '/userdata/control_ws/build/task_controller/build', 'install', '--record', '/userdata/control_ws/build/task_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/control_ws/src/task_controller', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '10.159.132.36 9273 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'BUN_INSTALL': '/root/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-8f8dbbb0-5fb3-4c02-975f-940e4921915a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/control_ws/install:/userdata/navi_ws/install:/userdata/dev_ws/install:/userdata/BPU_bl_ws/install:/userdata/base_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'CLAUDE_CODE_SSE_PORT': '30324', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/userdata/control_ws/install/task_controller/bin:/root/.bun/bin:/root/.bun/bin:/userdata/BPU_bl_ws/install/qr_decoder/bin:/userdata/BPU_bl_ws/install/detection_bridge/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-53d0fcc998.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/control_ws/install/task_controller:/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/control_ws/build/task_controller', 'COPILOT_DEBUG_NONCE': '4c55ae1c3eef394dfe28343ab05ec776', 'SSH_CONNECTION': '10.159.132.36 9273 10.159.132.24 22', 'PYTHONPATH': '/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:/userdata/control_ws/build/task_controller:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/qr_decoder:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/detection_bridge:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[4.946470] (-) TimerEvent: {}
+[5.047581] (-) TimerEvent: {}
+[5.148519] (-) TimerEvent: {}
+[5.249378] (-) TimerEvent: {}
+[5.350213] (-) TimerEvent: {}
+[5.451166] (-) TimerEvent: {}
+[5.552040] (-) TimerEvent: {}
+[5.652896] (-) TimerEvent: {}
+[5.753884] (-) TimerEvent: {}
+[5.854750] (-) TimerEvent: {}
+[5.955581] (-) TimerEvent: {}
+[6.056501] (-) TimerEvent: {}
+[6.157380] (-) TimerEvent: {}
+[6.258233] (-) TimerEvent: {}
+[6.359187] (-) TimerEvent: {}
+[6.460100] (-) TimerEvent: {}
+[6.561020] (-) TimerEvent: {}
+[6.661927] (-) TimerEvent: {}
+[6.762775] (-) TimerEvent: {}
+[6.821718] (task_controller) StdoutLine: {'line': b'running egg_info\n'}
+[6.826155] (task_controller) StdoutLine: {'line': b'writing ../../build/task_controller/task_controller.egg-info/PKG-INFO\n'}
+[6.827380] (task_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/task_controller/task_controller.egg-info/dependency_links.txt\n'}
+[6.828129] (task_controller) StdoutLine: {'line': b'writing entry points to ../../build/task_controller/task_controller.egg-info/entry_points.txt\n'}
+[6.828765] (task_controller) StdoutLine: {'line': b'writing requirements to ../../build/task_controller/task_controller.egg-info/requires.txt\n'}
+[6.829315] (task_controller) StdoutLine: {'line': b'writing top-level names to ../../build/task_controller/task_controller.egg-info/top_level.txt\n'}
+[6.840072] (task_controller) StdoutLine: {'line': b"reading manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'\n"}
+[6.847151] (task_controller) StdoutLine: {'line': b"writing manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'\n"}
+[6.848237] (task_controller) StdoutLine: {'line': b'running build\n'}
+[6.849066] (task_controller) StdoutLine: {'line': b'running build_py\n'}
+[6.849877] (task_controller) StdoutLine: {'line': b'copying task_controller/task1_line_follow.py -> /userdata/control_ws/build/task_controller/build/lib/task_controller\n'}
+[6.851703] (task_controller) StdoutLine: {'line': b'running install\n'}
+[6.853701] (task_controller) StdoutLine: {'line': b'running install_lib\n'}
+[6.858530] (task_controller) StdoutLine: {'line': b'copying /userdata/control_ws/build/task_controller/build/lib/task_controller/task1_line_follow.py -> /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller\n'}
+[6.863018] (task_controller) StdoutLine: {'line': b'byte-compiling /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller/task1_line_follow.py to task1_line_follow.cpython-310.pyc\n'}
+[6.863754] (-) TimerEvent: {}
+[6.870430] (task_controller) StdoutLine: {'line': b'running install_data\n'}
+[6.871489] (task_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.883388] (task_controller) StdoutLine: {'line': b"removing '/userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[6.884990] (task_controller) StdoutLine: {'line': b'Copying ../../build/task_controller/task_controller.egg-info to /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller-0.1.0-py3.10.egg-info\n'}
+[6.890032] (task_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[6.963966] (-) TimerEvent: {}
+[7.030731] (task_controller) StdoutLine: {'line': b'Installing main_controller_node script to /userdata/control_ws/install/task_controller/bin\n'}
+[7.032813] (task_controller) StdoutLine: {'line': b"writing list of installed files to '/userdata/control_ws/build/task_controller/install.log'\n"}
+[7.064281] (-) TimerEvent: {}
+[7.165430] (-) TimerEvent: {}
+[7.266481] (-) TimerEvent: {}
+[7.269496] (task_controller) CommandEnded: {'returncode': 0}
+[7.367281] (task_controller) JobEnded: {'identifier': 'task_controller', 'rc': 0}
+[7.371891] (-) TimerEvent: {}
+[7.372608] (-) EventReactorShutdown: {}

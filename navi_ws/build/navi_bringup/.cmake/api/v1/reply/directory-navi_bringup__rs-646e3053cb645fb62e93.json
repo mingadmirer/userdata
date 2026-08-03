@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "navi_bringup__rs",
+		"source" : "/userdata/navi_ws/build/navi_bringup/navi_bringup__rs"
+	}
+}

@@ -21,4 +21,10 @@ def generate_launch_description():
             remappings=[('odometry/filtered', 'odom_combined')],
             parameters=[os.path.join(pkg_share, 'config', 'ekf.yaml')],
         ),
+        Node(
+            package='navi_bringup',
+            executable='odom_debug_publisher',
+            name='odom_debug_publisher',
+            output='screen',
+        ),
     ])

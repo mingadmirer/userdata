@@ -1,0 +1,17 @@
+[5.082s] Invoking command in '/userdata/control_ws/build/task_controller': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/control_ws/build/task_controller/build --no-deps symlink_data
+[7.200s] running develop
+[8.559s] running egg_info
+[8.560s] writing task_controller.egg-info/PKG-INFO
+[8.561s] writing dependency_links to task_controller.egg-info/dependency_links.txt
+[8.563s] writing entry points to task_controller.egg-info/entry_points.txt
+[8.564s] writing requirements to task_controller.egg-info/requires.txt
+[8.565s] writing top-level names to task_controller.egg-info/top_level.txt
+[8.577s] reading manifest file 'task_controller.egg-info/SOURCES.txt'
+[8.582s] writing manifest file 'task_controller.egg-info/SOURCES.txt'
+[8.592s] running build_ext
+[8.593s] Creating /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task-controller.egg-link (link to .)
+[8.599s] Installing main_controller_node script to /userdata/control_ws/install/task_controller/bin
+[8.601s] 
+[8.602s] Installed /userdata/control_ws/build/task_controller
+[8.603s] running symlink_data
+[8.887s] Invoked command in '/userdata/control_ws/build/task_controller' returned '0': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/control_ws/build/task_controller/build --no-deps symlink_data

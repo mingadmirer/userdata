@@ -1,0 +1,160 @@
+[0.080s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/navi_ws/src/navi_bringup -DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup
+[0.152s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.122s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.161s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.204s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.550s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.998s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.979s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.818s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.001s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.002s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.003s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[10.139s] -- Configuring done
+[10.344s] -- Generating done
+[10.431s] -- Build files have been written to: /userdata/navi_ws/build/navi_bringup
+[10.492s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/navi_ws/src/navi_bringup -DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup
+[10.503s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8
+[10.699s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_generator_c[0m
+[10.744s] [  3%] Built target navi_bringup__rs
+[10.747s] [  6%] Built target navi_bringup__cpp
+[10.757s] [ 15%] Built target navi_bringup__rosidl_generator_c
+[10.789s] [ 15%] Built target ament_cmake_python_symlink_navi_bringup
+[10.803s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_cpp[0m
+[10.807s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_introspection_cpp[0m
+[10.811s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_c[0m
+[10.814s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_fastrtps_c[0m
+[10.822s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_fastrtps_cpp[0m
+[10.825s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_introspection_c[0m
+[10.874s] [ 25%] Built target navi_bringup__rosidl_typesupport_c
+[10.887s] [ 34%] Built target navi_bringup__rosidl_typesupport_cpp
+[10.889s] [ 53%] Built target navi_bringup__rosidl_typesupport_fastrtps_c
+[10.890s] [ 53%] Built target navi_bringup__rosidl_typesupport_introspection_cpp
+[10.892s] [ 62%] Built target navi_bringup__rosidl_typesupport_introspection_c
+[10.898s] [ 71%] Built target navi_bringup__rosidl_typesupport_fastrtps_cpp
+[10.992s] [ 71%] Built target navi_bringup
+[11.093s] [ 75%] Built target navi_bringup__py
+[11.142s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_generator_py[0m
+[11.201s] [ 81%] Built target navi_bringup__rosidl_generator_py
+[11.253s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.254s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_introspection_c__pyext[0m
+[11.254s] [35m[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_c__pyext[0m
+[11.313s] [ 87%] Built target navi_bringup__rosidl_typesupport_c__pyext
+[11.314s] [100%] Built target navi_bringup__rosidl_typesupport_fastrtps_c__pyext
+[11.314s] [100%] Built target navi_bringup__rosidl_typesupport_introspection_c__pyext
+[12.939s] running egg_info
+[12.945s] writing navi_bringup.egg-info/PKG-INFO
+[12.946s] writing dependency_links to navi_bringup.egg-info/dependency_links.txt
+[12.948s] writing top-level names to navi_bringup.egg-info/top_level.txt
+[12.964s] reading manifest file 'navi_bringup.egg-info/SOURCES.txt'
+[12.968s] writing manifest file 'navi_bringup.egg-info/SOURCES.txt'
+[13.204s] [100%] Built target ament_cmake_python_build_navi_bringup_egg
+[13.261s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8
+[13.312s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/navi_ws/build/navi_bringup
+[13.352s] -- Install configuration: ""
+[13.355s] -- Execute custom install script
+[13.356s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/rosidl_interfaces/navi_bringup
+[13.358s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__functions.h
+[13.360s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__struct.h
+[13.361s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__type_support.h
+[13.361s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/odom_debug.h
+[13.362s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_generator_c__visibility_control.h
+[13.363s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/library_path.sh
+[13.363s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/library_path.dsv
+[13.364s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_fastrtps_c.h
+[13.365s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.366s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_introspection_c.h
+[13.367s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.368s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__builder.hpp
+[13.369s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__struct.hpp
+[13.370s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__traits.hpp
+[13.370s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/odom_debug.hpp
+[13.372s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_fastrtps_cpp.hpp
+[13.373s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.375s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_introspection_cpp.hpp
+[13.376s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/pythonpath.sh
+[13.377s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/pythonpath.dsv
+[13.379s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[13.380s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[13.381s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[13.382s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[13.383s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/__init__.py
+[13.384s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_c.c
+[13.384s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.385s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_introspection_c.c
+[13.385s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/libnavi_bringup__rosidl_generator_py.so
+[13.386s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/__init__.py
+[13.387s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/_odom_debug.py
+[13.387s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/_odom_debug_s.c
+[13.388s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.389s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.389s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.390s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.392s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.393s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.394s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/rust_packages/navi_bringup
+[13.396s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/Cargo.toml
+[13.397s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/build.rs
+[13.398s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/lib.rs
+[13.398s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/msg.rs
+[13.399s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/msg/rmw.rs
+[13.400s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/msg/OdomDebug.idl
+[13.401s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/msg/OdomDebug.msg
+[13.402s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/launch/ekf_fusion.launch.py
+[13.403s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/ekf.yaml
+[13.403s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/imu_filter.yaml
+[13.404s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/lib/navi_bringup/odom_debug_publisher
+[13.405s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/package_run_dependencies/navi_bringup
+[13.406s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/parent_prefix_path/navi_bringup
+[13.408s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.sh
+[13.409s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.dsv
+[13.410s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.sh
+[13.411s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.dsv
+[13.412s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.bash
+[13.413s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.sh
+[13.414s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.zsh
+[13.415s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.dsv
+[13.415s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.dsv
+[13.462s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/packages/navi_bringup
+[13.463s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake-extras.cmake
+[13.464s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.465s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.466s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_libraries-extras.cmake
+[13.467s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_targets-extras.cmake
+[13.468s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.469s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.470s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig.cmake
+[13.470s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig-version.cmake
+[13.471s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.xml
+[13.472s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_generator_c.so
+[13.474s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_fastrtps_c.so
+[13.475s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_introspection_c.so
+[13.476s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_c.so
+[13.477s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_fastrtps_cpp.so
+[13.478s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_introspection_cpp.so
+[13.480s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_cpp.so
+[13.770s] Listing '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup'...
+[13.770s] Compiling '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/__init__.py'...
+[13.771s] Listing '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg'...
+[13.827s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_generator_py.so
+[13.828s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cExport.cmake
+[13.829s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cExport-noconfig.cmake
+[13.829s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cExport.cmake
+[13.830s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.831s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cExport.cmake
+[13.831s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.832s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cExport.cmake
+[13.832s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cExport-noconfig.cmake
+[13.833s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cppExport.cmake
+[13.833s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.834s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.834s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cppExport.cmake
+[13.835s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.835s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cppExport.cmake
+[13.836s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cppExport-noconfig.cmake
+[13.837s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_pyExport.cmake
+[13.837s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_pyExport-noconfig.cmake
+[13.845s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/navi_ws/build/navi_bringup

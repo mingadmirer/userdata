@@ -310,6 +310,72 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/navi_bringup" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/navi_bringup" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_c/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_c/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/navi_bringup/environment")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/navi_bringup/environment")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/navi_bringup/environment")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/navi_bringup/environment")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_fastrtps_c/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_fastrtps_c/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_introspection_c/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_introspection_c/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.h")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_cpp/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_cpp/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_fastrtps_cpp/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_fastrtps_cpp/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_introspection_cpp/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_typesupport_introspection_cpp/navi_bringup/" "DESTINATION" "include/navi_bringup/navi_bringup" "PATTERN" "*.hpp")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/navi_bringup/environment")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/navi_bringup/environment")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/navi_bringup/environment")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/navi_bringup/environment")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/ament_cmake_python/navi_bringup/navi_bringup.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/ament_cmake_python/navi_bringup/navi_bringup.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_py/navi_bringup/" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_py/navi_bringup/" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "navi_bringup__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup")
+include("/userdata/navi_ws/build/navi_bringup/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "navi_bringup__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup")
+include("/userdata/navi_ws/build/navi_bringup/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "navi_bringup__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup")
+include("/userdata/navi_ws/build/navi_bringup/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/rust_packages/navi_bringup" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/rust_packages/navi_bringup" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+
+# install(DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_rs/navi_bringup/rust" "DESTINATION" "share/navi_bringup")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "/userdata/navi_ws/build/navi_bringup/rosidl_generator_rs/navi_bringup/rust" "DESTINATION" "share/navi_bringup")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/rosidl_adapter/navi_bringup/msg/OdomDebug.idl" "DESTINATION" "share/navi_bringup/msg")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/rosidl_adapter/navi_bringup/msg/OdomDebug.idl" "DESTINATION" "share/navi_bringup/msg")
+
+# install(FILES "/userdata/navi_ws/src/navi_bringup/msg/OdomDebug.msg" "DESTINATION" "share/navi_bringup/msg")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/src/navi_bringup/msg/OdomDebug.msg" "DESTINATION" "share/navi_bringup/msg")
+
+# install(DIRECTORY "launch" "config" "DESTINATION" "share/navi_bringup")
+ament_cmake_symlink_install_directory("/userdata/navi_ws/src/navi_bringup" DIRECTORY "launch" "config" "DESTINATION" "share/navi_bringup")
+
+# install(PROGRAMS "scripts/odom_debug_publisher" "DESTINATION" "lib/navi_bringup")
+ament_cmake_symlink_install_programs("/userdata/navi_ws/src/navi_bringup" PROGRAMS "scripts/odom_debug_publisher" "DESTINATION" "lib/navi_bringup")
+
 # install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/navi_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/navi_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -345,6 +411,27 @@ ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/u
 
 # install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/packages/navi_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_index/share/ament_index/resource_index/packages/navi_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+
+# install(FILES "/userdata/navi_ws/build/navi_bringup/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
+ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/navi_bringup/cmake")
 
 # install(FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_core/navi_bringupConfig.cmake" "/userdata/navi_ws/build/navi_bringup/ament_cmake_core/navi_bringupConfig-version.cmake" "DESTINATION" "share/navi_bringup/cmake")
 ament_cmake_symlink_install_files("/userdata/navi_ws/src/navi_bringup" FILES "/userdata/navi_ws/build/navi_bringup/ament_cmake_core/navi_bringupConfig.cmake" "/userdata/navi_ws/build/navi_bringup/ament_cmake_core/navi_bringupConfig-version.cmake" "DESTINATION" "share/navi_bringup/cmake")

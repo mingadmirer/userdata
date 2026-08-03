@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/userdata/navi_ws/build/navi_bringup/rosidl_generator_py/navi_bringup/navi_bringup_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "navi_bringup__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/navi_bringup")

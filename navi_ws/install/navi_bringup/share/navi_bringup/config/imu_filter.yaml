@@ -1,7 +1,1 @@
-imu_filter_madgwick:
-    ros__parameters:
-        fixed_frame: "base_footprint"
-        use_mag: false
-        publish_tf: false
-        world_frame: "enu"
-        orientation_stddev: 0.05
+/userdata/navi_ws/src/navi_bringup/config/imu_filter.yaml

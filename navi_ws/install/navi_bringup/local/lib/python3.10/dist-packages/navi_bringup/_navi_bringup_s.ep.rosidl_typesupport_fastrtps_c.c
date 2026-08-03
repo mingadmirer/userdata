@@ -1,0 +1,1 @@
+/userdata/navi_ws/build/navi_bringup/rosidl_generator_py/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_fastrtps_c.c

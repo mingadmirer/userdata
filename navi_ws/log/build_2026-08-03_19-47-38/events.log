@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000515] (navi_bringup) JobQueued: {'identifier': 'navi_bringup', 'dependencies': OrderedDict()}
+[0.002172] (navi_bringup) JobStarted: {'identifier': 'navi_bringup'}
+[0.071252] (navi_bringup) JobProgress: {'identifier': 'navi_bringup', 'progress': 'cmake'}
+[0.073815] (navi_bringup) Command: {'cmd': ['/usr/bin/cmake', '/userdata/navi_ws/src/navi_bringup', '-DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup'], 'cwd': '/userdata/navi_ws/build/navi_bringup', 'env': OrderedDict([('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('AI_AGENT', 'claude-code_2-1-220_agent'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.159.132.36 9273 22'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh'), ('BUN_INSTALL', '/root/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/navi_ws/build/navi_bringup'), ('TERM_PROGRAM_VERSION', '1.131.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-032c65f7-dfa6-4918-91ac-1bd1088de8a1.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/control_ws/install:/userdata/navi_ws/install:/userdata/dev_ws/install:/userdata/BPU_bl_ws/install:/userdata/base_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '30324'), ('XDG_SESSION_CLASS', 'user'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/root/.bun/bin:/root/.bun/bin:/userdata/BPU_bl_ws/install/qr_decoder/bin:/userdata/BPU_bl_ws/install/detection_bridge/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('CLAUDE_EFFORT', 'high'), ('CLAUDE_PID', '10161'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-53d0fcc998.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-f3aae6b04a344439914906c5855e7726'), ('CLAUDE_CODE_SESSION_ID', '21b2af10-ff9e-4fc4-84bf-d6b97d223aa8'), ('CLAUDECODE', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/navi_ws/build/navi_bringup'), ('COPILOT_DEBUG_NONCE', '4c55ae1c3eef394dfe28343ab05ec776'), ('SSH_CONNECTION', '10.159.132.36 9273 10.159.132.24 22'), ('CLAUDE_CODE_EXECPATH', '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe'), ('PYTHONPATH', '/userdata/BPU_bl_ws/build/qr_decoder:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/detection_bridge:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098861] (-) TimerEvent: {}
+[0.199417] (-) TimerEvent: {}
+[0.300041] (-) TimerEvent: {}
+[0.400805] (-) TimerEvent: {}
+[0.405970] (navi_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.501026] (-) TimerEvent: {}
+[0.601568] (-) TimerEvent: {}
+[0.702142] (-) TimerEvent: {}
+[0.756585] (navi_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.794817] (navi_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802335] (-) TimerEvent: {}
+[0.902811] (-) TimerEvent: {}
+[1.003317] (-) TimerEvent: {}
+[1.103834] (-) TimerEvent: {}
+[1.180653] (navi_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.204051] (-) TimerEvent: {}
+[1.233013] (navi_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.235289] (navi_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.242322] (navi_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.253589] (navi_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.304283] (-) TimerEvent: {}
+[1.404829] (-) TimerEvent: {}
+[1.505371] (-) TimerEvent: {}
+[1.605910] (-) TimerEvent: {}
+[1.699560] (navi_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.706079] (-) TimerEvent: {}
+[1.749650] (navi_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.751146] (navi_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.753937] (navi_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.770634] (navi_bringup) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake:1:\n'}
+[1.771803] (navi_bringup) StderrLine: {'line': b'  Parse error.  Expected a command name, got unquoted argument with text\n'}
+[1.772524] (navi_bringup) StderrLine: {'line': b'  "rwi\xa1\xd7\xf54\x7fpu\xca@F\xceD\x98\xa2\xa7\xcdkx^h8\xdae\xd4\xf3\xa8-\xc2\xdf".\n'}
+[1.773122] (navi_bringup) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.773655] (navi_bringup) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[1.774250] (navi_bringup) StderrLine: {'line': b'\n'}
+[1.774709] (navi_bringup) StderrLine: {'line': b'\n'}
+[1.806587] (-) TimerEvent: {}
+[1.834407] (navi_bringup) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (find_package):\n'}
+[1.835639] (navi_bringup) StderrLine: {'line': b'  Could not find a configuration file for package "ament_cmake" that is\n'}
+[1.836206] (navi_bringup) StderrLine: {'line': b'  compatible with requested version "".\n'}
+[1.836672] (navi_bringup) StderrLine: {'line': b'\n'}
+[1.837103] (navi_bringup) StderrLine: {'line': b'  The following configuration files were considered but not accepted:\n'}
+[1.837566] (navi_bringup) StderrLine: {'line': b'\n'}
+[1.838253] (navi_bringup) StderrLine: {'line': b'    /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake, version: unknown\n'}
+[1.838817] (navi_bringup) StderrLine: {'line': b'\n'}
+[1.839556] (navi_bringup) StderrLine: {'line': b'\n'}
+[1.840257] (navi_bringup) StderrLine: {'line': b'\n'}
+[1.840996] (navi_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.841680] (navi_bringup) StdoutLine: {'line': b'See also "/userdata/navi_ws/build/navi_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[1.861071] (navi_bringup) CommandEnded: {'returncode': 1}
+[1.906816] (-) TimerEvent: {}
+[1.996412] (navi_bringup) JobEnded: {'identifier': 'navi_bringup', 'rc': 1}
+[2.007284] (-) TimerEvent: {}
+[2.009112] (-) EventReactorShutdown: {}

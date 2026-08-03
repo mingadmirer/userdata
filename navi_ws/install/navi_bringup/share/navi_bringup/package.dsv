@@ -1,6 +1,9 @@
 source;share/navi_bringup/hook/cmake_prefix_path.ps1
 source;share/navi_bringup/hook/cmake_prefix_path.dsv
 source;share/navi_bringup/hook/cmake_prefix_path.sh
+source;share/navi_bringup/hook/ld_library_path_lib.ps1
+source;share/navi_bringup/hook/ld_library_path_lib.dsv
+source;share/navi_bringup/hook/ld_library_path_lib.sh
 source;share/navi_bringup/local_setup.bash
 source;share/navi_bringup/local_setup.dsv
 source;share/navi_bringup/local_setup.ps1

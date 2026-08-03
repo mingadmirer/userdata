@@ -1,0 +1,25 @@
+CMake Error at /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake:1:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "rwi¡×õ4puÊ@FÎD˜¢§Íkx^h8ÚeÔó¨-Âß".
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (find_package)
+
+
+CMake Error at /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake:1:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "rwi¡×õ4puÊ@FÎD˜¢§Íkx^h8ÚeÔó¨-Âß".
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (find_package)
+
+
+CMake Error at CMakeLists.txt:8 (find_package):
+  Could not find a configuration file for package "ament_cmake" that is
+  compatible with requested version "".
+
+  The following configuration files were considered but not accepted:
+
+    /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake, version: unknown
+
+
+
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

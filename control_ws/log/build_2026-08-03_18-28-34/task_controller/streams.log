@@ -1,0 +1,16 @@
+[0.082s] Invoking command in '/userdata/control_ws/build/task_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/control_ws/src/task_controller -DCMAKE_INSTALL_PREFIX=/userdata/control_ws/install/task_controller
+[2.373s] -- The C compiler identification is GNU 11.2.0
+[4.768s] -- The CXX compiler identification is GNU 11.2.0
+[4.839s] -- Detecting C compiler ABI info
+[5.346s] -- Detecting C compiler ABI info - done
+[5.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.402s] -- Detecting C compile features
+[5.409s] -- Detecting C compile features - done
+[5.428s] -- Detecting CXX compiler ABI info
+[5.862s] -- Detecting CXX compiler ABI info - done
+[5.911s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.912s] -- Detecting CXX compile features
+[5.915s] -- Detecting CXX compile features - done
+[6.258s] -- Configuring incomplete, errors occurred!
+[6.259s] See also "/userdata/control_ws/build/task_controller/CMakeFiles/CMakeOutput.log".
+[6.282s] Invoked command in '/userdata/control_ws/build/task_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/control_ws/src/task_controller -DCMAKE_INSTALL_PREFIX=/userdata/control_ws/install/task_controller

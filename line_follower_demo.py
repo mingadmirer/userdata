@@ -29,7 +29,7 @@ class LineFollower(Node):
                 continue
             cy = (d.y1 + d.y2) / 2
             cx = (d.x1 + d.x2) / 2
-            if best is None or cy > best[0]:
+            if best is None or cy < best[0]:
                 best = (cy, cx)
         if best:
             self.latest_cx = best[1]
@@ -45,7 +45,7 @@ class LineFollower(Node):
             msg.angular.z = 0.0
         else:
             error = self.latest_cx - 0.5
-            msg.linear.x = 0.5           # 前进速度 m/s
+            msg.linear.x = 0.8           # 前进速度 m/s
             msg.angular.z = -error * 2.0  # 转向角速度 rad/s, P=2.0
 
         self.pub.publish(msg)

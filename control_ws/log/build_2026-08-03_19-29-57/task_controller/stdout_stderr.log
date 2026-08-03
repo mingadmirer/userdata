@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/task_controller/task_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_controller/task_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/task_controller/task_controller.egg-info/entry_points.txt
+writing requirements to ../../build/task_controller/task_controller.egg-info/requires.txt
+writing top-level names to ../../build/task_controller/task_controller.egg-info/top_level.txt
+reading manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying task_controller/task1_line_follow.py -> /userdata/control_ws/build/task_controller/build/lib/task_controller
+running install
+running install_lib
+copying /userdata/control_ws/build/task_controller/build/lib/task_controller/task1_line_follow.py -> /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller
+byte-compiling /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller/task1_line_follow.py to task1_line_follow.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/task_controller/task_controller.egg-info to /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller-0.1.0-py3.10.egg-info
+running install_scripts
+Installing main_controller_node script to /userdata/control_ws/install/task_controller/bin
+writing list of installed files to '/userdata/control_ws/build/task_controller/install.log'

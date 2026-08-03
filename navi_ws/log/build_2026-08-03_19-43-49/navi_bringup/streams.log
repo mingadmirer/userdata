@@ -1,0 +1,29 @@
+[0.096s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8
+[0.215s] CMake Error at /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake:1:
+[0.217s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.218s]   "rwi¡×õ4puÊ@FÎD˜¢§Íkx^h8ÚeÔó¨-Âß".
+[0.218s] Call Stack (most recent call first):
+[0.219s]   CMakeLists.txt:8 (find_package)
+[0.220s] 
+[0.221s] 
+[0.228s] CMake Error at /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake:1:
+[0.229s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.230s]   "rwi¡×õ4puÊ@FÎD˜¢§Íkx^h8ÚeÔó¨-Âß".
+[0.230s] Call Stack (most recent call first):
+[0.231s]   CMakeLists.txt:8 (find_package)
+[0.231s] 
+[0.232s] 
+[0.293s] CMake Error at CMakeLists.txt:8 (find_package):
+[0.293s]   Could not find a configuration file for package "ament_cmake" that is
+[0.294s]   compatible with requested version "".
+[0.295s] 
+[0.295s]   The following configuration files were considered but not accepted:
+[0.296s] 
+[0.297s]     /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake, version: unknown
+[0.297s] 
+[0.298s] 
+[0.298s] 
+[0.299s] -- Configuring incomplete, errors occurred!
+[0.300s] See also "/userdata/navi_ws/build/navi_bringup/CMakeFiles/CMakeOutput.log".
+[0.301s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.310s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8

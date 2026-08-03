@@ -1,0 +1,307 @@
+[0.000000] (-) TimerEvent: {}
+[0.002430] (navi_bringup) JobQueued: {'identifier': 'navi_bringup', 'dependencies': OrderedDict()}
+[0.003502] (navi_bringup) JobStarted: {'identifier': 'navi_bringup'}
+[0.074641] (navi_bringup) JobProgress: {'identifier': 'navi_bringup', 'progress': 'cmake'}
+[0.079624] (navi_bringup) Command: {'cmd': ['/usr/bin/cmake', '/userdata/navi_ws/src/navi_bringup', '-DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup'], 'cwd': '/userdata/navi_ws/build/navi_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.159.132.36 9273 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh'), ('BUN_INSTALL', '/root/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/navi_ws/install/navi_bringup/lib:/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('TERM_PROGRAM_VERSION', '1.131.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-fa3cd710-4047-45a7-9dc4-8b7a20267ffc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/navi_ws/install:/userdata/dev_ws/install:/userdata/control_ws/install:/userdata/BPU_bl_ws/install:/userdata/base_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '30324'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.bun/bin:/root/.bun/bin:/userdata/control_ws/install/task_controller/bin:/userdata/BPU_bl_ws/install/qr_decoder/bin:/userdata/BPU_bl_ws/install/detection_bridge/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-53d0fcc998.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/control_ws/install/task_controller:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/navi_ws/build/navi_bringup'), ('COPILOT_DEBUG_NONCE', '4c55ae1c3eef394dfe28343ab05ec776'), ('SSH_CONNECTION', '10.159.132.36 9273 10.159.132.24 22'), ('PYTHONPATH', '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/qr_decoder:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/detection_bridge:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.097987] (-) TimerEvent: {}
+[0.155452] (navi_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198200] (-) TimerEvent: {}
+[0.299067] (-) TimerEvent: {}
+[0.399933] (-) TimerEvent: {}
+[0.500801] (-) TimerEvent: {}
+[0.601654] (-) TimerEvent: {}
+[0.702594] (-) TimerEvent: {}
+[0.803403] (-) TimerEvent: {}
+[0.904309] (-) TimerEvent: {}
+[1.005259] (-) TimerEvent: {}
+[1.106382] (-) TimerEvent: {}
+[1.125338] (navi_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.164789] (navi_bringup) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.189592] (navi_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.206448] (-) TimerEvent: {}
+[1.207476] (navi_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.306775] (-) TimerEvent: {}
+[1.375432] (navi_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.406982] (-) TimerEvent: {}
+[1.507883] (-) TimerEvent: {}
+[1.553417] (navi_bringup) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.608124] (-) TimerEvent: {}
+[1.708993] (-) TimerEvent: {}
+[1.809974] (-) TimerEvent: {}
+[1.910923] (-) TimerEvent: {}
+[2.012014] (-) TimerEvent: {}
+[2.113077] (-) TimerEvent: {}
+[2.213952] (-) TimerEvent: {}
+[2.314813] (-) TimerEvent: {}
+[2.415679] (-) TimerEvent: {}
+[2.516483] (-) TimerEvent: {}
+[2.617301] (-) TimerEvent: {}
+[2.718189] (-) TimerEvent: {}
+[2.819208] (-) TimerEvent: {}
+[2.920276] (-) TimerEvent: {}
+[3.021364] (-) TimerEvent: {}
+[3.122397] (-) TimerEvent: {}
+[3.223317] (-) TimerEvent: {}
+[3.324219] (-) TimerEvent: {}
+[3.425167] (-) TimerEvent: {}
+[3.526195] (-) TimerEvent: {}
+[3.627089] (-) TimerEvent: {}
+[3.727957] (-) TimerEvent: {}
+[3.828836] (-) TimerEvent: {}
+[3.929747] (-) TimerEvent: {}
+[4.001964] (navi_bringup) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.029942] (-) TimerEvent: {}
+[4.130787] (-) TimerEvent: {}
+[4.231650] (-) TimerEvent: {}
+[4.332561] (-) TimerEvent: {}
+[4.433441] (-) TimerEvent: {}
+[4.534372] (-) TimerEvent: {}
+[4.635381] (-) TimerEvent: {}
+[4.736634] (-) TimerEvent: {}
+[4.837767] (-) TimerEvent: {}
+[4.938923] (-) TimerEvent: {}
+[5.039786] (-) TimerEvent: {}
+[5.140894] (-) TimerEvent: {}
+[5.241947] (-) TimerEvent: {}
+[5.342960] (-) TimerEvent: {}
+[5.443896] (-) TimerEvent: {}
+[5.544750] (-) TimerEvent: {}
+[5.645590] (-) TimerEvent: {}
+[5.746476] (-) TimerEvent: {}
+[5.847342] (-) TimerEvent: {}
+[5.948218] (-) TimerEvent: {}
+[5.982030] (navi_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.048415] (-) TimerEvent: {}
+[6.149262] (-) TimerEvent: {}
+[6.250176] (-) TimerEvent: {}
+[6.351272] (-) TimerEvent: {}
+[6.452409] (-) TimerEvent: {}
+[6.553974] (-) TimerEvent: {}
+[6.654963] (-) TimerEvent: {}
+[6.755991] (-) TimerEvent: {}
+[6.856949] (-) TimerEvent: {}
+[6.957961] (-) TimerEvent: {}
+[7.058834] (-) TimerEvent: {}
+[7.159743] (-) TimerEvent: {}
+[7.260756] (-) TimerEvent: {}
+[7.361636] (-) TimerEvent: {}
+[7.462692] (-) TimerEvent: {}
+[7.563591] (-) TimerEvent: {}
+[7.664413] (-) TimerEvent: {}
+[7.765330] (-) TimerEvent: {}
+[7.866264] (-) TimerEvent: {}
+[7.967273] (-) TimerEvent: {}
+[8.068388] (-) TimerEvent: {}
+[8.169389] (-) TimerEvent: {}
+[8.270408] (-) TimerEvent: {}
+[8.371325] (-) TimerEvent: {}
+[8.472429] (-) TimerEvent: {}
+[8.573393] (-) TimerEvent: {}
+[8.634749] (navi_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.673599] (-) TimerEvent: {}
+[8.774524] (-) TimerEvent: {}
+[8.821157] (navi_bringup) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.874715] (-) TimerEvent: {}
+[8.975643] (-) TimerEvent: {}
+[9.005025] (navi_bringup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.005896] (navi_bringup) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.006427] (navi_bringup) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[9.075850] (-) TimerEvent: {}
+[9.176745] (-) TimerEvent: {}
+[9.277581] (-) TimerEvent: {}
+[9.378423] (-) TimerEvent: {}
+[9.479286] (-) TimerEvent: {}
+[9.580109] (-) TimerEvent: {}
+[9.680967] (-) TimerEvent: {}
+[9.781947] (-) TimerEvent: {}
+[9.882948] (-) TimerEvent: {}
+[9.984050] (-) TimerEvent: {}
+[10.085086] (-) TimerEvent: {}
+[10.142372] (navi_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.185258] (-) TimerEvent: {}
+[10.286178] (-) TimerEvent: {}
+[10.347315] (navi_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[10.386374] (-) TimerEvent: {}
+[10.434785] (navi_bringup) StdoutLine: {'line': b'-- Build files have been written to: /userdata/navi_ws/build/navi_bringup\n'}
+[10.486598] (-) TimerEvent: {}
+[10.494941] (navi_bringup) CommandEnded: {'returncode': 0}
+[10.498477] (navi_bringup) JobProgress: {'identifier': 'navi_bringup', 'progress': 'build'}
+[10.503513] (navi_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/navi_ws/build/navi_bringup', '--', '-j8', '-l8'], 'cwd': '/userdata/navi_ws/build/navi_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.159.132.36 9273 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh'), ('BUN_INSTALL', '/root/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/navi_ws/install/navi_bringup/lib:/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('TERM_PROGRAM_VERSION', '1.131.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-fa3cd710-4047-45a7-9dc4-8b7a20267ffc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/navi_ws/install:/userdata/dev_ws/install:/userdata/control_ws/install:/userdata/BPU_bl_ws/install:/userdata/base_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '30324'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.bun/bin:/root/.bun/bin:/userdata/control_ws/install/task_controller/bin:/userdata/BPU_bl_ws/install/qr_decoder/bin:/userdata/BPU_bl_ws/install/detection_bridge/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-53d0fcc998.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/control_ws/install/task_controller:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/navi_ws/build/navi_bringup'), ('COPILOT_DEBUG_NONCE', '4c55ae1c3eef394dfe28343ab05ec776'), ('SSH_CONNECTION', '10.159.132.36 9273 10.159.132.24 22'), ('PYTHONPATH', '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/qr_decoder:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/detection_bridge:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[10.586825] (-) TimerEvent: {}
+[10.687791] (-) TimerEvent: {}
+[10.702908] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_generator_c\x1b[0m\n'}
+[10.747383] (navi_bringup) StdoutLine: {'line': b'[  3%] Built target navi_bringup__rs\n'}
+[10.750315] (navi_bringup) StdoutLine: {'line': b'[  6%] Built target navi_bringup__cpp\n'}
+[10.760687] (navi_bringup) StdoutLine: {'line': b'[ 15%] Built target navi_bringup__rosidl_generator_c\n'}
+[10.790574] (-) TimerEvent: {}
+[10.792379] (navi_bringup) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_symlink_navi_bringup\n'}
+[10.806127] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_cpp\x1b[0m\n'}
+[10.810820] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[10.814668] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_c\x1b[0m\n'}
+[10.817244] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.825860] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[10.829120] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.877698] (navi_bringup) StdoutLine: {'line': b'[ 25%] Built target navi_bringup__rosidl_typesupport_c\n'}
+[10.883544] (navi_bringup) StdoutLine: {'line': b'[ 34%] Built target navi_bringup__rosidl_typesupport_cpp\n'}
+[10.891222] (-) TimerEvent: {}
+[10.892907] (navi_bringup) StdoutLine: {'line': b'[ 53%] Built target navi_bringup__rosidl_typesupport_fastrtps_c\n'}
+[10.893799] (navi_bringup) StdoutLine: {'line': b'[ 53%] Built target navi_bringup__rosidl_typesupport_introspection_cpp\n'}
+[10.894865] (navi_bringup) StdoutLine: {'line': b'[ 62%] Built target navi_bringup__rosidl_typesupport_introspection_c\n'}
+[10.901608] (navi_bringup) StdoutLine: {'line': b'[ 71%] Built target navi_bringup__rosidl_typesupport_fastrtps_cpp\n'}
+[10.991451] (-) TimerEvent: {}
+[10.995321] (navi_bringup) StdoutLine: {'line': b'[ 71%] Built target navi_bringup\n'}
+[11.091647] (-) TimerEvent: {}
+[11.096478] (navi_bringup) StdoutLine: {'line': b'[ 75%] Built target navi_bringup__py\n'}
+[11.145866] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_generator_py\x1b[0m\n'}
+[11.191846] (-) TimerEvent: {}
+[11.204474] (navi_bringup) StdoutLine: {'line': b'[ 81%] Built target navi_bringup__rosidl_generator_py\n'}
+[11.256917] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.257703] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.258250] (navi_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navi_bringup__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.292058] (-) TimerEvent: {}
+[11.316539] (navi_bringup) StdoutLine: {'line': b'[ 87%] Built target navi_bringup__rosidl_typesupport_c__pyext\n'}
+[11.317570] (navi_bringup) StdoutLine: {'line': b'[100%] Built target navi_bringup__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.318257] (navi_bringup) StdoutLine: {'line': b'[100%] Built target navi_bringup__rosidl_typesupport_introspection_c__pyext\n'}
+[11.393038] (-) TimerEvent: {}
+[11.493877] (-) TimerEvent: {}
+[11.594673] (-) TimerEvent: {}
+[11.695651] (-) TimerEvent: {}
+[11.796583] (-) TimerEvent: {}
+[11.897677] (-) TimerEvent: {}
+[11.998721] (-) TimerEvent: {}
+[12.099648] (-) TimerEvent: {}
+[12.200504] (-) TimerEvent: {}
+[12.301439] (-) TimerEvent: {}
+[12.403760] (-) TimerEvent: {}
+[12.504701] (-) TimerEvent: {}
+[12.605634] (-) TimerEvent: {}
+[12.706513] (-) TimerEvent: {}
+[12.807356] (-) TimerEvent: {}
+[12.908161] (-) TimerEvent: {}
+[12.942995] (navi_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[12.948048] (navi_bringup) StdoutLine: {'line': b'writing navi_bringup.egg-info/PKG-INFO\n'}
+[12.949542] (navi_bringup) StdoutLine: {'line': b'writing dependency_links to navi_bringup.egg-info/dependency_links.txt\n'}
+[12.952038] (navi_bringup) StdoutLine: {'line': b'writing top-level names to navi_bringup.egg-info/top_level.txt\n'}
+[12.967797] (navi_bringup) StdoutLine: {'line': b"reading manifest file 'navi_bringup.egg-info/SOURCES.txt'\n"}
+[12.971785] (navi_bringup) StdoutLine: {'line': b"writing manifest file 'navi_bringup.egg-info/SOURCES.txt'\n"}
+[13.008404] (-) TimerEvent: {}
+[13.109352] (-) TimerEvent: {}
+[13.207249] (navi_bringup) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_navi_bringup_egg\n'}
+[13.209456] (-) TimerEvent: {}
+[13.263942] (navi_bringup) CommandEnded: {'returncode': 0}
+[13.267860] (navi_bringup) JobProgress: {'identifier': 'navi_bringup', 'progress': 'install'}
+[13.310881] (-) TimerEvent: {}
+[13.313626] (navi_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/navi_ws/build/navi_bringup'], 'cwd': '/userdata/navi_ws/build/navi_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.159.132.36 9273 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh'), ('BUN_INSTALL', '/root/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/navi_ws/install/navi_bringup/lib:/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('TERM_PROGRAM_VERSION', '1.131.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-fa3cd710-4047-45a7-9dc4-8b7a20267ffc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/navi_ws/install:/userdata/dev_ws/install:/userdata/control_ws/install:/userdata/BPU_bl_ws/install:/userdata/base_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('CLAUDE_CODE_SSE_PORT', '30324'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.bun/bin:/root/.bun/bin:/userdata/control_ws/install/task_controller/bin:/userdata/BPU_bl_ws/install/qr_decoder/bin:/userdata/BPU_bl_ws/install/detection_bridge/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-53d0fcc998.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/control_ws/install/task_controller:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/navi_ws/build/navi_bringup'), ('COPILOT_DEBUG_NONCE', '4c55ae1c3eef394dfe28343ab05ec776'), ('SSH_CONNECTION', '10.159.132.36 9273 10.159.132.24 22'), ('PYTHONPATH', '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/qr_decoder:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/detection_bridge:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[13.355766] (navi_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.358380] (navi_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.359622] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/rosidl_interfaces/navi_bringup\n'}
+[13.361563] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__functions.h\n'}
+[13.362496] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__struct.h\n'}
+[13.364518] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__type_support.h\n'}
+[13.365194] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/odom_debug.h\n'}
+[13.365726] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.366359] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/library_path.sh\n'}
+[13.366868] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/library_path.dsv\n'}
+[13.367799] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_fastrtps_c.h\n'}
+[13.368532] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.370083] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_introspection_c.h\n'}
+[13.370665] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.372177] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__builder.hpp\n'}
+[13.373017] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__struct.hpp\n'}
+[13.373614] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__traits.hpp\n'}
+[13.374149] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/odom_debug.hpp\n'}
+[13.376144] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.376785] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.378597] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.379692] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/pythonpath.sh\n'}
+[13.380522] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/pythonpath.dsv\n'}
+[13.382303] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[13.383826] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.384871] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.385431] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[13.387122] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/__init__.py\n'}
+[13.387717] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_c.c\n'}
+[13.388257] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.388790] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.389309] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/libnavi_bringup__rosidl_generator_py.so\n'}
+[13.389818] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/__init__.py\n'}
+[13.390320] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/_odom_debug.py\n'}
+[13.390884] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/_odom_debug_s.c\n'}
+[13.391588] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.392422] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.393140] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.394177] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.395502] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.396790] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.397875] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/rust_packages/navi_bringup\n'}
+[13.399672] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/Cargo.toml\n'}
+[13.400500] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/build.rs\n'}
+[13.401292] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/lib.rs\n'}
+[13.402119] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/msg.rs\n'}
+[13.402944] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/msg/rmw.rs\n'}
+[13.403698] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/msg/OdomDebug.idl\n'}
+[13.404847] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/msg/OdomDebug.msg\n'}
+[13.405564] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/launch/ekf_fusion.launch.py\n'}
+[13.406433] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/ekf.yaml\n'}
+[13.407248] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/imu_filter.yaml\n'}
+[13.408084] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/lib/navi_bringup/odom_debug_publisher\n'}
+[13.408987] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/package_run_dependencies/navi_bringup\n'}
+[13.410054] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/parent_prefix_path/navi_bringup\n'}
+[13.410928] (-) TimerEvent: {}
+[13.411698] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.sh\n'}
+[13.412667] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.dsv\n'}
+[13.413981] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.sh\n'}
+[13.414914] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.dsv\n'}
+[13.416113] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.bash\n'}
+[13.416907] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.sh\n'}
+[13.417814] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.zsh\n'}
+[13.418651] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.dsv\n'}
+[13.419324] (navi_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.dsv\n'}
+[13.465997] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/packages/navi_bringup\n'}
+[13.467095] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake-extras.cmake\n'}
+[13.468024] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.468866] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.469781] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.470539] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.471461] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.472268] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.473335] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig.cmake\n'}
+[13.474068] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig-version.cmake\n'}
+[13.474686] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.xml\n'}
+[13.475614] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_generator_c.so\n'}
+[13.477055] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_fastrtps_c.so\n'}
+[13.478366] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_introspection_c.so\n'}
+[13.479402] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_c.so\n'}
+[13.480591] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.482070] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_introspection_cpp.so\n'}
+[13.483135] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_cpp.so\n'}
+[13.511177] (-) TimerEvent: {}
+[13.612386] (-) TimerEvent: {}
+[13.713521] (-) TimerEvent: {}
+[13.773351] (navi_bringup) StdoutLine: {'line': b"Listing '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup'...\n"}
+[13.774268] (navi_bringup) StdoutLine: {'line': b"Compiling '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/__init__.py'...\n"}
+[13.774878] (navi_bringup) StdoutLine: {'line': b"Listing '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg'...\n"}
+[13.813773] (-) TimerEvent: {}
+[13.831025] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_generator_py.so\n'}
+[13.831934] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cExport.cmake\n'}
+[13.832656] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.833291] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.833886] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.834477] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.835064] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.835687] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cExport.cmake\n'}
+[13.836261] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.836782] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cppExport.cmake\n'}
+[13.837285] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.837734] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.838164] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.838603] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.839094] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cppExport.cmake\n'}
+[13.839744] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.840402] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_pyExport.cmake\n'}
+[13.841045] (navi_bringup) StdoutLine: {'line': b'-- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.847809] (navi_bringup) CommandEnded: {'returncode': 0}
+[13.915280] (-) TimerEvent: {}
+[14.019222] (-) TimerEvent: {}
+[14.022723] (navi_bringup) JobEnded: {'identifier': 'navi_bringup', 'rc': 0}
+[14.026214] (-) EventReactorShutdown: {}

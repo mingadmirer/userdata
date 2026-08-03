@@ -1,0 +1,33 @@
+[0.070s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/navi_ws/src/navi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup
+[0.394s] -- The C compiler identification is GNU 11.2.0
+[0.736s] -- The CXX compiler identification is GNU 11.2.0
+[0.774s] -- Detecting C compiler ABI info
+[1.177s] -- Detecting C compiler ABI info - done
+[1.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.233s] -- Detecting C compile features
+[1.235s] -- Detecting C compile features - done
+[1.252s] -- Detecting CXX compiler ABI info
+[1.731s] -- Detecting CXX compiler ABI info - done
+[1.787s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.788s] -- Detecting CXX compile features
+[1.792s] -- Detecting CXX compile features - done
+[1.809s] CMake Error at /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake:1:
+[1.810s]   Parse error.  Expected a command name, got unquoted argument with text
+[1.811s]   "rwi¡×õ4puÊ@FÎD˜¢§Íkx^h8ÚeÔó¨-Âß".
+[1.811s] Call Stack (most recent call first):
+[1.812s]   CMakeLists.txt:8 (find_package)
+[1.812s] 
+[1.813s] 
+[1.872s] CMake Error at CMakeLists.txt:8 (find_package):
+[1.873s]   Could not find a configuration file for package "ament_cmake" that is
+[1.874s]   compatible with requested version "".
+[1.874s] 
+[1.875s]   The following configuration files were considered but not accepted:
+[1.875s] 
+[1.875s]     /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake, version: unknown
+[1.876s] 
+[1.877s] 
+[1.877s] 
+[1.877s] -- Configuring incomplete, errors occurred!
+[1.878s] See also "/userdata/navi_ws/build/navi_bringup/CMakeFiles/CMakeOutput.log".
+[1.899s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/navi_ws/src/navi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/navi_ws/install/navi_bringup

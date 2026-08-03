@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000810] (task_controller) JobQueued: {'identifier': 'task_controller', 'dependencies': OrderedDict()}
+[0.002139] (task_controller) JobStarted: {'identifier': 'task_controller'}
+[0.098635] (-) TimerEvent: {}
+[0.199128] (-) TimerEvent: {}
+[0.299583] (-) TimerEvent: {}
+[0.400066] (-) TimerEvent: {}
+[0.500635] (-) TimerEvent: {}
+[0.601124] (-) TimerEvent: {}
+[0.701605] (-) TimerEvent: {}
+[0.802050] (-) TimerEvent: {}
+[0.902521] (-) TimerEvent: {}
+[1.002985] (-) TimerEvent: {}
+[1.103473] (-) TimerEvent: {}
+[1.203979] (-) TimerEvent: {}
+[1.304458] (-) TimerEvent: {}
+[1.404919] (-) TimerEvent: {}
+[1.505390] (-) TimerEvent: {}
+[1.605858] (-) TimerEvent: {}
+[1.706338] (-) TimerEvent: {}
+[1.806821] (-) TimerEvent: {}
+[1.907325] (-) TimerEvent: {}
+[2.007879] (-) TimerEvent: {}
+[2.108444] (-) TimerEvent: {}
+[2.209807] (-) TimerEvent: {}
+[2.310469] (-) TimerEvent: {}
+[2.410961] (-) TimerEvent: {}
+[2.511449] (-) TimerEvent: {}
+[2.611955] (-) TimerEvent: {}
+[2.712464] (-) TimerEvent: {}
+[2.813017] (-) TimerEvent: {}
+[2.913521] (-) TimerEvent: {}
+[3.014018] (-) TimerEvent: {}
+[3.114535] (-) TimerEvent: {}
+[3.215100] (-) TimerEvent: {}
+[3.315620] (-) TimerEvent: {}
+[3.416235] (-) TimerEvent: {}
+[3.516741] (-) TimerEvent: {}
+[3.617268] (-) TimerEvent: {}
+[3.717863] (-) TimerEvent: {}
+[3.818584] (-) TimerEvent: {}
+[3.919167] (-) TimerEvent: {}
+[4.019649] (-) TimerEvent: {}
+[4.120359] (-) TimerEvent: {}
+[4.220918] (-) TimerEvent: {}
+[4.321488] (-) TimerEvent: {}
+[4.421970] (-) TimerEvent: {}
+[4.522543] (-) TimerEvent: {}
+[4.623074] (-) TimerEvent: {}
+[4.723580] (-) TimerEvent: {}
+[4.824118] (-) TimerEvent: {}
+[4.924637] (-) TimerEvent: {}
+[4.967450] (task_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/userdata/control_ws/build/task_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/userdata/control_ws/build/task_controller', 'env': {'ANTHROPIC_MODEL': 'deepseek-v4-pro[1m]', 'AI_AGENT': 'claude-code_2-1-220_agent', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '10.159.132.36 9273 22', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass.sh', 'BUN_INSTALL': '/root/.bun', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/userdata/BPU_bl_ws/install/detection_interfaces/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata/control_ws', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-032c65f7-dfa6-4918-91ac-1bd1088de8a1.sock', 'ANTHROPIC_DEFAULT_SONNET_MODEL': 'deepseek-v4-pro[1m]', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/extensions/git/dist/askpass-main.js', 'CLAUDE_CODE_CHILD_SESSION': '1', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/control_ws/install:/userdata/navi_ws/install:/userdata/dev_ws/install:/userdata/BPU_bl_ws/install:/userdata/base_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'CLAUDE_CODE_SSE_PORT': '30324', 'XDG_SESSION_CLASS': 'user', 'ANTHROPIC_BASE_URL': 'https://api.deepseek.com/anthropic', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'ANTHROPIC_DEFAULT_OPUS_MODEL': 'deepseek-v4-pro[1m]', 'PATH': '/root/.bun/bin:/root/.bun/bin:/userdata/BPU_bl_ws/install/qr_decoder/bin:/userdata/BPU_bl_ws/install/detection_bridge/bin:/opt/ros/humble/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/0', 'CLAUDE_EFFORT': 'high', 'CLAUDE_PID': '10161', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'ANTHROPIC_DEFAULT_HAIKU_MODEL': 'deepseek-v4-flash', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-53d0fcc998.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'ANTHROPIC_AUTH_TOKEN': 'sk-f3aae6b04a344439914906c5855e7726', 'CLAUDE_CODE_SESSION_ID': '21b2af10-ff9e-4fc4-84bf-d6b97d223aa8', 'CLAUDECODE': '1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/control_ws/build/task_controller', 'COPILOT_DEBUG_NONCE': '4c55ae1c3eef394dfe28343ab05ec776', 'SSH_CONNECTION': '10.159.132.36 9273 10.159.132.24 22', 'CLAUDE_CODE_EXECPATH': '/usr/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe', 'PYTHONPATH': '/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/qr_decoder:/userdata/BPU_bl_ws/install/qr_decoder/lib/python3.10/site-packages:/userdata/BPU_bl_ws/build/detection_bridge:/userdata/BPU_bl_ws/install/detection_bridge/lib/python3.10/site-packages:/userdata/BPU_bl_ws/install/detection_interfaces/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/build/line_follower_pkg:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/navi_ws/install/navi_bringup:/userdata/base_ws/install/origincar_bringup:/userdata/BPU_bl_ws/install/utils:/userdata/BPU_bl_ws/install/detection_interfaces:/userdata/BPU_bl_ws/install/bpu_bringup:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[5.024820] (-) TimerEvent: {}
+[5.125312] (-) TimerEvent: {}
+[5.225786] (-) TimerEvent: {}
+[5.326276] (-) TimerEvent: {}
+[5.426752] (-) TimerEvent: {}
+[5.527231] (-) TimerEvent: {}
+[5.627691] (-) TimerEvent: {}
+[5.728157] (-) TimerEvent: {}
+[5.828605] (-) TimerEvent: {}
+[5.929070] (-) TimerEvent: {}
+[6.029535] (-) TimerEvent: {}
+[6.131801] (-) TimerEvent: {}
+[6.232285] (-) TimerEvent: {}
+[6.332783] (-) TimerEvent: {}
+[6.433297] (-) TimerEvent: {}
+[6.533768] (-) TimerEvent: {}
+[6.634219] (-) TimerEvent: {}
+[6.734682] (-) TimerEvent: {}
+[6.835142] (-) TimerEvent: {}
+[6.935666] (-) TimerEvent: {}
+[7.013392] (task_controller) StdoutLine: {'line': b'running develop\n'}
+[7.035843] (-) TimerEvent: {}
+[7.136325] (-) TimerEvent: {}
+[7.236815] (-) TimerEvent: {}
+[7.337384] (-) TimerEvent: {}
+[7.437926] (-) TimerEvent: {}
+[7.538419] (-) TimerEvent: {}
+[7.638961] (-) TimerEvent: {}
+[7.739469] (-) TimerEvent: {}
+[7.839951] (-) TimerEvent: {}
+[7.940486] (-) TimerEvent: {}
+[8.040989] (-) TimerEvent: {}
+[8.141517] (-) TimerEvent: {}
+[8.242120] (-) TimerEvent: {}
+[8.342622] (-) TimerEvent: {}
+[8.371993] (task_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.373063] (task_controller) StdoutLine: {'line': b'writing task_controller.egg-info/PKG-INFO\n'}
+[8.374092] (task_controller) StdoutLine: {'line': b'writing dependency_links to task_controller.egg-info/dependency_links.txt\n'}
+[8.374922] (task_controller) StdoutLine: {'line': b'writing entry points to task_controller.egg-info/entry_points.txt\n'}
+[8.376103] (task_controller) StdoutLine: {'line': b'writing requirements to task_controller.egg-info/requires.txt\n'}
+[8.376665] (task_controller) StdoutLine: {'line': b'writing top-level names to task_controller.egg-info/top_level.txt\n'}
+[8.388670] (task_controller) StdoutLine: {'line': b"reading manifest file 'task_controller.egg-info/SOURCES.txt'\n"}
+[8.393434] (task_controller) StdoutLine: {'line': b"writing manifest file 'task_controller.egg-info/SOURCES.txt'\n"}
+[8.403626] (task_controller) StdoutLine: {'line': b'running build_ext\n'}
+[8.404704] (task_controller) StdoutLine: {'line': b'Creating /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task-controller.egg-link (link to .)\n'}
+[8.409245] (task_controller) StdoutLine: {'line': b'Installing main_controller_node script to /userdata/control_ws/install/task_controller/bin\n'}
+[8.410750] (task_controller) StdoutLine: {'line': b'\n'}
+[8.411316] (task_controller) StdoutLine: {'line': b'Installed /userdata/control_ws/build/task_controller\n'}
+[8.411761] (task_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[8.442876] (-) TimerEvent: {}
+[8.543429] (-) TimerEvent: {}
+[8.644006] (-) TimerEvent: {}
+[8.670720] (task_controller) CommandEnded: {'returncode': 0}
+[8.744232] (-) TimerEvent: {}
+[8.793706] (task_controller) JobEnded: {'identifier': 'task_controller', 'rc': 0}
+[8.797038] (-) EventReactorShutdown: {}

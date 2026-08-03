@@ -1,0 +1,21 @@
+[4.930s] Invoking command in '/userdata/control_ws/src/task_controller': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_controller build --build-base /userdata/control_ws/build/task_controller/build install --record /userdata/control_ws/build/task_controller/install.log --single-version-externally-managed install_data
+[6.813s] running egg_info
+[6.819s] writing ../../build/task_controller/task_controller.egg-info/PKG-INFO
+[6.820s] writing dependency_links to ../../build/task_controller/task_controller.egg-info/dependency_links.txt
+[6.821s] writing entry points to ../../build/task_controller/task_controller.egg-info/entry_points.txt
+[6.822s] writing requirements to ../../build/task_controller/task_controller.egg-info/requires.txt
+[6.822s] writing top-level names to ../../build/task_controller/task_controller.egg-info/top_level.txt
+[6.835s] reading manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'
+[6.841s] writing manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'
+[6.842s] running build
+[6.842s] running build_py
+[6.844s] running install
+[6.846s] running install_lib
+[6.856s] running install_data
+[6.857s] running install_egg_info
+[6.870s] removing '/userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller-0.1.0-py3.10.egg-info' (and everything under it)
+[6.871s] Copying ../../build/task_controller/task_controller.egg-info to /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller-0.1.0-py3.10.egg-info
+[6.875s] running install_scripts
+[7.024s] Installing main_controller_node script to /userdata/control_ws/install/task_controller/bin
+[7.025s] writing list of installed files to '/userdata/control_ws/build/task_controller/install.log'
+[7.256s] Invoked command in '/userdata/control_ws/src/task_controller' returned '0': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_controller build --build-base /userdata/control_ws/build/task_controller/build install --record /userdata/control_ws/build/task_controller/install.log --single-version-externally-managed install_data

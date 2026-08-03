@@ -26,6 +26,7 @@ _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/opt/tros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/userdata/base_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/userdata/BPU_bl_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/userdata/control_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/userdata/dev_ws/install\local_setup.ps1"
 
 # source this prefix

@@ -1,0 +1,6 @@
+{
+  "package_name": "navi_bringup",
+  "non_idl_tuples": [
+    "/userdata/navi_ws/src/navi_bringup:msg/OdomDebug.msg"
+  ]
+}

@@ -1,0 +1,43 @@
+[5.133s] Invoking command in '/userdata/control_ws/build/task_controller': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /userdata/control_ws/build/task_controller/build
+[7.426s] running develop
+[8.815s] Removing /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task-controller.egg-link (link to .)
+[9.107s] Invoked command in '/userdata/control_ws/build/task_controller' returned '0': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /userdata/control_ws/build/task_controller/build
+[9.114s] Invoking command in '/userdata/control_ws/src/task_controller': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_controller build --build-base /userdata/control_ws/build/task_controller/build install --record /userdata/control_ws/build/task_controller/install.log --single-version-externally-managed install_data --force
+[11.163s] running egg_info
+[11.167s] writing ../../build/task_controller/task_controller.egg-info/PKG-INFO
+[11.168s] writing dependency_links to ../../build/task_controller/task_controller.egg-info/dependency_links.txt
+[11.169s] writing entry points to ../../build/task_controller/task_controller.egg-info/entry_points.txt
+[11.170s] writing requirements to ../../build/task_controller/task_controller.egg-info/requires.txt
+[11.171s] writing top-level names to ../../build/task_controller/task_controller.egg-info/top_level.txt
+[11.185s] reading manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'
+[11.192s] writing manifest file '../../build/task_controller/task_controller.egg-info/SOURCES.txt'
+[11.193s] running build
+[11.193s] running build_py
+[11.194s] creating /userdata/control_ws/build/task_controller/build
+[11.195s] creating /userdata/control_ws/build/task_controller/build/lib
+[11.197s] creating /userdata/control_ws/build/task_controller/build/lib/task_controller
+[11.197s] copying task_controller/task1_line_follow.py -> /userdata/control_ws/build/task_controller/build/lib/task_controller
+[11.198s] copying task_controller/main_controller.py -> /userdata/control_ws/build/task_controller/build/lib/task_controller
+[11.199s] copying task_controller/__init__.py -> /userdata/control_ws/build/task_controller/build/lib/task_controller
+[11.199s] copying task_controller/state_machine.py -> /userdata/control_ws/build/task_controller/build/lib/task_controller
+[11.199s] running install
+[11.200s] running install_lib
+[11.205s] creating /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller
+[11.206s] copying /userdata/control_ws/build/task_controller/build/lib/task_controller/task1_line_follow.py -> /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller
+[11.207s] copying /userdata/control_ws/build/task_controller/build/lib/task_controller/main_controller.py -> /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller
+[11.208s] copying /userdata/control_ws/build/task_controller/build/lib/task_controller/__init__.py -> /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller
+[11.208s] copying /userdata/control_ws/build/task_controller/build/lib/task_controller/state_machine.py -> /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller
+[11.213s] byte-compiling /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller/task1_line_follow.py to task1_line_follow.cpython-310.pyc
+[11.220s] byte-compiling /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller/main_controller.py to main_controller.cpython-310.pyc
+[11.224s] byte-compiling /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller/__init__.py to __init__.cpython-310.pyc
+[11.225s] byte-compiling /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller/state_machine.py to state_machine.cpython-310.pyc
+[11.230s] running install_data
+[11.230s] copying resource/task_controller -> /userdata/control_ws/install/task_controller/share/ament_index/resource_index/packages
+[11.231s] copying package.xml -> /userdata/control_ws/install/task_controller/share/task_controller
+[11.232s] copying scripts/main_controller_node -> /userdata/control_ws/install/task_controller/lib/task_controller
+[11.232s] running install_egg_info
+[11.248s] Copying ../../build/task_controller/task_controller.egg-info to /userdata/control_ws/install/task_controller/lib/python3.10/site-packages/task_controller-0.1.0-py3.10.egg-info
+[11.253s] running install_scripts
+[11.405s] Installing main_controller_node script to /userdata/control_ws/install/task_controller/bin
+[11.408s] writing list of installed files to '/userdata/control_ws/build/task_controller/install.log'
+[11.660s] Invoked command in '/userdata/control_ws/src/task_controller' returned '0': PYTHONPATH=/userdata/control_ws/build/task_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/control_ws/install/task_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_controller build --build-base /userdata/control_ws/build/task_controller/build install --record /userdata/control_ws/build/task_controller/install.log --single-version-externally-managed install_data --force
