@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-QR 码解码节点
-订阅 /qr_crop → 缩小 → 找角点 → 透视矫正 → 解码
-发布: /qr_result (解码文本)
+QR 码解码节点 (WeChat QR)
+订阅 /qr_crop → BGR 直解 → CLAHE → 解码
+发布: /qr_result
 """
 
 import cv2
@@ -10,18 +10,19 @@ import numpy as np
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from cv_bridge import CvBridge
 from std_msgs.msg import String
 
 
-MAX_SIDE = 300  # 缩放到 300px 以内，QR 足够识别且速度提升数倍
+def imgmsg_to_numpy(msg):
+    if msg.encoding == 'bgr8':
+        return np.frombuffer(msg.data, dtype=np.uint8).reshape(msg.height, msg.width, 3)
+    raise ValueError(f'unsupported encoding: {msg.encoding}')
 
 
 class QRDecode(Node):
     def __init__(self):
         super().__init__('qr_decode')
-        self.bridge = CvBridge()
-        self.detector = cv2.QRCodeDetector()
+        self.detector = cv2.wechat_qrcode_WeChatQRCode()
         self.busy = False
         self.last_result = None
 
@@ -31,61 +32,26 @@ class QRDecode(Node):
 
         self.get_logger().info('qr_decode ready')
 
-    def resize(self, img):
-        h, w = img.shape[:2]
-        scale = min(1.0, MAX_SIDE / max(h, w))
-        if scale < 1.0:
-            return cv2.resize(img, (int(w * scale), int(h * scale)))
-        return img
-
-    def to_gray(self, img):
-        return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) if len(img.shape) == 3 else img
-
     def decode_once(self, img):
-        """缩小→增强→解码→找角点→透视矫正→解码"""
-        img = self.resize(img)
-        gray = self.to_gray(img)
+        # BGR 直接解
+        data, _ = self.detector.detectAndDecode(img)
+        if data and data[0]:
+            return data[0]
 
-        # 第一轮：灰度直接解
-        data, points, _ = self.detector.detectAndDecode(gray)
-        if data:
-            return data
-
-        # 第二轮：灰度+CLAHE增强
-        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
-        enhanced = clahe.apply(gray)
-        data, points, _ = self.detector.detectAndDecode(enhanced)
-        if data:
-            return data
-
-        # 第三轮：找角点 → 透视矫正 → 解码
-        ret, corners = self.detector.detect(gray)
-        if not ret or corners is None:
-            ret, corners = self.detector.detect(enhanced)
-        if not ret or corners is None:
-            return None
-
-        corners = corners.reshape(4, 2).astype(np.float32)
-        side = int(max(
-            np.linalg.norm(corners[1] - corners[0]),
-            np.linalg.norm(corners[2] - corners[3]),
-            np.linalg.norm(corners[3] - corners[0]),
-            np.linalg.norm(corners[2] - corners[1])))
-        side = max(side, 100)
-        dst = np.array([[0, 0], [side, 0], [side, side], [0, side]],
-                       dtype=np.float32)
-        warped = cv2.warpPerspective(
-            enhanced, cv2.getPerspectiveTransform(corners, dst), (side, side))
-
-        data, _, _ = self.detector.detectAndDecode(warped)
-        return data if data else None
+        # CLAHE 增强
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        enhanced = cv2.createCLAHE(2.0, (8, 8)).apply(gray)
+        data, _ = self.detector.detectAndDecode(enhanced)
+        if data and data[0]:
+            return data[0]
+        return None
 
     def crop_cb(self, msg: Image):
         if self.busy:
             return
         self.busy = True
 
-        img = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
+        img = imgmsg_to_numpy(msg)
         data = self.decode_once(img)
 
         if data and data != self.last_result:

@@ -11,14 +11,26 @@ import numpy as np
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import CompressedImage, Image
-from cv_bridge import CvBridge
 from ai_msgs.msg import PerceptionTargets
+
+
+def numpy_to_imgmsg(arr, stamp, frame_id='camera'):
+    """手动构造 Image 消息, 不依赖 cv_bridge"""
+    msg = Image()
+    msg.header.stamp = stamp
+    msg.header.frame_id = frame_id
+    msg.height = arr.shape[0]
+    msg.width = arr.shape[1]
+    msg.encoding = 'bgr8'
+    msg.is_bigendian = 0
+    msg.step = arr.shape[1] * 3
+    msg.data = arr.tobytes()
+    return msg
 
 
 class QRCropper(Node):
     def __init__(self):
         super().__init__('qr_cropper')
-        self.bridge = CvBridge()
         self.latest_img = None
 
         self.img_sub = self.create_subscription(
@@ -50,9 +62,7 @@ class QRCropper(Node):
                     continue
 
                 crop = self.latest_img[y1:y2, x1:x2]
-                img_msg = self.bridge.cv2_to_imgmsg(crop, encoding='bgr8')
-                img_msg.header.stamp = self.get_clock().now().to_msg()
-                img_msg.header.frame_id = 'camera'
+                img_msg = numpy_to_imgmsg(crop, self.get_clock().now().to_msg())
                 self.crop_pub.publish(img_msg)
 
 

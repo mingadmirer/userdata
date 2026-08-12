@@ -1,0 +1,201 @@
+[0.119s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8
+[0.754s] gmake: Warning: File 'Makefile' has modification time 839071776 s in the future
+[1.147s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 839071776 s in the future
+[1.158s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_symlink_navi_bringup.dir/progress.make' has modification time 839071776 s in the future
+[1.159s] gmake[2]: Warning: File 'navi_bringup__rs/CMakeFiles/navi_bringup__rs.dir/progress.make' has modification time 839071776 s in the future
+[1.160s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__cpp.dir/progress.make' has modification time 839071776 s in the future
+[1.161s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_generator_c.dir/flags.make' has modification time 839070796 s in the future
+[1.209s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.209s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.210s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.214s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_symlink_navi_bringup.dir/progress.make' has modification time 839071776 s in the future
+[1.215s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__cpp.dir/progress.make' has modification time 839071776 s in the future
+[1.216s] gmake[2]: Warning: File 'navi_bringup__rs/CMakeFiles/navi_bringup__rs.dir/progress.make' has modification time 839071776 s in the future
+[1.223s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.226s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.227s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.233s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_generator_c.dir/flags.make' has modification time 839070796 s in the future
+[1.250s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.257s] [  3%] Built target navi_bringup__cpp
+[1.260s] [  6%] Built target navi_bringup__rs
+[1.284s] [  6%] Built target ament_cmake_python_symlink_navi_bringup
+[1.306s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 839070796 s in the future
+[1.307s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_cpp.dir/flags.make' has modification time 839070796 s in the future
+[1.307s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 839070796 s in the future
+[1.308s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_navi_bringup_egg.dir/progress.make' has modification time 839071776 s in the future
+[1.340s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.350s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.354s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_navi_bringup_egg.dir/progress.make' has modification time 839071776 s in the future
+[1.358s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.368s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 839070796 s in the future
+[1.371s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.374s] [ 15%] Built target navi_bringup__rosidl_generator_c
+[1.380s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_cpp.dir/flags.make' has modification time 839070796 s in the future
+[1.403s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.412s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 839070796 s in the future
+[1.422s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 839070796 s in the future
+[1.423s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_c.dir/flags.make' has modification time 839070796 s in the future
+[1.424s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 839070796 s in the future
+[1.486s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.488s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.491s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.493s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 839070795 s in the future
+[1.494s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.497s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.498s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 839070795 s in the future
+[1.499s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_c.dir/flags.make' has modification time 839070795 s in the future
+[1.499s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.500s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.511s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.511s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.531s] [ 25%] Built target navi_bringup__rosidl_typesupport_introspection_c
+[1.533s] [ 34%] Built target navi_bringup__rosidl_typesupport_fastrtps_cpp
+[1.535s] [ 53%] Built target navi_bringup__rosidl_typesupport_c
+[1.535s] [ 53%] Built target navi_bringup__rosidl_typesupport_cpp
+[1.548s] [ 71%] Built target navi_bringup__rosidl_typesupport_introspection_cpp
+[1.548s] [ 71%] Built target navi_bringup__rosidl_typesupport_fastrtps_c
+[1.560s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup.dir/progress.make' has modification time 839071775 s in the future
+[1.599s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.604s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup.dir/progress.make' has modification time 839071775 s in the future
+[1.605s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.639s] [ 71%] Built target navi_bringup
+[1.651s] gmake[2]: Warning: File 'navi_bringup__py/CMakeFiles/navi_bringup__py.dir/progress.make' has modification time 839071775 s in the future
+[1.691s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.697s] gmake[2]: Warning: File 'navi_bringup__py/CMakeFiles/navi_bringup__py.dir/progress.make' has modification time 839071775 s in the future
+[1.700s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.734s] [ 75%] Built target navi_bringup__py
+[1.749s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_generator_py.dir/flags.make' has modification time 839070795 s in the future
+[1.790s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.798s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_generator_py.dir/flags.make' has modification time 839070795 s in the future
+[1.903s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[1.937s] [ 81%] Built target navi_bringup__rosidl_generator_py
+[1.959s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 839070795 s in the future
+[1.960s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 839070795 s in the future
+[1.961s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 839070795 s in the future
+[2.000s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.001s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.001s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.010s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 839070795 s in the future
+[2.010s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 839070795 s in the future
+[2.011s] gmake[2]: Warning: File 'CMakeFiles/navi_bringup__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 839070795 s in the future
+[2.012s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.012s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.012s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.046s] [100%] Built target navi_bringup__rosidl_typesupport_fastrtps_c__pyext
+[2.047s] [100%] Built target navi_bringup__rosidl_typesupport_c__pyext
+[2.047s] [100%] Built target navi_bringup__rosidl_typesupport_introspection_c__pyext
+[3.138s] running egg_info
+[3.143s] writing navi_bringup.egg-info/PKG-INFO
+[3.145s] writing dependency_links to navi_bringup.egg-info/dependency_links.txt
+[3.146s] writing top-level names to navi_bringup.egg-info/top_level.txt
+[3.172s] reading manifest file 'navi_bringup.egg-info/SOURCES.txt'
+[3.178s] writing manifest file 'navi_bringup.egg-info/SOURCES.txt'
+[3.348s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.391s] [100%] Built target ament_cmake_python_build_navi_bringup_egg
+[3.396s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.446s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[3.465s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/navi_ws/build/navi_bringup -- -j8 -l8
+[3.524s] Invoking command in '/userdata/navi_ws/build/navi_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/navi_ws/build/navi_bringup
+[3.572s] -- Install configuration: ""
+[3.586s] -- Execute custom install script
+[3.587s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/rosidl_interfaces/navi_bringup
+[3.609s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__functions.h
+[3.610s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__struct.h
+[3.611s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__type_support.h
+[3.611s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/odom_debug.h
+[3.612s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_generator_c__visibility_control.h
+[3.613s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/library_path.sh
+[3.613s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/library_path.dsv
+[3.615s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_fastrtps_c.h
+[3.616s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.618s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_introspection_c.h
+[3.619s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.621s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__builder.hpp
+[3.621s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__struct.hpp
+[3.622s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__traits.hpp
+[3.623s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/odom_debug.hpp
+[3.625s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_fastrtps_cpp.hpp
+[3.625s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.627s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/include/navi_bringup/navi_bringup/msg/detail/odom_debug__rosidl_typesupport_introspection_cpp.hpp
+[3.628s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/pythonpath.sh
+[3.629s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/pythonpath.dsv
+[3.631s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[3.632s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[3.632s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[3.633s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[3.636s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/__init__.py
+[3.637s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_c.c
+[3.638s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.638s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/_navi_bringup_s.ep.rosidl_typesupport_introspection_c.c
+[3.639s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/libnavi_bringup__rosidl_generator_py.so
+[3.641s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/__init__.py
+[3.642s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/_odom_debug.py
+[3.644s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg/_odom_debug_s.c
+[3.645s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.646s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.648s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.651s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.653s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.655s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/navi_bringup_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.656s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/rust_packages/navi_bringup
+[3.658s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/Cargo.toml
+[3.659s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/build.rs
+[3.659s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/lib.rs
+[3.660s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/msg.rs
+[3.661s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/rust/src/msg/rmw.rs
+[3.661s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/msg/OdomDebug.idl
+[3.662s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/msg/OdomDebug.msg
+[3.664s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/launch/ekf_fusion.launch.py
+[3.665s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/ekf.yaml
+[3.666s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/config/imu_filter.yaml
+[3.666s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/lib/navi_bringup/odom_debug_publisher
+[3.667s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/package_run_dependencies/navi_bringup
+[3.668s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/parent_prefix_path/navi_bringup
+[3.669s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.sh
+[3.670s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/ament_prefix_path.dsv
+[3.671s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.sh
+[3.671s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/environment/path.dsv
+[3.672s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.bash
+[3.673s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.sh
+[3.673s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.zsh
+[3.674s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/local_setup.dsv
+[3.675s] -- Symlinking: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.dsv
+[3.716s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/ament_index/resource_index/packages/navi_bringup
+[3.716s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake-extras.cmake
+[3.717s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.717s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.718s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_libraries-extras.cmake
+[3.719s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/ament_cmake_export_targets-extras.cmake
+[3.720s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.721s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.722s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig.cmake
+[3.723s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringupConfig-version.cmake
+[3.723s] -- Up-to-date symlink: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/package.xml
+[3.725s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_generator_c.so
+[3.726s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_fastrtps_c.so
+[3.728s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_introspection_c.so
+[3.729s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_c.so
+[3.731s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_fastrtps_cpp.so
+[3.733s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_introspection_cpp.so
+[3.737s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_typesupport_cpp.so
+[3.975s] Listing '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup'...
+[3.975s] Listing '/userdata/navi_ws/install/navi_bringup/local/lib/python3.10/dist-packages/navi_bringup/msg'...
+[4.012s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/lib/libnavi_bringup__rosidl_generator_py.so
+[4.016s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cExport.cmake
+[4.017s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cExport-noconfig.cmake
+[4.018s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cExport.cmake
+[4.018s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.019s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cExport.cmake
+[4.020s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.023s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cExport.cmake
+[4.025s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cExport-noconfig.cmake
+[4.028s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_cppExport.cmake
+[4.031s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.033s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.034s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cppExport.cmake
+[4.035s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.037s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cppExport.cmake
+[4.038s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/navi_bringup__rosidl_typesupport_cppExport-noconfig.cmake
+[4.039s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_pyExport.cmake
+[4.041s] -- Up-to-date: /userdata/navi_ws/install/navi_bringup/share/navi_bringup/cmake/export_navi_bringup__rosidl_generator_pyExport-noconfig.cmake
+[4.053s] Invoked command in '/userdata/navi_ws/build/navi_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/navi_ws/build/navi_bringup

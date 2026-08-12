@@ -1,0 +1,30 @@
+[0.130s] Invoking command in '/userdata/BPU_bl_ws/build/bpu_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/BPU_bl_ws/build/bpu_bringup -- -j8 -l8
+[2.151s] Invoked command in '/userdata/BPU_bl_ws/build/bpu_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/BPU_bl_ws/build/bpu_bringup -- -j8 -l8
+[2.199s] Invoking command in '/userdata/BPU_bl_ws/build/bpu_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/BPU_bl_ws/build/bpu_bringup
+[2.238s] -- Install configuration: ""
+[2.239s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/launch
+[2.240s] -- Installing: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/launch/usb_camera_yolo.launch.py
+[2.241s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config
+[2.242s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80
+[2.243s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80/coco.list
+[2.244s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/coco_80/model.json
+[2.245s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4
+[2.246s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4/custom_4class.list
+[2.246s] -- Up-to-date: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/config/custom_4/model.json
+[2.247s] -- Execute custom install script
+[2.248s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/ament_index/resource_index/package_run_dependencies/bpu_bringup
+[2.250s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/ament_index/resource_index/parent_prefix_path/bpu_bringup
+[2.250s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/ament_prefix_path.sh
+[2.251s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/ament_prefix_path.dsv
+[2.251s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/path.sh
+[2.252s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/environment/path.dsv
+[2.253s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.bash
+[2.253s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.sh
+[2.254s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.zsh
+[2.254s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/local_setup.dsv
+[2.255s] -- Symlinking: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/package.dsv
+[2.291s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/ament_index/resource_index/packages/bpu_bringup
+[2.292s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/cmake/bpu_bringupConfig.cmake
+[2.293s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/cmake/bpu_bringupConfig-version.cmake
+[2.294s] -- Up-to-date symlink: /userdata/BPU_bl_ws/install/bpu_bringup/share/bpu_bringup/package.xml
+[2.302s] Invoked command in '/userdata/BPU_bl_ws/build/bpu_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/control_ws/install/task_controller:/userdata/BPU_bl_ws/install/qr_decoder:/userdata/BPU_bl_ws/install/detection_bridge:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/BPU_bl_ws/build/bpu_bringup
